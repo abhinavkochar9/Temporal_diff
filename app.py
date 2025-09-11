@@ -661,7 +661,8 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
     W = expert_strip.size[0]
     H1 = expert_strip.size[1]
     H2 = patient_combined.size[1]
-    left_pad = 18
+    # wider left pad to host row labels ("Expert", "Patient (Rep1 | Rep2)")
+    left_pad = 110
     right_pad = 18
     total_h = H1 + H2 + timeline_h
     canvas = Image.new("RGB", (W + left_pad + right_pad, total_h), bg)
@@ -671,8 +672,27 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
     canvas.paste(expert_strip, (left_pad, y)); y += H1
     canvas.paste(patient_combined, (left_pad, y)); y += H2
 
-    # Draw timeline along the bottom width W
+    # Row labels in the left margin
     draw = ImageDraw.Draw(canvas)
+    # Fonts for labels and timeline
+    try:
+        font_lbl = ImageFont.truetype("arial.ttf", 14)
+    except Exception:
+        font_lbl = ImageFont.load_default()
+    # Expert label (centered vertically in expert row)
+    label_expert = "Expert"
+    tw_e, th_e = _text_size(label_expert, font_lbl)
+    x_e = max(4, left_pad - tw_e - 6)
+    y_e = (H1 - th_e) // 2
+    draw.text((x_e, y_e), label_expert, fill=(40, 40, 40), font=font_lbl)
+    # Patient label (centered vertically in patient row)
+    label_patient = "Patient"
+    tw_p, th_p = _text_size(label_patient, font_lbl)
+    x_p = max(4, left_pad - tw_p - 6)
+    y_p = H1 + (H2 - th_p) // 2
+    draw.text((x_p, y_p), label_patient, fill=(40, 40, 40), font=font_lbl)
+
+    # Draw timeline along the bottom width W
     try:
         font = ImageFont.truetype("arial.ttf", 12)
     except Exception:
