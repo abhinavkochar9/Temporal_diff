@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your hands clasped comfortably in your lap."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice job raising your hands. Try to keep your elbows a bit closer together as you bring them towards your forehead."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're spreading your elbows well. Focus on keeping your head upright and avoid pulling your hands forward."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Holding steady! Remember to maintain an upright posture."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Good return to the starting position. Ensure your elbows stay relatively close as you bring your hands back down."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, starting strong! Hands clasped in your lap."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done raising your hands. Keep those elbows tucked in as you move them up."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent spread of the elbows! Remember the tip to keep your head upright and avoid pulling forward."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Holding the position. Keep your posture tall and steady."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Great job completing the second rep and returning to the start. Focus on controlled movement throughout."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Clasp and Spread exercise! Remember to keep your elbows close when raising your hands and spread them wide behind your head. Maintain an upright posture throughout the movement for best results.",
+  "letter_grade": "B+"
+}

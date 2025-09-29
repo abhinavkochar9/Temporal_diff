@@ -1,0 +1,11 @@
+patient,exercise,rep,step_index,step_name,step_similarity,review
+TOLFB01,ClaspAndSpread,1,1,ClaspandSpread_S1,99.81,
+TOLFB01,ClaspAndSpread,1,2,ClaspandSpread_S2,99.61,
+TOLFB01,ClaspAndSpread,1,3,ClaspandSpread_S3,99.88,
+TOLFB01,ClaspAndSpread,1,4,ClaspandSpread_S4,99.91,
+TOLFB01,ClaspAndSpread,1,5,ClaspandSpread_S5,99.73,
+TOLFB01,ClaspAndSpread,2,1,ClaspandSpread_S1,99.68,
+TOLFB01,ClaspAndSpread,2,2,ClaspandSpread_S2,99.83,
+TOLFB01,ClaspAndSpread,2,3,ClaspandSpread_S3,99.93,
+TOLFB01,ClaspAndSpread,2,4,ClaspandSpread_S4,99.58,
+TOLFB01,ClaspAndSpread,2,5,ClaspandSpread_S5,99.71,

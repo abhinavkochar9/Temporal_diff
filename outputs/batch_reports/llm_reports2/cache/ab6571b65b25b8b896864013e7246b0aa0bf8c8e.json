@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job keeping your arm overhead and feeling the stretch. Ensure your palm and fingers are spread wide in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with making a fist and tightening your muscles as you inhale. Focus on a strong, deliberate squeeze."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent work opening your hand and relaxing as you exhale. Keep visualizing the fluid moving away with each breath."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're consistently repeating the movements. Remember to keep the arm overhead and feel the pumping action with each hand open and close."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the overhead pumping exercise! Remember to keep your arm stretched overhead and focus on opening your hand wide. Squeeze your fist tightly as you inhale, then relax as you exhale to help move fluid.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

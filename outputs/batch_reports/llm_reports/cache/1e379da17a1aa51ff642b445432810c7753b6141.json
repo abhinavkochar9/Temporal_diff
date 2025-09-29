@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists while inhaling and tightening muscles.  Ensure consistent fist closure throughout the inhalation phase."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension is good, focus on a smoother exhale and muscle relaxation as you extend your arms horizontally. The slight inconsistencies in elbow and wrist movements suggest needing more controlled relaxation."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The left elbow and wrist show significant deviation from the ideal form.  Concentrate on maintaining even movement and relaxation in both arms during the exhale and extension phase.  Try to keep your movements more controlled and less jerky."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 3, the left elbow and wrist exhibit inconsistencies.  Pay close attention to maintaining symmetrical movement and relaxation in both arms.  Remember to fully extend your arms horizontally to shoulder height."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final step shows some improvement but still exhibits asymmetry, particularly in the elbows and wrists.  Continue practicing the exercise, focusing on controlled movements and even relaxation in both arms.  Aim for smoother transitions between the inhalation and exhalation phases."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated understanding of the Horizontal Pumping exercise.  While the initial arm-in phase was executed well, maintaining consistent and symmetrical movement throughout the arm extension and relaxation phases needs improvement.  The patient should focus on controlled, even movements in both arms, ensuring complete relaxation during the exhale and extension.  More attention to smooth transitions between phases is recommended.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job sitting or standing comfortably. Keep focusing on placing your hands on your abdomen."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! You are successfully placing your hands on your abdomen. Continue to focus on this placement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great job inhaling slowly through your nose. Try to tighten your whole body muscles a bit more during the inhale, and visualize fluid moving to your chest."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You are exhaling slowly through your mouth. Remember to relax your muscles as you exhale and visualize pushing fluid out."
+    }
+  ],
+  "exercise_summary": "You're doing well with your deep breathing exercises! Remember to inhale through your nose, tightening your body, and exhale through your mouth, relaxing. This helps your lymphatic system work efficiently.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

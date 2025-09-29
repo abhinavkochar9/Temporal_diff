@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with closed fists and drawing your arms in. Keep your shoulders relaxed."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! You opened your fingers and extended your arms horizontally. Try to keep your elbows slightly less bent."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great extension! Ensure your wrists stay straight as you relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Good job returning to the starting position. Focus on keeping your elbows from bending too much on the way back."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Well done completing the first repetition. Your arm movements were smooth."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong with closed fists. Remember to keep your shoulders down and relaxed."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good opening of the hands and extension. Try to maintain a straighter line through your elbows."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nicely done. Keep those wrists straight and focus on relaxing the muscles as you exhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Good return. Pay attention to keeping your elbows from bending too much as you bring your arms back."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic! You completed both repetitions. Your arm movements were generally good, with minor adjustments needed for elbow and wrist alignment."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to keep your fists closed and arms drawn in for the first part, then open your hands and extend arms horizontally. Focus on keeping your wrists straight and elbows less bent throughout the movement.",
+  "letter_grade": "B"
+}

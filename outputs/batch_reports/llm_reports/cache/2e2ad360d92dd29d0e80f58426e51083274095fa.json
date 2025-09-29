@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a comfortable seated or standing posture.  Remember to visualize the fluid moving towards your chest as you inhale deeply through your nose while tightening your muscles."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent! You placed your hands on your abdomen.  Ensure you maintain this position throughout the exercise to monitor your breathing and muscle engagement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the inhalation technique shows improvement, focus on coordinating whole-body muscle tightening with your breath.  Visualizing the fluid movement will enhance the effectiveness of the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The exhale needs more attention. Remember to exhale slowly through your mouth while relaxing your muscles and visualize pushing the fluid out.  Try to match the slowness of your inhale with your exhale."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and hand placement.  Inhaling technique showed improvement, but coordinating whole-body muscle tightening with the breath needs more focus.  The exhale needs more attention to ensure slow, controlled release and visualization of fluid movement.  Overall, the exercise requires more practice to fully coordinate all aspects of the instructions.",
+  "letter_grade": "B"
+}

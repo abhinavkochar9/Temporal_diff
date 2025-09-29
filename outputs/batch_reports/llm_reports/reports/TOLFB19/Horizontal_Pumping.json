@@ -1,0 +1,38 @@
+{
+  "patient_id": "TOLFB19",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists.  Remember to inhale deeply as you tighten your muscles.",
+      "similarity_percent": 81.9
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent form extending your arms horizontally.  Remember to exhale and relax your muscles as you extend.",
+      "similarity_percent": 77.8
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "Keep up the good work coordinating your breathing with the arm movements.",
+      "similarity_percent": 77.6
+    },
+    {
+      "step_index": 4,
+      "verdict": "good",
+      "feedback": "You're doing a great job remembering all the steps!",
+      "similarity_percent": 73.8
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The last repetition showed some inconsistencies. Focus on maintaining smooth, controlled movements throughout the exercise. Try to keep your movements consistent across repetitions.",
+      "similarity_percent": 10.6
+    }
+  ],
+  "exercise_summary": "You performed the Horizontal Pumping exercise well, coordinating arm movements with your breathing.  Remember to maintain consistent, controlled movements throughout each repetition.  Focus on smooth transitions between arm positions.",
+  "letter_grade": "B"
+}

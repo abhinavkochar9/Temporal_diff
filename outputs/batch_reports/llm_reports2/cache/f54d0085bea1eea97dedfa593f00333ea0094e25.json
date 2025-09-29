@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your arms in front of your chest and making fists. Try to tighten your muscles a bit more as you inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your fingers and extending your arms well. Focus on a smooth exhale as you relax your muscles and keep your arms at shoulder height."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Continue to open your fingers and extend your arms. Ensure you are exhaling fully and relaxing your muscles as you move."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Your arm extensions are good. Pay attention to keeping your wrists straight and relaxed as you extend your arms outwards."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're doing great with the arm movements. Focus on a controlled return to the starting position, maintaining muscle engagement."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the arm movements in this exercise. Remember to inhale and tighten your muscles when your fists are in, and exhale and relax as you open your hands and extend your arms. Keep up the great work!",
+  "letter_grade": "B",
+  "verdict": "good"
+}

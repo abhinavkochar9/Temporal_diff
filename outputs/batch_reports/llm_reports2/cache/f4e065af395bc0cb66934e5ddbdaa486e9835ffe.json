@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulders are well-aligned. Keep your fingers open as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good job stretching your arms overhead. Focus on relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing great with the fist and squeezing your shoulder blades. Remember to inhale and tighten your muscles."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent! You're stretching your arms back overhead and exhaling. Keep up the good work."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Your movements are smooth. Continue to relax your arms and body as you exhale."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Remember to keep your fingers open when stretching your arms up and to fully exhale as you relax. This helps with arm strength and lymph drainage.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

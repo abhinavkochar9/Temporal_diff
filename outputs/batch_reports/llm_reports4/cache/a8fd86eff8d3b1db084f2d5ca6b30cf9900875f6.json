@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists closed and arms drawn in. Keep your muscles tight as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! You opened your fingers and extended your arms to shoulder height. Remember to exhale and relax as you do this."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job returning to the starting position with fists closed and muscles tight. Inhale during this phase."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done opening your fingers and extending your arms. Exhale and relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You're doing great! You returned to the starting position with fists closed and muscles tight, ready for the next repetition. Inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second repetition. Keep your fists closed and muscles tight as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent! You opened your fingers and extended your arms to shoulder height. Remember to exhale and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great job returning to the starting position with fists closed and muscles tight. Inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Well done opening your fingers and extending your arms. Exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic! You completed the second repetition by returning to the starting position with fists closed and muscles tight. Inhale."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! You consistently closed your fists and tightened your muscles while inhaling, then opened your fingers and relaxed while exhaling. Keep up this excellent form to promote lymph drainage.",
+  "letter_grade": "A"
+}

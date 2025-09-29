@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great job starting in a comfortable position! Keep your hands on your abdomen to feel the breath."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Good. Continue to focus on placing your hands on your abdomen."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent inhale! Remember to tighten your whole body muscles and visualize fluid moving to your chest."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done exhaling and relaxing your muscles. Visualize pushing fluid out as you breathe out."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second rep. Remember to place your hands on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Nicely done. Continue to focus on the hand placement on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great inhale! Keep tightening your whole body and visualizing the fluid movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. Visualize pushing fluid out as you complete the breath."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to keep your hands on your abdomen to feel your breath. Focus on tightening your body as you inhale and relaxing as you exhale to help move lymphatic fluid.",
+  "letter_grade": "A"
+}

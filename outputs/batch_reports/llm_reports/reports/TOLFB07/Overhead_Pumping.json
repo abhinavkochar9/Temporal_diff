@@ -1,0 +1,36 @@
+{
+  "patient_id": "TOLFB07",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You extended your arm overhead well and opened your hand wide.  Good job maintaining the position.",
+      "similarity_percent": 93.5,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You successfully made a fist while inhaling and opened your hand while exhaling. Remember to visualize the fluid moving.",
+      "similarity_percent": 91.3,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "The arm position and hand movements were mostly consistent. Keep focusing on the full range of motion.",
+      "similarity_percent": 92.1,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted the repetitions, focus on maintaining a consistent fist and open hand throughout the exercise.  Try to make the movements smoother.",
+      "similarity_percent": 87.5,
+      "rep": 2
+    }
+  ],
+  "exercise_summary": "You did a great job with the overhead pumping exercise! Remember to keep your arm straight overhead and focus on the full range of motion when opening and closing your hand.  Concentrate on the smooth transition between the fist and open hand positions.",
+  "letter_grade": "B"
+}

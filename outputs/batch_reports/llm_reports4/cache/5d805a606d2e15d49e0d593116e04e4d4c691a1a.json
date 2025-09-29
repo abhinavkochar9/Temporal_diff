@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your fingers closed into fists and bring your arms in front of your chest. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done opening your fingers and extending your arms. Try to keep your arms at shoulder height and exhale as you relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're returning to the starting position with fists closed and arms in front. Remember to inhale and tighten your muscles for the next repetition."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job opening your fingers and extending your arms again. Ensure you're exhaling and relaxing your muscles as you move."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You've completed the first set! Remember to bring your arms back to the chest, close your fists, inhale, and tighten your muscles for the next rep."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second set starting strong! Keep those fists closed, arms in front, and inhale while tightening your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good extension! Open your fingers, extend arms to shoulder height, and exhale while relaxing your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Returning to the start position well. Remember to close your fists, bring arms in front, inhale, and tighten your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent extension on this rep! Keep exhaling and relaxing your muscles as you open your hands and move your arms."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "You've finished both sets! Great work maintaining good form throughout the horizontal pumping exercise. Keep up the consistent effort."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to fully close your fists and tighten your muscles when bringing your arms in, and fully open your hands and relax when extending them. Keep up the good work!",
+  "letter_grade": "A"
+}

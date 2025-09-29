@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job clasping your hands in your lap. Keep your head upright as you begin the movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're raising your hands well, but try to keep your elbows closer together as you bring them towards your forehead."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Nicely done spreading your elbows wide behind your head. Remember to avoid pulling forward with your head."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Holding the stretch steady. Keep your head upright and focus on the chest and shoulder opening."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Smooth return to the starting position. You're doing great with this repetition."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Starting the second repetition. Hands clasped in your lap, head upright. Good start."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're bringing your hands up, but let's focus on keeping those elbows closer to your head in this step."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent job spreading your elbows wide behind your head. Maintain that upright posture."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Holding the stretch. Keep your head still and focus on the stretch in your shoulders and chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Returning to the start smoothly. You've completed both repetitions well."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Clasp and Spread exercise! Focus on keeping your elbows closer to your head when raising your hands, and avoid pulling forward. Overall, your form was good, promoting shoulder and chest flexibility.",
+  "letter_grade": "B"
+}

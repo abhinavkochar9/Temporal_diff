@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For rep 1, your shoulder movement was a bit wide. For rep 2, your shoulder movement was much better, but try to keep your elbows a little closer to your body."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For rep 1, your shoulder blades moved well. For rep 2, your shoulder blades moved nicely, but try to keep your wrists a little straighter."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For rep 1, your shoulder movement was good, but try to keep your wrists a bit straighter. For rep 2, your shoulder movement was good, but try to keep your wrists a little straighter."
+    }
+  ],
+  "exercise_summary": "Great job with the shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to keep your wrists a bit straighter and your elbows closer to your body for even better results.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Try to keep your shoulders and elbows more stable as you inhale and tighten your body."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Focus on keeping your shoulders and elbows steady during this step."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your muscle tightening and visualization are good. Aim for more stability in your shoulders and elbows as you inhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're relaxing your muscles nicely. Try to keep your shoulders and elbows more still as you exhale and visualize pushing fluid out."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with deep breathing to help your lymphatic system! Remember to keep your whole body muscles tight when you inhale and relax them when you exhale. Focus on keeping your shoulders and elbows steady throughout.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

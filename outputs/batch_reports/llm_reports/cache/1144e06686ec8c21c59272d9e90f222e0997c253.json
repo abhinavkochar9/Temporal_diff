@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension was mostly smooth, inconsistent fist clenching and wrist movements were observed. Focus on a tighter fist and smoother arm movement during the inhale phase."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The exhale and muscle relaxation were not fully executed.  Try to completely relax your arms and fingers as you extend them horizontally."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension needs more control and smoothness.  Aim for a more consistent and controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent muscle tightening and relaxation were observed.  Focus on fully tightening your muscles during the inhale and relaxing them completely during the exhale."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetitions showed inconsistent arm movements and muscle engagement.  Try to maintain a steady rhythm and controlled movements throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You almost got it! Remember to clench your fists tightly when you bring your arms in, then fully extend them smoothly as you exhale.  Focus on controlled movements and consistent muscle engagement throughout the four repetitions.",
+  "letter_grade": "C"
+}

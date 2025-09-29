@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For rep 1, your arm and shoulder movements were very close to the target. For rep 2, your arms and shoulders moved significantly more than expected. Try to keep your movements smaller and more controlled in future repetitions."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In rep 1, your arm and shoulder positions were good. In rep 2, your arms and shoulders deviated more from the target. Focus on maintaining consistent, smaller movements throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Rep 1 showed good control of your arms and shoulders. In rep 2, there was a larger deviation in arm and shoulder positions. Aim for consistent, smaller movements in both arms and shoulders."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Your arm and shoulder movements in rep 1 were very close to the target. In rep 2, the deviation increased. Continue to focus on keeping your arm and shoulder movements small and controlled."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Rep 1 was excellent with very minimal deviation in your arms and shoulders. Rep 2 showed a much larger deviation, especially in the wrists and elbows. Focus on controlled, smaller movements for all joints."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! For the first repetition, your movements were very precise. Remember to keep all your movements small and controlled, especially in your arms and shoulders, for the best results.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

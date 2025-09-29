@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your fingers closed and arms in front of your chest, tightening your muscles as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Great job opening your fingers and extending your arms! Remember to exhale and relax your muscles as you move."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! Continue to open your fingers wide and extend your arms horizontally to shoulder height while exhaling."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done! Focus on maintaining the horizontal extension and relaxed exhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Fantastic! You're effectively completing the outward movement and relaxation."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Remember to close your fingers, bring arms in, and tighten muscles while inhaling."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good work on the outward movement. Ensure you're fully opening your fingers and exhaling."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent control! Keep those arms extended horizontally and continue to exhale and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Nicely done! Maintain the outward reach and relaxed breathing."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Perfect completion of the second rep! You're doing a great job with the horizontal pumping motion."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Horizontal Pumping exercise! Remember to fully close your fists and bring your arms in while inhaling and tightening muscles. Then, open your fingers wide and extend arms horizontally while exhaling and relaxing.",
+  "letter_grade": "A"
+}

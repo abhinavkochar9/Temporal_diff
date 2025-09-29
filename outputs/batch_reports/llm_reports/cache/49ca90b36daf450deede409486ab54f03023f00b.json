@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the right arm shows some effort in extending overhead, the wrist and elbow exhibit significant inconsistencies across repetitions.  Focus on maintaining a straight arm and controlled movements throughout the exercise.  The left arm shows less movement, which needs to be addressed to ensure bilateral engagement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and finger extension (step 3) needs more emphasis.  The right arm shows some improvement in elbow and wrist control compared to step 1, but consistency is still lacking. The left arm remains underutilized. Ensure you fully extend your arm overhead and open your hand completely."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The hand opening and closing (steps 4 and 5) should be synchronized with your breath.  The right arm shows some improvement but the left arm remains significantly less engaged.  Ensure both arms are participating equally in the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The fist clenching and unclenching should be firm and controlled.  Inconsistent effort is observed in both arms, particularly in the wrist and elbow.  Focus on maintaining a consistent level of muscle engagement throughout the repetitions.  Visualize pumping the fluid out with each repetition."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form and engagement throughout the Overhead Pumping exercise.  While some effort was shown in extending the arms overhead, maintaining a straight arm, fully opening the hand, and synchronizing hand movements with breathing needs significant improvement.  The left arm consistently showed less engagement than the right arm.  Greater focus on controlled movements and bilateral engagement is required.",
+  "letter_grade": "C"
+}

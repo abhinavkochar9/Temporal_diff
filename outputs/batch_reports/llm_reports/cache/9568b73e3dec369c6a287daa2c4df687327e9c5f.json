@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition in step 1 demonstrates inconsistent fist clenching and arm extension.  Focus on maintaining a consistent, controlled movement throughout the entire range of motion. Ensure complete fist closure during inhalation and full extension to shoulder height during exhalation."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension in step 2 needs more attention.  Maintain horizontal arm positioning throughout the movement. Avoid any upward or downward deviations.  The muscle tightening and relaxation should be more pronounced."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 shows inconsistent execution.  The left elbow and wrists show significant deviation from the ideal form.  Concentrate on smoother transitions between fist clenching and arm extension, maintaining even movement in both arms."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 3, step 4 shows inconsistencies, particularly in the wrist movements.  The right wrist shows a large deviation.  Pay close attention to maintaining a controlled, horizontal movement of the arms, avoiding jerky motions."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final step shows some improvement but still lacks consistency.  The right elbow and wrist show significant deviation.  Continue practicing the exercise, focusing on maintaining a smooth, controlled movement throughout the entire range of motion for both arms."
+    }
+  ],
+  "exercise_summary": "The Horizontal Pumping exercise demonstrated inconsistent form throughout the repetitions. While some repetitions showed good form, many lacked consistency in fist clenching, arm extension, and muscle engagement.  Focus on maintaining a controlled, horizontal movement of the arms, avoiding jerky motions and ensuring complete fist closure and full extension to shoulder height.  Consistent practice is key to improving form and maximizing the benefits of the exercise.",
+  "letter_grade": "C"
+}

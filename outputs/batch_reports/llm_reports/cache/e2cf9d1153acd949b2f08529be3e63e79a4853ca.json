@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition in step 1 indicates inconsistent muscle engagement.  The high MAE values for the left elbow and wrist suggest insufficient muscle control and relaxation during the arm extension phase. Focus on controlled movements and ensure complete relaxation during exhalation."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for both repetitions in step 2 are elevated, particularly in the left elbow and wrist. This suggests a lack of smooth transition between the arm flexion and extension phases. Pay closer attention to the instructions, ensuring a controlled and coordinated movement throughout."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition in step 3 shows a significant increase in MAE for the right elbow, indicating inconsistent form. Maintain consistent muscle engagement and relaxation throughout the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions in step 4 show elevated MAE values, especially in the elbows and wrists.  Focus on maintaining a controlled movement and avoid jerky motions."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition in step 5 shows very high MAE values in the right and left wrists, suggesting a lack of control and coordination.  Practice the exercise slowly and deliberately, focusing on smooth transitions between phases."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Horizontal Pumping exercise.  While some repetitions showed acceptable MAE values, many exhibited significant deviations, particularly in the wrists and elbows.  The patient needs to focus on controlled movements, smooth transitions between phases, and consistent muscle engagement and relaxation.  Improved coordination and attention to detail are crucial for proper execution.",
+  "letter_grade": "D"
+}

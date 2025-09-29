@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension was mostly smooth, inconsistent fist clenching and wrist movements were observed. Focus on maintaining a tight fist during the inhale and a fully open hand during the exhale."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm movements lacked fluidity; ensure a smoother transition between the inward and outward arm movements.  Pay attention to maintaining consistent muscle tension during the inhale."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist showed significant inconsistency.  Try to keep your wrists relaxed and avoid unnecessary tension or jerky movements."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The elbow movements were inconsistent, especially on the right side.  Focus on controlled, smooth movements throughout the exercise."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetition showed significant inconsistencies in wrist and elbow movements.  Review the instructions and focus on controlled, smooth movements throughout the exercise.  Practice maintaining consistent muscle tension and relaxation."
+    }
+  ],
+  "exercise_summary": "You almost completed the horizontal pumping exercise. Remember to clench your fists tightly when pulling your arms in and fully extend your arms horizontally while exhaling.  Focus on smooth, controlled movements and consistent muscle engagement for better results. Let's work on improving the consistency of your arm and wrist movements.",
+  "letter_grade": "C"
+}

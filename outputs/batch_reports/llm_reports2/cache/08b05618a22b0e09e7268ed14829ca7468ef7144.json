@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders and elbows relatively still. Focus on making your fists tighter and drawing your arms in closer to your chest."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulder and elbow movements are good. Try to open your fingers wider and extend your arms further out to the sides, reaching shoulder height."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your shoulders are moving well. Focus on relaxing your muscles as you exhale and extend your arms. Try to keep your elbows straighter."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Shoulders are looking good. Ensure you are fully relaxing your muscles as you exhale and extend. Try to keep your wrists straighter during the movement."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Good shoulder and elbow control. Continue to focus on fully opening your fingers and extending your arms to shoulder height while relaxing your muscles."
+    }
+  ],
+  "exercise_summary": "You're doing great with the arm movements! Remember to really tighten your fists and bring your arms in close on the inhale. Then, fully open your fingers and extend your arms out as you exhale.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

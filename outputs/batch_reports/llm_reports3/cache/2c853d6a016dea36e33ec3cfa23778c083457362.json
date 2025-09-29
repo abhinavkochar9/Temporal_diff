@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job placing your hands on your abdomen. Try to keep your whole body muscles tight during the inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well sitting or standing comfortably. Focus on relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great effort on the inhale! Remember to visualize fluid moving to your chest as you breathe in."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job relaxing your muscles on the exhale. Keep visualizing pushing fluid out to aid drainage."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with this breathing exercise! Remember to tighten your whole body muscles as you inhale and relax them as you exhale. This helps your lymphatic system work better.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

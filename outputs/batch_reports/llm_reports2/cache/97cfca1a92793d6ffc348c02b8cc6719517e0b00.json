@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your arm was mostly straight overhead, but could be a little higher. Keep your palm and fingers open wide."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You made a good fist and tightened your muscles while inhaling. Try to make your fist even tighter next time."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You opened your hand and relaxed your muscles while exhaling. Focus on fully relaxing your hand and fingers."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You visualized fluid being pumped out. Keep up the good visualization and try to make your movements smoother."
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! Remember to stretch your arm fully overhead and open your hand wide. Squeeze your fist tightly as you breathe in, then relax as you breathe out. Keep visualizing the fluid moving.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

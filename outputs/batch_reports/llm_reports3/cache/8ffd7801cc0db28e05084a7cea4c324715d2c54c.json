@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your shoulders more stable and your arm straighter overhead. Focus on feeling the stretch."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For step 2, ensure your arm remains extended overhead. Focus on a strong fist and muscle tightening as you inhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, keep your arm overhead and focus on a full, relaxed exhale while opening your hand wide."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, maintain the overhead arm position and focus on a strong, tight fist with your inhale. Ensure your muscles are engaged."
+    }
+  ],
+  "exercise_summary": "You're doing great with the overhead pumping! Remember to keep your arm straight overhead and really focus on making a tight fist as you breathe in. Then, relax and open your hand fully as you breathe out.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Keep your hands on your abdomen for the next step."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're starting to inhale. Remember to tighten your whole body muscles as you breathe in through your nose."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great inhale! Now, exhale slowly through your mouth while relaxing your muscles. Visualize pushing fluid out."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. You've completed the first repetition. Let's move on to the next."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Starting the second repetition. Remember to sit or stand comfortably and place your hands on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good inhale. Keep tightening your whole body muscles as you breathe in through your nose, visualizing fluid moving to your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Well done on the inhale. Now, exhale slowly through your mouth, relaxing your muscles and visualizing pushing fluid out."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Fantastic exhale and relaxation. You've completed all repetitions. Great job focusing on deep breathing to help lymphatic drainage!"
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercises! Remember to inhale through your nose while tightening your body and exhale through your mouth while relaxing. This helps stimulate lymphatic drainage and improve oxygen flow.",
+  "letter_grade": "A"
+}

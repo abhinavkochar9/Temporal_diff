@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your wrists straighter and closer to the starting position. Focus on tightening your muscles as you bring your arms in."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, aim for straighter arms and a more controlled outward movement. Pay attention to relaxing your muscles as you exhale and extend."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, ensure your wrists remain relatively straight and avoid excessive bending. Continue to focus on the muscle tightening and relaxation cues."
+    },
+    {
+      "step_index": 4,
+      "feedback": "In step 4, try to maintain straighter wrists throughout the movement. Focus on a smooth, controlled extension and relaxation of your arm muscles."
+    },
+    {
+      "step_index": 5,
+      "feedback": "For step 5, work on keeping your wrists straighter and closer to the starting position. Ensure you are fully relaxing your muscles as you extend your arms."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Horizontal Pumping exercise! Remember to keep your wrists straight and focus on tightening your muscles when bringing your arms in, then relaxing them as you extend outwards. This helps with lymph drainage.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

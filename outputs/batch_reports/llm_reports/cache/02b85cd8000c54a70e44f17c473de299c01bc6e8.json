@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job placing your hands on your abdomen and inhaling deeply.  Try to engage your whole body muscles a bit more during the inhalation."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You're doing well visualizing the fluid movement. Remember to maintain a comfortable posture throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Inhale slowly and deeply through your nose, focusing on tightening your whole body muscles. Visualizing the fluid moving towards your chest will help."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Good effort on exhaling slowly.  Concentrate on relaxing your muscles completely during exhalation to help push the fluid out."
+    }
+  ],
+  "exercise_summary": "You showed good progress with deep breathing exercises. Remember to fully engage your muscles during inhalation and relax them completely during exhalation.  Focus on visualizing the fluid movement to improve lymphatic drainage. Keep practicing!",
+  "letter_grade": "B"
+}

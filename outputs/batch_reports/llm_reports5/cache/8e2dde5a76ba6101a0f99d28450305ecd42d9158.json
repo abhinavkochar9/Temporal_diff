@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists closed and arms in front of your chest. Remember to inhale and tighten your muscles here."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done opening your fingers and extending your arms. Keep exhaling and relaxing your muscles as you move outwards."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent return to the starting position. Ensure your fingers are closed into fists and muscles are tightened as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job opening fingers and extending arms again. Remember to exhale and relax your muscles during this outward movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You're completing the first repetition well. Focus on maintaining relaxed muscles as you extend your arms horizontally."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second repetition. Keep those fists closed and muscles tight as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done opening your fingers and extending your arms. Remember to exhale and relax your muscles as you move outwards."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent return to the starting position. Ensure your fingers are closed into fists and muscles are tightened as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Great job opening fingers and extending arms again. Remember to exhale and relax your muscles during this outward movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "You've completed both repetitions! Overall, you maintained good form, focusing on the outward arm movements and muscle engagement."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to keep your fists closed and muscles tight when bringing your arms in, then open your fingers and relax as you extend them outwards. This helps promote lymph drainage effectively.",
+  "letter_grade": "A-"
+}

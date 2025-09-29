@@ -1,0 +1,7 @@
+patient,exercise,elbow_angle_mae_deg,shoulder_angle_mae_deg,pos_err_pct_mean,dtw_distance,peak_lag_s,sym_dev_abs_mean,jerk_rms
+TOLFB23,ClaspAndSpread,38.2951,20.9063,12.9821,49.331428,0.04,0.096256,232.175069
+TOLFB23,DeepBreathing,22.0443,9.9379,6.1227,22.671988,-0.16,0.061702,48.453543
+TOLFB23,HorizontalPumping,13.1819,12.6978,8.0084,25.03887,-0.08,0.102142,250.18696
+TOLFB23,OverheadPumping,5.1698,20.3934,12.4705,53.264917,-2.0,0.038268,159.007548
+TOLFB23,PushdownPumping,21.2528,12.1615,9.2211,31.345709,-0.04,0.073286,249.556924
+TOLFB23,ShoulderRoll,28.943,17.8002,7.1759,13.242344,-1.16,0.104589,134.899231

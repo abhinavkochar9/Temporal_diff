@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your arms in front of your chest and tightening your muscles. Try to keep your wrists a little straighter in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arms extended horizontally, but your elbows and wrists could be straighter. Focus on a smooth, controlled movement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're opening your fingers and extending your arms well. Aim for more consistent elbow and wrist alignment throughout the movement."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good effort on the outward arm movement. Focus on keeping your wrists and elbows aligned with your shoulders as you extend."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're doing great with the outward motion. For the next repetitions, try to keep your wrists and elbows straighter and more controlled."
+    }
+  ],
+  "exercise_summary": "You're doing well with the arm movements! Remember to keep your fists tight when arms are in, and open your fingers as you extend. Focus on keeping your elbows and wrists straight for better results.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

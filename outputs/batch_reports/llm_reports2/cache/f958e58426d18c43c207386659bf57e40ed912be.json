@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job sitting or standing comfortably. Try to focus on tightening your whole body muscles as you inhale, imagining the fluid moving towards your chest."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Placing your hands on your abdomen is perfect. As you exhale, remember to relax your muscles and visualize pushing the fluid out. Keep up the good work!"
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're inhaling through your nose and tightening your body well. Continue to visualize the fluid moving to your chest during this inhale phase."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Exhaling through your mouth and relaxing your muscles is excellent. Keep visualizing pushing fluid out as you exhale to maximize the lymphatic pumping action."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your deep breathing exercises! Remember to tighten your whole body as you inhale and relax as you exhale. This helps move lymphatic fluid effectively.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

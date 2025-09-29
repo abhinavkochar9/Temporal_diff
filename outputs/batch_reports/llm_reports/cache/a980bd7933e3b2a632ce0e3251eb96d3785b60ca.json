@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "The first repetition showed significant deviation in shoulder and elbow positioning.  The second repetition was much better, demonstrating improved control and form. Focus on maintaining the controlled, circular motion throughout the exercise, ensuring both shoulders move smoothly and equally. Remember to squeeze your shoulder blades together."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job maintaining a controlled circular motion in this step.  The MAE values indicate consistent movement in both shoulders.  Continue to focus on the smooth, controlled movement and deep breaths as instructed."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movement shows improvement, the wrist movement is inconsistent across repetitions.  Try to keep your wrists relaxed and avoid unnecessary movement.  Focus on the shoulder blade movement and deep breathing to improve overall form."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Shoulder Rolls exercise. While there was improvement in shoulder control from the first to subsequent steps, maintaining consistent form and minimizing wrist movement requires further attention.  Deep breathing should be incorporated to enhance the exercise's effectiveness.",
+  "letter_grade": "B"
+}

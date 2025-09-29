@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the left arm shows good form, the right arm demonstrates inconsistent extension.  The right wrist and elbow show high MAE values across both repetitions, suggesting the arm isn't fully extending overhead. Focus on straightening your right arm completely before making a fist."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 1, the right arm shows significant deviation from the ideal posture.  High MAE values in the right elbow and wrist indicate that the arm is not fully extended. Ensure your palm and fingers are fully open before inhaling."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The right arm continues to show high MAE values in the elbow and wrist, indicating incomplete extension.  Concentrate on fully opening your hand and fingers wide, as instructed, before proceeding to the fist."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The first repetition shows similar issues to previous steps. The second repetition shows improvement in the right arm, but consistency is key.  Maintain the full extension and opening of the hand throughout the exercise."
+    }
+  ],
+  "exercise_summary": "The exercise execution shows inconsistent form, particularly in the right arm.  High MAE values in the right elbow and wrist across all steps indicate incomplete extension overhead.  Focus on fully extending the arm overhead, opening the hand completely, and maintaining this posture throughout each step.  Improved consistency in the right arm is needed to optimize the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

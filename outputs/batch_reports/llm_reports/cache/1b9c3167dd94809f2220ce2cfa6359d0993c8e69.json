@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job sitting or standing comfortably! Remember to place your hands on your abdomen to feel the movement."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with placing hands on your abdomen. Focus on a slow inhale through your nose and try to tighten your whole body muscles, imagining fluid moving to your chest."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent! You're exhaling slowly through your mouth and relaxing your muscles. Keep visualizing pushing fluid out to help with drainage."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Fantastic! You're completing the repetitions. Continue to focus on the full body muscle tightening during inhale and relaxation during exhale for best results."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with this deep breathing exercise! Remember to inhale slowly through your nose, tightening your whole body, and exhale through your mouth, relaxing your muscles. This helps move lymphatic fluid effectively.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

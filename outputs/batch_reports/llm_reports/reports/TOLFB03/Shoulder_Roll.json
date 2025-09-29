@@ -1,0 +1,29 @@
+{
+  "patient_id": "TOLFB03",
+  "exercise": "Shoulder_Roll",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "The first repetition in step 1 shows significant deviation, particularly in the shoulders and elbows. Try to maintain a smoother, more controlled circular motion, focusing on engaging your shoulder blades.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job on step 2!  Your shoulder blade movement is much more controlled and consistent in this step. Remember to keep your movements gentle and controlled.",
+      "similarity_percent": 90.9,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 shows some improvement, but there's still room for improvement in consistency.  Focus on maintaining a consistent circular motion throughout the repetitions.  Try to keep your wrists more relaxed.",
+      "similarity_percent": 91.2,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise.  Step 2 was done well, showing good control. Steps 1 and 3 need more focus on smooth, controlled circular motions of the shoulders and relaxed wrists. Remember to breathe deeply while pulling your shoulders back.",
+  "letter_grade": "B"
+}

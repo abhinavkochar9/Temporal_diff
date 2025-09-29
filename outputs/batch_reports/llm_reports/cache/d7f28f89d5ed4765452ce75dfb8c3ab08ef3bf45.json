@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension in step 1 shows some effort, inconsistent fist closure and opening between repetitions is observed. Focus on fully closing your fists while inhaling and tightening muscles, then fully opening them during exhalation and muscle relaxation.  The right wrist shows particularly high MAE, suggesting a need for more controlled movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The horizontal arm extension needs more precision.  Maintain shoulder height throughout the movement and ensure a smoother transition between the inhalation and exhalation phases. The right elbow shows high MAE, indicating jerky movements. Aim for controlled, fluid movements."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "In step 3, the right elbow shows high MAE, suggesting a need for more controlled movement. Ensure that the arms move horizontally and smoothly, maintaining shoulder height throughout the exercise.  Focus on coordinating breathing with the arm movements."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE in the right elbow in step 4 indicates uncontrolled movements.  Remember to maintain a steady, controlled pace throughout the exercise.  Focus on the coordination between muscle tightening and breathing."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "Step 5 shows significant inconsistencies, particularly in the right wrist and left elbow.  The high MAE values suggest uncontrolled movements.  Pay close attention to maintaining a smooth, controlled movement throughout the entire range of motion.  Ensure that the arms move horizontally and smoothly, maintaining shoulder height throughout the exercise."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Horizontal Pumping exercise.  While there was some attempt to follow instructions, significant improvements are needed in maintaining controlled movements, coordinating breathing with arm movements, and ensuring consistent fist closure and opening.  The high MAE values in several joints across multiple repetitions indicate a need for more precise and controlled execution.",
+  "letter_grade": "D"
+}

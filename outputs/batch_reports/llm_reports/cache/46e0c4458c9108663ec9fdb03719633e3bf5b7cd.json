@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job on the shoulder blade squeeze!  Your form was consistent across repetitions. Remember to breathe deeply as you pull your shoulders back."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Try to make the circular motion smoother and more controlled. Focus on keeping your shoulders relaxed and avoid hunching."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The circular motion needs more focus and control.  Try to maintain a consistent rhythm and depth to your rolls."
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise.  Step 1 was done well, maintaining a good squeeze. Steps 2 and 3 need more controlled circular motions. Remember to breathe deeply while pulling your shoulders back.",
+  "letter_grade": "B"
+}

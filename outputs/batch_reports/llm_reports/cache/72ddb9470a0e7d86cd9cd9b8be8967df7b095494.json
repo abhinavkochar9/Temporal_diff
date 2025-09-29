@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulder blades are moving well, but try to bring them down a bit more as you roll them back. Keep your elbows relaxed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Great job squeezing your shoulder blades back and down! Focus on making the motion smooth and circular, and remember to breathe deeply as you pull back."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're completing the repetitions well. Ensure your wrists stay relaxed and don't lift too high as you roll your shoulders."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to inhale deeply as you pull back to help your ribs expand.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

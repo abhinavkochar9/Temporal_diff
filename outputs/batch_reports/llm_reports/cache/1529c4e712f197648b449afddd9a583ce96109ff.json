@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders relatively still. Try to keep your elbows a bit straighter in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulders are well-aligned. Focus on extending your arms fully overhead and relaxing your shoulders as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with squeezing your shoulder blades. Aim for a tighter fist and ensure your arms are fully extended overhead."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Great job relaxing and exhaling. Try to keep your elbows a little straighter as you stretch your arms back."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're maintaining good shoulder and elbow positions. Focus on a strong fist and fully extending your arms overhead."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Remember to keep your fists tight and arms fully extended overhead when you push down. Relax and exhale as you stretch your arms back up.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

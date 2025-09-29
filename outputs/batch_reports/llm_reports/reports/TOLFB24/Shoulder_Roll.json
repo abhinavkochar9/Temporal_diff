@@ -1,0 +1,26 @@
+{
+  "patient_id": "TOLFB24",
+  "exercise": "Shoulder_Roll",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted the shoulder blade squeeze, your wrists and elbows moved more than your shoulders. Focus on keeping your arms relaxed and the movement originating from your shoulder blades.",
+      "similarity_percent": 60.5
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The circular motion wasn't consistent. Try to make smoother, controlled circles with your shoulder blades. Remember to breathe deeply as you move.",
+      "similarity_percent": 57.5
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The movement was slightly better, but still needs more focus on the shoulder blades.  Try to minimize movement in your elbows and wrists.",
+      "similarity_percent": 68.9
+    }
+  ],
+  "exercise_summary": "You attempted the shoulder rolls, but the movement wasn't always controlled. Focus on keeping your arms relaxed and the movement originating from your shoulder blades. Remember to breathe deeply and make smooth, controlled circles. Let's work on improving the form and consistency.",
+  "letter_grade": "C"
+}

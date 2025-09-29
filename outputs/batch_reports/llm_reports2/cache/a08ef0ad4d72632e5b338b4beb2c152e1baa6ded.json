@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job sitting or standing comfortably! Your body positioning looks good."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Keep up the good work!"
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're inhaling slowly through your nose and tightening your muscles. Try to visualize the fluid moving to your chest to enhance the lymphatic stimulation."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're exhaling slowly through your mouth and relaxing your muscles. Focus on visualizing pushing the fluid out to maximize the pumping action for lymphatic drainage."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the deep breathing exercises! Remember to focus on tightening your muscles as you inhale and relaxing as you exhale. Visualizing the fluid movement will help boost lymphatic drainage.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

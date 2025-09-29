@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your shoulders and elbows more stable. Focus on opening your fingers wide as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, aim for straighter arms overhead and a more relaxed posture. Keep your wrists and elbows from bending too much."
+    },
+    {
+      "step_index": 3,
+      "feedback": "During step 3, ensure your shoulder blades are squeezed together and your muscles are tightened. Your elbows and wrists showed some bending."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, focus on extending your arms fully overhead while exhaling. Try to relax your elbows and wrists more as you stretch."
+    },
+    {
+      "step_index": 5,
+      "feedback": "In step 5, pay close attention to keeping your arms straight overhead and your wrists and elbows relaxed. This is where the most deviation occurred."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Remember to stretch your arms fully overhead and keep your fingers open. Focus on squeezing your shoulder blades together when you make a fist and push down.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

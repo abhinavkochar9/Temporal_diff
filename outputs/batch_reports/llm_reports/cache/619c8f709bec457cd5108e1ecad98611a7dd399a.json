@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You did a good job sitting or standing comfortably. Keep focusing on maintaining a stable posture."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your hand placement on your abdomen was generally good. Try to keep your hands still and focused on feeling your abdomen rise and fall."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with the inhale and muscle tightening. Remember to breathe in through your nose and visualize fluid moving to your chest."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're on the right track with the exhale and muscle relaxation. Focus on exhaling through your mouth and visualizing pushing fluid out."
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing exercises! You're effectively tightening your muscles on the inhale and relaxing on the exhale. Keep up the good work to help your lymphatic system drain.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you extended your arm overhead, focus on keeping your shoulder and elbow straighter.  The large MAE values in the elbow and wrist suggest some bending. Straighten your arm fully for better lymph flow."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to fully open your palm and fingers wide. The data shows inconsistency in wrist and elbow extension.  Try to maintain a wider hand position throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Your fist-making and hand-opening could be more controlled.  The data suggests inconsistent hand and elbow movements.  Try to coordinate your breathing with the hand movements more precisely."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in the second repetition indicate that you need to maintain a consistent and controlled movement throughout the exercise.  Focus on smooth transitions between opening and closing your hand."
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but the data shows inconsistencies in arm and hand positioning.  Focus on keeping your arm straight, fully opening your hand, and coordinating your breathing with the hand movements.  Practice smooth transitions between making a fist and opening your hand.",
+  "letter_grade": "C"
+}

@@ -9,16 +9,16 @@
     "subset": ""
   },
   "rep1_step4": {
-    "subset": "LElbow"
+    "subset": ""
   },
   "rep1_step5": {
-    "subset": "LWrist"
+    "subset": ""
   },
   "rep2_step1": {
-    "subset": "LWrist+RWrist"
+    "subset": ""
   },
   "rep2_step2": {
-    "subset": "LWrist+RWrist"
+    "subset": "LWrist"
   },
   "rep2_step3": {
     "subset": ""

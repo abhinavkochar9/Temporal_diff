@@ -1,0 +1,36 @@
+{
+  "patient_id": "TOLFB05",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to extend your arm overhead, the significant wrist and elbow deviations suggest you need to focus on maintaining a straighter arm posture. Try to keep your arm more aligned and avoid bending at the elbows and wrists.",
+      "similarity_percent": 81.7,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and fist-making actions were not fully executed.  Concentrate on fully opening your hand and making a tight fist to maximize the pumping action.  Visualize the fluid moving with each pump.",
+      "similarity_percent": 60.0,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The hand and arm movements show some improvement, but consistency is lacking.  Ensure you fully open your hand and make a tight fist for each repetition.  Maintain a steady rhythm.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "good",
+      "feedback": "Good job maintaining a straighter arm and performing the pumping action.  The reduced deviations in the wrist and elbow show improvement in form. Keep up the good work!",
+      "similarity_percent": 60.0,
+      "rep": 2
+    }
+  ],
+  "exercise_summary": "You showed improvement in arm posture and pumping action throughout the exercise. Focus on fully extending your arm overhead and making tight fists to improve lymph flow. Remember to visualize the fluid moving with each pump.  Keep practicing!",
+  "letter_grade": "C"
+}

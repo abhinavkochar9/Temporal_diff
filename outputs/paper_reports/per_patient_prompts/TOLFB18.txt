@@ -1,0 +1,20 @@
+Patient: TOLFB18
+Context: Metrics compare patient vs Expert baseline (lower is better). Do not fabricate numbers.
+FPS used in analysis: 25.0
+Exercises included: ClaspAndSpread, DeepBreathing, HorizontalPumping, OverheadPumping, PushdownPumping, ShoulderRoll
+
+Per-exercise metrics:
+- ClaspAndSpread: Elbow°=15.91, Shoulder°=12.85, Pos(norm)=0.054, DTW=10.30, Lag(s)=0.00, SymΔ=0.061, Jerk=278.57, Score=8.24
+- DeepBreathing: Elbow°=29.34, Shoulder°=10.95, Pos(norm)=0.067, DTW=8.88, Lag(s)=-0.16, SymΔ=0.078, Jerk=55.04, Score=11.14
+- HorizontalPumping: Elbow°=16.98, Shoulder°=10.24, Pos(norm)=0.068, DTW=22.66, Lag(s)=0.00, SymΔ=0.057, Jerk=212.46, Score=9.09
+- OverheadPumping: Elbow°=11.67, Shoulder°=13.18, Pos(norm)=0.050, DTW=13.38, Lag(s)=0.00, SymΔ=0.067, Jerk=241.11, Score=7.57
+- PushdownPumping: Elbow°=27.82, Shoulder°=9.67, Pos(norm)=0.110, DTW=37.29, Lag(s)=0.16, SymΔ=0.073, Jerk=221.66, Score=13.30
+- ShoulderRoll: Elbow°=35.16, Shoulder°=17.78, Pos(norm)=0.071, DTW=10.21, Lag(s)=-1.72, SymΔ=0.099, Jerk=144.30, Score=16.00
+
+Best exercise: OverheadPumping (score 7.57)
+Worst exercise: ShoulderRoll (score 16.00)
+
+Instructions for LLM (use metrics above; do NOT invent baselines):
+- Write a concise clinical-style summary of deviations across angles, positions, and timing.
+- Mention worst and best exercises and quantify the errors.
+- Suggest 2–3 corrective cues (e.g., raise right elbow ~10°, keep wrist level with shoulder).

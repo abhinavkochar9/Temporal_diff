@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your arms relaxed and fingers open as you prepare to move."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Focus on making a firm fist and squeezing your shoulder blades together as you push down. Try to keep your elbows closer to your body."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job squeezing your shoulder blades! Remember to inhale as you tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent! As you stretch your arms back overhead, focus on a slow exhale and relaxing your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Good completion of the first repetition. Ensure your arms are fully stretched overhead."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting. Remember to keep your arms relaxed and fingers open."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Continue to focus on a strong fist and squeezing shoulder blades. Try to minimize elbow movement away from your sides."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Well done on the shoulder blade squeeze! Remember to inhale and engage your muscles fully."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent! Exhale slowly as you return your arms overhead and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Good job completing the second repetition. Ensure your arms are fully extended overhead."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! Remember to make a firm fist and squeeze your shoulder blades together during the downward motion. Focus on controlled breathing, inhaling as you tighten and exhaling as you relax and stretch overhead.",
+  "letter_grade": "B"
+}

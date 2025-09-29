@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "For step 1, keep your fingers closed into fists and draw your arms in front of your chest. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "For step 2, open your fingers and extend your arms horizontally to shoulder height. Exhale and relax your muscles as you move."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "For step 3, continue to open your fingers and extend your arms horizontally to shoulder height. Exhale and relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "For step 4, ensure your arms are extended horizontally to shoulder height. Keep exhaling and relaxing your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "For step 5, maintain the open fingers and horizontal arm extension. Continue to exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "For step 1 of your second repetition, make sure your fingers are tightly closed into fists and your arms are drawn in. Inhale and tighten your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "For step 2, open your fingers and extend your arms horizontally to shoulder height. Exhale and relax your muscles as you move."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "For step 3, continue to open your fingers and extend your arms horizontally to shoulder height. Exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "For step 4, ensure your arms are extended horizontally to shoulder height. Keep exhaling and relaxing your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "For step 5, maintain the open fingers and horizontal arm extension. Continue to exhale and relax your muscles."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! Remember to keep your fingers tightly closed into fists when drawing your arms in, and fully open them as you extend. Focus on inhaling and tightening muscles on the way in, and exhaling and relaxing on the way out.",
+  "letter_grade": "A"
+}

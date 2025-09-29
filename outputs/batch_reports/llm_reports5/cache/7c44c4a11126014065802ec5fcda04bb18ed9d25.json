@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position. Ensure your arm is stretched straight overhead and you feel that gentle resistance."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! Keep that arm extended overhead. Now, focus on opening your palm and fingers wide."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great work opening your hand wide. Remember to inhale as you make a fist and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Nicely done! As you exhale, relax your muscles and open your hand. Visualize the fluid moving."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start on your second repetition. Keep that arm straight overhead and feel the stretch."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent! Continue holding your arm overhead. Now, open your palm and fingers wide."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great job opening your hand. Remember to inhale as you make a fist and engage your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Perfect! Exhale and relax your hand, visualizing the lymph flow. You're doing great!"
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the overhead pumping exercise! Remember to keep your arm straight overhead and feel the resistance. Focus on opening your hand wide and then making a fist while inhaling, followed by relaxing and opening your hand while exhaling.",
+  "letter_grade": "A"
+}

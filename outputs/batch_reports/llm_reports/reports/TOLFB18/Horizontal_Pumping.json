@@ -1,0 +1,38 @@
+{
+  "patient_id": "TOLFB18",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension was mostly smooth, inconsistent fist clenching and wrist movements were observed. Focus on a tighter fist and smoother, more controlled arm movements.",
+      "similarity_percent": 55.6
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension needs more control and smoothness.  Inconsistent muscle relaxation during exhalation was noted. Try to maintain a steady, controlled exhale as you extend your arms.",
+      "similarity_percent": 57.1
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Good effort on the arm movements, but the muscle tightening and relaxation could be more consistent. Remember to inhale deeply while tightening and exhale fully while extending.",
+      "similarity_percent": 49.6
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The arm movements were somewhat jerky. Try to maintain a smoother, more controlled motion throughout the exercise. Focus on coordinating your breath with the arm movements.",
+      "similarity_percent": 44.5
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent fist clenching and wrist movements were observed.  Focus on a tighter fist and smoother, more controlled arm movements. Remember to breathe deeply and consistently.",
+      "similarity_percent": 50.3
+    }
+  ],
+  "exercise_summary": "You made a good attempt at the Horizontal Pumping exercise.  Remember to clench your fists tightly and extend your arms smoothly to shoulder height.  Focus on coordinating your breathing with the arm movements for better results.",
+  "letter_grade": "C"
+}

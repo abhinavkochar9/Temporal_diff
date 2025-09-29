@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job keeping your arm overhead. Try to keep your elbow a little straighter and your wrist less bent to feel the full resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! You're making a good fist while inhaling. Focus on keeping that arm extended overhead and your wrist straight as you tighten your muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great job opening your hand and relaxing as you exhale. Remember to keep your arm extended overhead and visualize the fluid moving."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Fantastic! You're effectively opening your hand and relaxing. Continue to keep your arm overhead and your wrist straight during this phase."
+    }
+  ],
+  "exercise_summary": "You're doing well with the overhead pumping exercise! Keep your arm straight overhead and focus on making a tight fist as you breathe in. Then, open your hand wide as you breathe out.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

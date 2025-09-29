@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your initial positioning is good. Try to engage your whole body muscles more firmly during the inhale, as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You are doing well with placing hands on your abdomen. Focus on a slower, more controlled exhale while consciously relaxing your muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Good job with the inhale and muscle tightening. For the exhale, really visualize pushing the fluid out as you relax your body."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're getting the hang of it! Continue to focus on the visualization of fluid movement during both inhale and exhale for best results."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the deep breathing exercise! Remember to tighten your whole body muscles as you inhale and visualize fluid moving to your chest. Then, relax your muscles as you exhale, imagining pushing fluid away.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

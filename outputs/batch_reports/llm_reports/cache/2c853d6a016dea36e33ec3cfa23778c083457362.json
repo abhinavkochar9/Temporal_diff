@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the left side shows good form, the right wrist and elbow show inconsistent tightening during inhalation. Try to engage all muscles evenly on both sides."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Hand placement on the abdomen is important for visualization. Focus on feeling your abdomen rise and fall with each breath.  Right wrist shows inconsistent engagement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Inhale deeply through your nose, visualizing the fluid moving upwards.  The right wrist and elbow show inconsistent tightening. Try to maintain consistent muscle engagement throughout the breath."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "As you exhale, visualize pushing the fluid downwards.  The right wrist shows inconsistent engagement. Focus on relaxing your muscles completely during exhalation."
+    }
+  ],
+  "exercise_summary": "You're learning deep breathing exercises to help with lymphatic drainage. Remember to tighten all your muscles while inhaling and relax them while exhaling. Focus on consistent muscle engagement and visualization throughout each repetition.  Let's work on improving the consistency of your muscle engagement.",
+  "letter_grade": "C"
+}

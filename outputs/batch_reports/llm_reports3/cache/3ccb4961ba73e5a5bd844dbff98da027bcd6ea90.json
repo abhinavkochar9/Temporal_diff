@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job initiating the movement by squeezing your shoulder blades back and down. Try to keep your wrists a little closer to your body for better form."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent control in this step! Your shoulder blade movement is smooth and controlled. Keep up the great work."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with the repetitions. Focus on maintaining a consistent circular motion and try to keep your wrists from drifting too far away."
+    }
+  ],
+  "exercise_summary": "You're doing great with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to keep your wrists closer to your body for better control.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

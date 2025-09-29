@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to tighten your whole body during inhalation, the significant increase in MAE (Mean Absolute Error) from rep 1 to rep 2 in the wrists and elbows suggests inconsistent muscle engagement. Focus on maintaining consistent tension throughout your body during each breath."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values show some improvement from rep 1 to rep 2, but the overall values are still relatively high, especially in the elbows and wrists. Ensure you're placing your hands correctly on your abdomen and focusing on abdominal breathing."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for the wrists are high, indicating inconsistent muscle engagement during the visualization of fluid movement to your chest. Try to visualize the movement more clearly and maintain consistent muscle tension."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values, particularly in the left elbow and wrists, increased from rep 1 to rep 2.  Concentrate on relaxing your muscles completely during exhalation and visualize the fluid pushing out effectively."
+    }
+  ],
+  "exercise_summary": "You attempted deep breathing exercises to stimulate lymphatic drainage.  Focus on consistent muscle engagement during inhalation and complete relaxation during exhalation.  Pay close attention to maintaining even tension throughout your body, especially in your arms and wrists.",
+  "letter_grade": "C"
+}

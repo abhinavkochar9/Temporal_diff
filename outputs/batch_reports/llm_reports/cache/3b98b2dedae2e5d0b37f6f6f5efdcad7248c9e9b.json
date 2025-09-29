@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a straight arm overhead in both repetitions.  Ensure you fully extend your arm to maximize the pump."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You successfully stretched your arm overhead.  Focus on fully opening your palm and fingers to enhance lymph flow."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you opened your hand, ensure a wider opening and a more complete relaxation during exhalation.  Visualize the fluid moving with each exhale."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "In the second repetition, the wrist movement needs more controlled tightening and relaxation.  Remember to coordinate your fist-making with inhalation and hand opening with exhalation."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and arm extension during the overhead pumping exercise.  However, there's room for improvement in fully opening the hand and coordinating breathing with the fist-making and hand-opening actions.  Focusing on complete relaxation during exhalation and visualizing lymph flow will enhance the exercise's effectiveness.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to extend your arm overhead, the significant movement detected in your right elbow and wrist suggests you may not have kept them fully straight. Try to maintain a straight line from your shoulder to your fingertips."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The measurements show some inconsistencies in maintaining a straight arm overhead. Focus on keeping your arm straight and still throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Your right elbow and wrist show excessive movement.  Concentrate on opening and closing your hand only, keeping your arm as still as possible."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The large amount of movement in your right wrist during the fist-making and opening suggests you need to focus on isolating the hand movement and minimizing arm movement.  Try to only move your hand and fingers."
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but there's room for improvement. Focus on keeping your arm straight and still while only moving your hand and fingers.  Remember to inhale when making a fist and exhale when opening your hand.  Let's work on improving your form next time.",
+  "letter_grade": "C"
+}

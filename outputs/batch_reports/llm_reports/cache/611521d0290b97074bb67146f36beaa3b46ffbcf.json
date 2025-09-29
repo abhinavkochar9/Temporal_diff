@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, focus on keeping your wrists closer to your body as you bring your arms in. Try to minimize the distance your wrists move away from your chest."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, aim to extend your arms more directly horizontally. Pay attention to keeping your wrists closer to your body as you open your hands and relax."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, ensure your arms extend straight out to shoulder height. Try to keep your wrists from drifting too far away from your body as you relax."
+    },
+    {
+      "step_index": 4,
+      "feedback": "In step 4, focus on a smooth, controlled outward movement. Keep your wrists from moving too far away from your body as you extend your arms."
+    },
+    {
+      "step_index": 5,
+      "feedback": "For step 5, concentrate on keeping your wrists closer to your body. Aim for a more controlled outward movement and avoid excessive wrist extension."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the arm movements! Try to keep your wrists closer to your body during the outward extension and relaxation phases. This will help make the exercise more effective.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

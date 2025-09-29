@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You extended your arm overhead well and opened your hand wide.  The fist and open hand movements were smooth."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job keeping your arm overhead. Focus on fully opening your palm and fingers to maximize the pumping action."
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "You're doing a great job coordinating your breathing with the hand movements. Keep visualizing the fluid moving."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "While you made a good attempt at the fist, try to fully clench your fist and tighten your arm muscles more during inhalation.  This will improve the pumping action."
+    }
+  ],
+  "exercise_summary": "You performed the overhead pumping exercise well, coordinating breathing with hand movements.  Focus on fully clenching your fist and tightening your arm muscles for a more effective pump. Remember to visualize fluid moving out of your arm with each repetition.",
+  "letter_grade": "B"
+}

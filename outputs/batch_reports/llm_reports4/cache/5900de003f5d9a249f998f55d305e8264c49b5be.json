@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed and focus on the circular motion."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done. Try to bring your shoulder blades together as you roll them back and down."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job completing the first set! Remember to breathe deeply as you roll your shoulders back."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Excellent second set beginning. Focus on a smooth, controlled movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're doing well. Ensure the motion is a full circle, not just up and down."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic finish! You've successfully completed the shoulder rolls, improving mobility and lymphatic flow."
+    }
+  ],
+  "exercise_summary": "You did a great job with the shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Breathing deeply while rolling back helps improve oxygen flow. Keep up the excellent work on regaining shoulder mobility!",
+  "letter_grade": "A"
+}

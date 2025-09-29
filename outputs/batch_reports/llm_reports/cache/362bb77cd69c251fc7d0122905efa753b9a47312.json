@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the initial attempt showed good form, the second repetition had significant deviations, particularly in the right wrist and elbow. Focus on maintaining consistent, controlled movements throughout the exercise."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions showed inconsistencies in elbow and wrist extension. Ensure a smooth, controlled extension of your arms to shoulder height, maintaining a straight line from shoulder to wrist."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition showed a significant increase in error, especially in the left elbow and wrist.  Maintain a steady, controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions showed significant deviations, particularly in the right wrist. Focus on maintaining a controlled movement and avoid jerky motions."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition showed very large deviations in both wrists.  Concentrate on smoother, more controlled arm movements."
+    }
+  ],
+  "exercise_summary": "You almost got the hang of horizontal pumping! Remember to keep your arm movements smooth and controlled, extending to shoulder height and maintaining a straight line from shoulder to wrist.  Focus on consistent muscle engagement and relaxation during each repetition.",
+  "letter_grade": "C"
+}

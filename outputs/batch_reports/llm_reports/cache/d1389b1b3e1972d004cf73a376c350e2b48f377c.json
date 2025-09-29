@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining relatively consistent muscle tension across both sides of your body during inhalation in step 1.  Remember to visualize the fluid moving towards your chest as you inhale."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You successfully placed your hands on your abdomen.  Focus on maintaining a comfortable posture throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the inhalation technique shows improvement, ensure consistent and full body muscle engagement during inhalation in step 3. The visualization of fluid movement to the chest is key; try to focus on that more intently."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The relaxation during exhalation in step 4 needs more attention.  Focus on completely relaxing your muscles as you exhale and visualize pushing the fluid out.  The higher MAE values in the wrists suggest inconsistent relaxation."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and hand placement. Inhalation technique showed improvement, but needs more consistent full body muscle engagement. Exhalation needs more focus on complete muscle relaxation. Visualization techniques should be practiced more consistently.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,38 @@
+{
+  "patient_id": "TOLFB24",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension was mostly smooth, focus on maintaining tighter fists during the inhale and muscle tightening phase.  The wrist movements show some inconsistency; try to keep them more controlled.",
+      "similarity_percent": 66.2
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Good effort on extending arms horizontally. However, ensure a smoother transition between inhaling and exhaling.  The elbow movements need more control and consistency.",
+      "similarity_percent": 65.1
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The arm movements are improving, but the muscle tightening and relaxation could be more pronounced. Pay attention to the coordination between your breathing and arm movements.",
+      "similarity_percent": 78.5
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The exercise is getting better, but the consistency of the wrist movements needs improvement.  Try to keep your wrists more stable during the entire exercise.",
+      "similarity_percent": 65.4
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetition shows significant inconsistencies. Focus on controlled movements and smoother transitions between steps.  The large variation in wrist movement needs attention.",
+      "similarity_percent": 22.7
+    }
+  ],
+  "exercise_summary": "You're making progress with the horizontal pumping exercise! Remember to keep your fists tight when drawing your arms in, and focus on smooth, controlled movements throughout.  Pay close attention to your wrist and elbow movements for better consistency.",
+  "letter_grade": "C"
+}

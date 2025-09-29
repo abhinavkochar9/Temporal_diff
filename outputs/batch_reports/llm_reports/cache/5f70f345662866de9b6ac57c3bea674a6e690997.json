@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the right arm shows good form in both repetitions, the left arm demonstrates inconsistent fist closure and extension.  Focus on maintaining a tighter fist during the inhale and a more complete extension during the exhale on the left side. The left wrist shows particularly high MAE, indicating a need for more controlled movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions show high MAE values in the elbows, suggesting that the horizontal extension isn't smooth and controlled.  Concentrate on maintaining a steady, controlled movement throughout the arm's range of motion. Ensure that the arms are extending fully to shoulder height."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The left elbow shows improvement in the second repetition, but the right elbow still shows high MAE.  Maintain consistent muscle engagement and controlled movement throughout the exercise.  Pay close attention to the right elbow's movement."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions show high MAE in the elbows and inconsistent wrist movement.  Focus on smoother transitions between the fist closure and arm extension.  Aim for a more controlled and consistent movement pattern in both arms."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist shows high MAE in both repetitions, indicating a need for more controlled movement.  Ensure that the wrists are relaxed but not flailing during the exercise.  Focus on maintaining a consistent pace and controlled movement throughout the entire exercise."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Horizontal Pumping exercise.  While some repetitions showed good form in certain areas, overall control and consistency were lacking, particularly in the elbows and wrists.  The patient needs to focus on maintaining a tighter fist during the inhale phase, smoother transitions between arm positions, and more controlled movements throughout the entire range of motion.  Improved muscle engagement and controlled breathing will enhance the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

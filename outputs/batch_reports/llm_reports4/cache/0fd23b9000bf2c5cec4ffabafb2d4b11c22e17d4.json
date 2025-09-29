@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your fingers closed into fists and draw your arms in front of your chest. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You opened your fingers and extended your arms well. Try to relax your muscles more as you exhale and extend."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Continue opening your fingers and extending arms to shoulder height. Focus on a relaxed exhale. Your wrist position is a bit far out."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Keep up the good work. Ensure your arms are extending horizontally to shoulder height and exhale fully. Your wrists are extending quite far."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You're doing great! Remember to close your fists and draw arms in again, inhaling and tightening muscles. Your wrists are coming back nicely."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep! Keep those fists closed and arms in front, inhaling and tightening. Your shoulders are a bit further out than before."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good job opening fingers and extending arms. Focus on a relaxed exhale. Your elbows are a little further out this time."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Continue opening fingers and extending arms to shoulder height. Exhale and relax. Your wrists are extending a bit too far again."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Almost there! Keep arms horizontal to shoulder height and exhale fully. Your wrists are extending quite far, try to keep them more neutral."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Great finish! You closed your fists and brought your arms in, inhaling and tightening. Your wrists are returning well."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the Horizontal Pumping exercise! Remember to focus on tightening muscles and inhaling as you bring your arms in, then relaxing and exhaling as you extend them out. Keep your wrists more neutral during the extension phase.",
+  "letter_grade": "B"
+}

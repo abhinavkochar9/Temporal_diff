@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm was mostly overhead, ensure your palm and fingers are fully open and spread wide in step 3 for optimal lymph flow.  The MAE values for the right wrist show some inconsistency across repetitions, suggesting you may not be fully extending your hand."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm needs to remain fully extended overhead throughout the exercise.  The MAE values suggest some inconsistencies in shoulder and elbow positioning, indicating that the arm may not be fully extended overhead as instructed."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Focus on fully opening your hand while exhaling and relaxing your muscles.  The MAE values show some variability in wrist extension, indicating that you may not be fully opening your hand as instructed."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The fist should be made while inhaling and tightening your muscles.  The MAE values suggest some inconsistencies in the hand and elbow positions, indicating that you may not be fully making a fist or tightening your muscles as instructed.  Remember to visualize fluid being pumped out of your affected arm."
+    }
+  ],
+  "exercise_summary": "The Overhead Pumping exercise showed inconsistencies in maintaining proper form throughout the steps.  The patient needs to focus on fully extending the arm overhead, completely opening and closing the hand, and coordinating breathing with muscle tension.  Improved consistency in hand and arm positioning is crucial for effective lymph flow.",
+  "letter_grade": "C"
+}

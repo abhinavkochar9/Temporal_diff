@@ -1,0 +1,36 @@
+{
+  "patient_id": "TOLFB09",
+  "exercise": "Deep_Breathing",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You performed the inhalation step well, maintaining a relatively consistent posture.  Focus on even deeper breaths to maximize lymphatic stimulation.",
+      "similarity_percent": 83.5,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job placing your hands on your abdomen! Remember to visualize the fluid moving towards your chest as you inhale.",
+      "similarity_percent": 95.0,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While your inhalation was good, try tightening your whole body muscles more during inhalation.  Visualizing the fluid movement will help.",
+      "similarity_percent": 74.2,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The exhale needs more focus on relaxing your muscles completely and visualizing the fluid being pushed out. Try a slower, more controlled exhale.",
+      "similarity_percent": 91.7,
+      "rep": 2
+    }
+  ],
+  "exercise_summary": "You did a good job with the deep breathing exercise. Remember to fully tighten your muscles during inhalation and completely relax during exhalation, visualizing fluid movement in both phases.  Focus on slow, controlled breathing for best results.",
+  "letter_grade": "B"
+}

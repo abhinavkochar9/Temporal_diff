@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, ensure your fists are closed and arms are drawn in front of your chest. Try to keep your shoulders and elbows more stable."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, when opening your fingers and extending arms, focus on a smooth outward motion. Aim for greater consistency in shoulder and elbow positioning."
+    },
+    {
+      "step_index": 3,
+      "feedback": "During step 3, continue to open your fingers and extend your arms. Work on keeping your shoulders and elbows steady as you exhale and relax."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, as you extend your arms, try to maintain a consistent shoulder height and elbow position. Focus on relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 5,
+      "feedback": "In step 5, when opening your fingers and extending arms, aim for a more controlled movement. Keep your shoulders and elbows steady and relax your muscles."
+    }
+  ],
+  "exercise_summary": "You did a good job with the Horizontal Pumping exercise! Remember to keep your fists tight and arms close when you inhale, then open your fingers and extend your arms as you exhale. Focus on keeping your shoulders and elbows steady throughout.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

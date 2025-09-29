@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You did a good job stretching your arm overhead. Try to keep your elbow a little straighter next time for maximum resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your fist was mostly tight, but try to really squeeze your muscles as you inhale. Keep that elbow straight!"
+    },
+    {
+      "step_index": 3,
+      "feedback": "Good job opening your hand and relaxing as you exhale. Remember to visualize the fluid moving out with each pump."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent! You're really getting the hang of opening your hand wide and relaxing. Keep up the great work visualizing the fluid flow."
+    }
+  ],
+  "exercise_summary": "You're doing great with the overhead pumping! Focus on keeping your arm straight and squeezing your muscles tightly when you make a fist. Remember to relax fully as you open your hand to help move fluid.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

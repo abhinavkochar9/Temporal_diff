@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job placing hands on your abdomen. Try to tighten your whole body muscles a bit more during the inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Well done relaxing your muscles as you exhale. Keep focusing on that visualization of pushing fluid out."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent inhale with muscle tightening. Continue to visualize the fluid moving towards your chest."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Great exhale and muscle relaxation. Keep up the visualization of pushing fluid out."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with deep breathing! Remember to tighten your whole body muscles as you inhale and relax them as you exhale. Keep visualizing the fluid movement to help with lymphatic drainage.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulder movement is good, but try to bring your shoulder blades back and down a bit more smoothly. Focus on the circular motion."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing a great job squeezing your shoulder blades back. For the downward part of the roll, try to relax your shoulders down more deliberately."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent! You're completing the circular motion well. Remember to inhale deeply as you roll your shoulders back to maximize the benefit."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Keep focusing on the circular motion and squeezing your shoulder blades back. Remember to breathe deeply as you roll your shoulders back.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

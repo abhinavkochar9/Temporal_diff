@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job bringing your arms in front of your chest and tightening your muscles. Keep your fists closed for this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent work opening your fingers and extending your arms horizontally. Remember to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing great with the outward arm movement and muscle relaxation. Focus on a smooth exhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good job maintaining shoulder height with your arm extension. Continue to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're performing the exercise well. Ensure your wrists remain open and relaxed during the outward movement."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to keep your fists tight when bringing your arms in and relax as you extend them outwards. This helps with lymph drainage.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

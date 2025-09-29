@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job starting with fists closed and arms drawn in. Try to keep your shoulders and elbows a bit more stable in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your fingers and extending your arms well. Focus on keeping your elbows straighter as you extend them outwards."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent work opening your fingers and relaxing. Aim for a more consistent muscle relaxation throughout this step."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good extension of your arms. Try to maintain a steady shoulder height and ensure your wrists are relaxed as you extend."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're doing great with the outward movement. Focus on keeping your wrists relaxed and aligned with your forearms as you complete the movement."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the horizontal pumping exercise. Remember to keep your fists tight when bringing your arms in, and then relax as you extend them outwards. Focus on smooth, controlled movements.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

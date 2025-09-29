@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job squeezing your shoulder blades together!  Try to keep your elbows closer to your body for better form."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to make a circular motion with your shoulders.  Focus on a smoother, controlled movement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Your shoulder movement is a bit jerky. Try to maintain a slow, controlled circular motion throughout the exercise. Remember to breathe deeply."
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise.  Remember to keep your elbows close to your body and maintain a smooth circular motion.  Deep breathing will help improve the exercise's effectiveness.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movement shows minimal error, the right elbow and wrist exhibit significant deviations from the ideal posture.  Ensure your right arm is fully extended overhead and maintain a straight line from shoulder to wrist.  Focus on controlled movements and avoid excessive bending or flexing."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The right elbow and wrist show considerable deviation from the ideal posture.  Maintain a straight arm overhead; avoid bending at the elbow.  The palm should be fully open and fingers spread wide."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to previous steps, the right elbow and wrist show substantial deviations.  Concentrate on keeping your right arm straight overhead and your hand fully open.  Visualize the fluid being pumped out of your affected arm."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent performance. The first repetition shows significant deviation in the right elbow and wrist, while the second repetition shows improvement but still needs refinement.  Maintain a consistent, controlled movement throughout the exercise.  Remember to inhale while making a fist and exhale while opening your hand."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Overhead Pumping exercise.  Significant deviations were observed in the right elbow and wrist, indicating a need for improved posture and control.  The patient needs to focus on maintaining a straight arm overhead and fully opening their hand during each repetition.  Consistent breathing and visualization techniques should also be practiced.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your arm overhead. Try to keep your elbow straighter for maximum resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your fist was tight, but try to open your hand wider and extend your fingers more."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing great with the fist and tightening your muscles. Focus on a wider hand opening during the exhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent! Your hand opening and muscle relaxation were very good this time. Keep up the great work."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the overhead pumping exercise. Remember to stretch your arm fully overhead and make a tight fist while breathing in. Then, open your hand wide as you breathe out.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

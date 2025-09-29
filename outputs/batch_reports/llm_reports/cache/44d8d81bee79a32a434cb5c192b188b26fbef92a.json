@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension was mostly smooth, inconsistent fist clenching and wrist movements were observed. Focus on a tighter fist and smoother arm movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension needs more control; it was jerky and inconsistent.  Try to maintain a steady, controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The transition between steps 2 and 3 needs more fluidity.  Try to coordinate your breathing and muscle tension more effectively."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The arm movements were inconsistent in this step.  Focus on maintaining a consistent rhythm and range of motion."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetitions showed significant inconsistencies in both arm and wrist movements.  Try to maintain a smoother, more controlled movement throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You almost got the hang of horizontal pumping! Remember to clench your fists tightly, extend your arms smoothly to shoulder height, and coordinate your breathing with the movements.  Focus on consistent, controlled movements throughout all repetitions.",
+  "letter_grade": "C"
+}

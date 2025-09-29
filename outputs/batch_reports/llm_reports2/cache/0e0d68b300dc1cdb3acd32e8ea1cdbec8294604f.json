@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job initiating the movement by squeezing your shoulder blades back and down. Try to keep your wrists and elbows a bit more stable as you roll."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with the shoulder blade movement. Focus on keeping your wrists and elbows from moving too much during the roll."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent! You're maintaining good shoulder blade control. Continue to minimize wrist and elbow movement for optimal form."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the shoulder rolls! Remember to gently squeeze your shoulder blades back and down. Try to keep your wrists and elbows steady to focus the movement on your shoulders.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

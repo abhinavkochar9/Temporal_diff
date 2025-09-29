@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your arm overhead. Try to straighten your arm a bit more and feel that gentle resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arm was mostly overhead. Focus on a full stretch and feeling the resistance throughout the movement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You opened your hand well. For the next reps, really focus on making a tight fist and squeezing your muscles as you inhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You opened your hand nicely. Try to relax your muscles more fully as you exhale to maximize the pumping action."
+    }
+  ],
+  "exercise_summary": "You're doing great with the overhead arm movements! Remember to stretch your arm fully overhead and make a tight fist when you breathe in. Then, relax your hand and muscles as you breathe out.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

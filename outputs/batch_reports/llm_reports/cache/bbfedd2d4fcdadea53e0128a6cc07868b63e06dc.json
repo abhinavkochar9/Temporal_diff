@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm was mostly overhead, the wrist and elbow show significant movement inconsistencies across repetitions.  Focus on keeping your arm straight and maintaining a stable posture throughout the exercise.  Try to minimize unnecessary movement in the elbow and wrist."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension overhead needs more attention.  The MAE values suggest inconsistent arm positioning. Ensure your arm is fully extended overhead before proceeding to the next step.  Maintain this position throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and closing should be smooth and controlled.  The data shows some inconsistencies in wrist movement.  Focus on fully opening your hand and making a tight fist, coordinating with your breath."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The fist clenching and unclenching should be accompanied by inhaling and exhaling respectively.  The data suggests inconsistent muscle engagement.  Concentrate on coordinating your breathing with the hand movements and muscle contractions."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Overhead Pumping exercise.  Significant improvements are needed in maintaining a stable, fully extended arm overhead, and coordinating breathing with hand movements.  Focus on controlled movements and consistent posture to maximize the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

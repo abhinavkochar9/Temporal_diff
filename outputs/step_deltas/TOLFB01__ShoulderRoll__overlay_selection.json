@@ -1,0 +1,20 @@
+{
+  "rep1_step1": {
+    "subset": "RWrist"
+  },
+  "rep1_step2": {
+    "subset": "LWrist+RWrist"
+  },
+  "rep1_step3": {
+    "subset": "LWrist+RWrist"
+  },
+  "rep2_step1": {
+    "subset": "RWrist"
+  },
+  "rep2_step2": {
+    "subset": "LWrist+RWrist"
+  },
+  "rep2_step3": {
+    "subset": ""
+  }
+}

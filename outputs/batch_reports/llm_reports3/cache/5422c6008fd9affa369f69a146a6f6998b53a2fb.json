@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job initiating the movement by squeezing your shoulder blades back and down. Try to keep your elbows and wrists a bit more stable during this part of the roll."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! You're effectively bringing your shoulders forward and down. Focus on keeping your left elbow and wrists a little steadier as you complete the circle."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great job completing the circular motion! For the next repetitions, aim to keep your wrists and elbows a bit more aligned with your body to enhance the shoulder movement."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to keep your elbows and wrists steady to focus the movement on your shoulders.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

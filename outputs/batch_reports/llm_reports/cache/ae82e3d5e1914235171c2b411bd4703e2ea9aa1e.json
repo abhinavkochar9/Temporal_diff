@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movement shows good form, the elbow and wrist MAE values are high, especially in the second repetition.  Focus on maintaining a straighter arm overhead and avoid excessive bending at the elbows and wrists.  Remember to keep your palm open and fingers spread wide throughout the exercise."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for elbows and wrists remain high, indicating that the arm isn't fully extended overhead.  Concentrate on extending your arm fully before beginning the pumping action.  Ensure your arm remains straight throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to previous steps, the high MAE values for elbows and wrists suggest that the arm is not fully extended overhead.  Work on maintaining a straight arm position throughout the exercise.  Visualize the fluid being pumped out of your arm to improve focus."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent performance. The first repetition shows high MAE values, while the second shows improvement.  Maintain consistent form throughout the exercise, focusing on a straight arm and controlled movements.  The fist and open hand actions should be smooth and deliberate."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Overhead Pumping exercise.  While the shoulder movement was generally acceptable, the elbow and wrist movements showed significant deviations from the ideal straight arm position.  The patient needs to focus on maintaining a straight arm overhead and avoid bending at the elbows and wrists.  Consistent and controlled movements are crucial for effective lymph drainage.  Improved focus and visualization of fluid movement may also help.",
+  "letter_grade": "C"
+}

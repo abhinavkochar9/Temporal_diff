@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job finding a comfortable position. Keep your hands on your abdomen to feel the movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent, you're placing your hands correctly on your abdomen. This helps you feel the breath."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great inhale! Remember to gently tighten your whole body muscles as you breathe in through your nose."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done relaxing your muscles as you exhale through your mouth. Visualize pushing that fluid out."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start to your second breath. Maintain that comfortable posture and focus on your breathing."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're placing your hands well on your abdomen again. This is key for feeling the diaphragm move."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice deep inhale! Remember to engage your whole body muscles gently as you breathe in."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. Keep visualizing the fluid moving out with each breath."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale through your nose, gently tightening your whole body, and exhale through your mouth while relaxing. Keep up the good work with this exercise to help with lymphatic drainage.",
+  "letter_grade": "A"
+}

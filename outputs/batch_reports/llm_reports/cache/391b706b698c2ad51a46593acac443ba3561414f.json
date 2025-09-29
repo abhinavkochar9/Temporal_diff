@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a comfortable seated or standing posture.  Remember to focus on tightening your whole body muscles during inhalation, visualizing the fluid moving towards your chest. While the MAE values show some minor inconsistencies across reps, the overall effort demonstrates good form."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent! You successfully placed your hands on your abdomen.  Ensure you maintain this position throughout the exercise to better monitor your breathing and abdominal muscle engagement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the inhalation technique shows improvement, focus on a slower, more controlled inhale through your nose.  Visualizing the fluid movement will help coordinate your breathing with muscle tightening. The MAE values suggest some inconsistency in muscle engagement; strive for more consistent whole-body tightening."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The exhale needs more attention.  Concentrate on a slow, controlled exhale through your mouth while relaxing your muscles.  Visualize pushing the fluid out. The MAE data indicates some inconsistencies in muscle relaxation between reps; aim for a more complete relaxation during exhalation."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and hand placement. Inhalation showed good form in the first two steps, but needs more controlled breathing and consistent muscle engagement. Exhalation needs improvement, focusing on slow, controlled release and complete muscle relaxation.  Overall, the exercise needs more focus on visualization and consistent muscle control throughout each breath.",
+  "letter_grade": "B"
+}

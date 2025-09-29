@@ -1,0 +1,32 @@
+{
+  "patient_id": "TOLFB25",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job extending your arm overhead and opening your hand wide.  The slight inconsistencies in wrist movement between repetitions could be improved by focusing on maintaining a consistent hand position.",
+      "similarity_percent": 60.7
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You're doing well getting your arm overhead.  Try to keep your elbow straighter to maximize the stretch and pump.",
+      "similarity_percent": 44.0
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to open your palm fully in step 3. The data shows some inconsistency in your hand opening. Focus on widening your fingers and palm completely.",
+      "similarity_percent": 44.9
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition shows significant deviation in wrist and elbow movement.  Try to maintain a controlled, smooth movement throughout the exercise.  Focus on inhaling as you make a fist and exhaling as you open your hand.",
+      "similarity_percent": 0.0
+    }
+  ],
+  "exercise_summary": "You showed good arm extension and hand opening in most steps of the overhead pumping exercise.  Focus on maintaining consistent hand and elbow positioning throughout each repetition and ensure a complete hand opening and closing. Remember to breathe deeply, inhaling during the fist and exhaling as you open your hand.",
+  "letter_grade": "B"
+}

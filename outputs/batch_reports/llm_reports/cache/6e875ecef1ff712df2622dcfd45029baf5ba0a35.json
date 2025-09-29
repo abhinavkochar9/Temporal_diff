@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm was mostly overhead, the wrist and elbow show significant deviations from the ideal straight line in both repetitions.  Focus on maintaining a straight arm throughout the exercise, keeping your palm open and fingers extended.  Try to reduce the movement in the elbow and wrist."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm position needs more attention.  The elbow and wrist show considerable deviations from the straight overhead position.  Concentrate on keeping your arm fully extended overhead, maintaining a straight line from shoulder to fingertips."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The hand opening and closing needs more emphasis.  While the arm position is slightly better than previous steps, the wrist still shows some deviation.  Focus on fully opening your palm and making a tight fist, visualizing the pumping action."
+    },
+    {
+      "step_index": 4,
+      "verdict": "good",
+      "feedback": "The second repetition in this step shows good form with minimal deviation in the wrist and elbow.  Maintain this level of control and straight arm position throughout the exercise.  Remember to inhale while making a fist and exhale while opening your hand."
+    }
+  ],
+  "exercise_summary": "The exercise showed inconsistent form. While the final step demonstrated good control, the initial steps revealed significant deviations from the ideal straight arm position, particularly in the elbow and wrist.  Focus on maintaining a straight arm overhead and fully opening and closing the hand with each repetition.  Consistent practice will improve form and maximize the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

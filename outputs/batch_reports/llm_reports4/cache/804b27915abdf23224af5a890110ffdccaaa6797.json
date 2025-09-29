@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job sitting comfortably. Try to keep your shoulders and elbows a bit more stable as you prepare to inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Focus on keeping your shoulders and elbows steady during this step."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're inhaling through your nose and tightening your muscles. Keep your elbows and wrists stable as you visualize fluid moving."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great exhale and relaxation. Try to keep your wrists a little steadier as you visualize pushing fluid out."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "You're starting the second rep comfortably. Keep your shoulders and elbows stable as you prepare to inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Hands are well-placed on your abdomen. Continue to focus on keeping your shoulders and elbows steady."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Well done inhaling and tightening your muscles. Keep your elbows and wrists stable while visualizing the fluid movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. Aim for steadier wrists as you visualize pushing fluid out to complete the exercise."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to keep your whole body muscles tight when inhaling and relax them when exhaling. Focus on keeping your wrists steady throughout to maximize the lymphatic pumping action.",
+  "letter_grade": "B"
+}

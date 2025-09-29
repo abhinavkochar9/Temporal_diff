@@ -3,30 +3,30 @@
     "subset": "LWrist"
   },
   "rep1_step2": {
-    "subset": "LElbow+RElbow"
+    "subset": ""
   },
   "rep1_step3": {
-    "subset": "LElbow+LWrist"
+    "subset": ""
   },
   "rep1_step4": {
-    "subset": "LElbow+LWrist"
+    "subset": ""
   },
   "rep1_step5": {
-    "subset": "RElbow+RWrist"
+    "subset": ""
   },
   "rep2_step1": {
-    "subset": "LWrist+RWrist"
+    "subset": ""
   },
   "rep2_step2": {
-    "subset": "LWrist+RElbow"
+    "subset": ""
   },
   "rep2_step3": {
-    "subset": "LElbow+LWrist"
+    "subset": ""
   },
   "rep2_step4": {
-    "subset": "LWrist+RWrist"
+    "subset": ""
   },
   "rep2_step5": {
-    "subset": "LWrist+RWrist"
+    "subset": ""
   }
 }

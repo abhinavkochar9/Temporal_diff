@@ -1,0 +1,32 @@
+{
+  "patient_id": "TOLFB20",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job stretching your arm overhead and opening your hand wide.  The slight inconsistencies in shoulder and elbow positioning across repetitions are minor and easily corrected with practice.",
+      "similarity_percent": 80.6
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You're doing well extending your arm overhead. Focus on keeping your arm straight and maintaining a consistent posture throughout the exercise.",
+      "similarity_percent": 72.7
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you're making a fist and opening your hand, try to make the movements smoother and more controlled.  Focus on the full range of motion in your hand and wrist.",
+      "similarity_percent": 51.9
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in the wrist suggest you need to relax your hand and wrist more fully during the exhalation phase.  Try to visualize the fluid flowing out as you open your hand.",
+      "similarity_percent": 0.0
+    }
+  ],
+  "exercise_summary": "You performed the overhead pumping exercise well, showing good arm extension and hand opening.  Focus on smoother transitions between fist and open hand, and ensure complete relaxation during exhalation to improve fluid flow. Remember to visualize the fluid moving.",
+  "letter_grade": "B"
+}

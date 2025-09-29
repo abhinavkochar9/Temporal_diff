@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your first repetition was a bit shaky, especially in your wrists. Focus on keeping your shoulders the main movers. The second repetition was much better, showing good control."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing a great job squeezing your shoulder blades back and down. Try to make the circular motion smoother, especially as you bring your shoulders forward. Keep up the good work!"
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your shoulder blade movement is excellent! For the final repetitions, try to coordinate this with a deep inhale as you pull back, as suggested in the tip, to maximize the benefit."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to inhale deeply as you pull back to help your breathing and oxygen flow.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

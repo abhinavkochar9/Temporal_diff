@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position. Keep your hands on your abdomen to feel the movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Great job placing your hands on your abdomen. This helps you feel the breath."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent inhale through your nose! Try to tighten your whole body muscles a bit more as you breathe in."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done relaxing your muscles as you exhale through your mouth. Remember to visualize pushing fluid out."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second repetition. Remember to maintain a comfortable posture."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're doing great with hand placement on your abdomen. This is key for feeling the breath."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice slow inhale through your nose. Focus on engaging your entire body muscles as you fill your lungs."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and muscle relaxation. Keep visualizing that fluid moving out with each breath."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale slowly through your nose while tightening your body, and exhale through your mouth while relaxing. Keep up the good work with your lymphatic exercises!",
+  "letter_grade": "A-"
+}

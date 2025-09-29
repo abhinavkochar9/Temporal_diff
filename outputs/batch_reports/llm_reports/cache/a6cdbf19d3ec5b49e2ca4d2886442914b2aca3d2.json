@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm reached overhead in step 1 (stretching the arm overhead), the significant MAE values in the right elbow and wrist (0.12-0.37) during both repetitions suggest the arm wasn't fully extended.  Focus on straightening your arm completely before making a fist. Ensure your palm and fingers are fully open before each fist clench."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in the right elbow and wrist (0.18-0.41) during step 2 (opening and closing the hand) indicate inconsistent hand opening and closing.  Concentrate on fully opening your hand while exhaling and relaxing your muscles. Visualize the fluid moving with each pump."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 (open palm and fingers wide) shows inconsistencies. The MAE values in the right wrist (0.32-0.37) suggest the hand wasn't fully open. Ensure your palm and fingers are fully spread before each fist clench."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "In step 4 (make a fist while inhaling), the first repetition shows high MAE values in the right elbow and wrist, indicating incomplete fist clenching. The second repetition shows improvement, but consistency is key. Focus on a complete fist clench with each inhalation."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Overhead Pumping exercise.  While attempts were made to follow the instructions, significant deviations were observed in maintaining a fully extended arm and fully opening/closing the hand.  Improved focus on fully extending the arm, completely opening the hand, and fully clenching the fist is needed for optimal results.  Visualizing fluid movement during the exercise may aid in improving form and consistency.",
+  "letter_grade": "C"
+}

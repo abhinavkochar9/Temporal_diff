@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists clenched and arms drawn in. Remember to inhale and tighten your muscles during this step."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! You opened your fingers and extended your arms. Make sure to exhale and relax your muscles as you do this."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Well done on maintaining the horizontal arm extension. Keep those fingers open and continue to exhale and relax."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Good continuation of the arm extension. Focus on keeping the movement smooth and controlled."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Great job completing the first repetition! Remember to bring your arms back in and clench your fists for the next step."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, step one: fists clenched, arms in. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Second rep, step two: fingers open, arms extended. Exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Second rep, step three: continuing the outward movement. Keep your fingers open and exhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Second rep, step four: maintaining the horizontal extension. Focus on smooth, controlled movements."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic! You've completed both repetitions. You did a great job following the instructions for opening fingers and extending arms."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! Remember to focus on clenching your fists and inhaling during the inward movement, then opening your fingers and exhaling as you extend your arms horizontally. Keep up the good work!",
+  "letter_grade": "A"
+}

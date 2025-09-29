@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your shoulders and elbows closer to the target positions."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "For step 2, focus on aligning your shoulders and elbows more closely with the desired movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job on step 3! Your shoulder and elbow positions are very close to the target."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent work on step 4! Your shoulders and elbows are well-aligned with the target."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "For step 5, try to bring your shoulders and elbows closer to the target positions."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Fantastic job on step 1 of your second rep! Your shoulders are almost perfectly aligned."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent on step 2! Your shoulders and elbows are very close to the target positions."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "For step 3, aim to bring your shoulders and elbows a bit closer to the target."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "For step 4, try to get your shoulders and elbows closer to the target positions."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Great job on step 5! Your shoulders and elbows are very close to the target."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Focus on keeping your shoulders and elbows aligned with the target throughout the movement, especially during the initial and final steps of each repetition. Keep up the good work!",
+  "letter_grade": "B+"
+}

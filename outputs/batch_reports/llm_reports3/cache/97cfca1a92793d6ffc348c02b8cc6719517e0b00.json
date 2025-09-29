@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your arm was mostly straight overhead, but could be a little straighter. Keep reaching up!"
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your fist was good, but try to tighten your muscles a bit more as you make the fist."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your hand was open, but try to spread your fingers wider to feel more resistance."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Your hand opened well, and your muscles relaxed nicely. Keep visualizing that fluid moving!"
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! Try to stretch your arm a bit straighter overhead and make your fist tighter. Remember to open your fingers wide and relax fully on the exhale.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

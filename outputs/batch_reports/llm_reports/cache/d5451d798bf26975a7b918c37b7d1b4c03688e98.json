@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job stretching your arm overhead.  Your palm and finger opening and closing were consistent. Remember to visualize the fluid movement during each pump."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You maintained a good overhead arm position. Focus on fully extending your arm to increase the resistance and enhance lymph flow."
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "Excellent hand opening and closing.  Ensure your arm remains fully extended throughout the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "While the fist clenching was strong, try to coordinate your breathing more effectively with the hand movements. Inhale deeply as you make a fist and exhale completely as you open your hand. This will improve the pumping action."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good overall form in the Overhead Pumping exercise.  The arm extension and hand movements were mostly consistent.  However, better coordination of breathing with the hand movements is needed to maximize the effectiveness of the exercise.  Focus on fully extending the arm and coordinating deep breaths with the pumping action.",
+  "letter_grade": "B"
+}

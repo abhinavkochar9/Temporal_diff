@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movement in rep 1 was good, the elbow and wrist deviations in both reps were significant.  Focus on keeping your arm straight overhead and maintaining a controlled movement throughout the exercise. Avoid excessive bending at the elbow and wrist."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm should remain fully extended overhead.  The MAE values for both reps show significant deviations from the ideal posture.  Concentrate on maintaining a straight arm throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The hand opening and closing should be complete.  While rep 1 showed relatively good form, rep 2 showed significant deviations, particularly in the left elbow and wrist. Ensure your palm and fingers are fully open and closed in each repetition."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in rep 2, especially in the wrists, indicate a loss of control and deviation from the instructed form.  Maintain a steady, controlled fist and hand opening while focusing on the breathing and muscle engagement.  The exercise should be performed with a smooth, controlled movement."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Overhead Pumping exercise. While some reps showed acceptable movement, others exhibited significant deviations from the ideal posture, particularly in the elbow and wrist.  The patient needs to focus on maintaining a straight arm overhead, fully opening and closing their hand, and performing the exercise with a controlled, smooth movement.  Improved concentration on maintaining proper form and breathing will improve the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

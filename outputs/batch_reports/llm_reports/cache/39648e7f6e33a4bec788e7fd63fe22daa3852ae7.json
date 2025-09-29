@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a relatively consistent posture throughout the inhalation phase. Remember to visualize the fluid moving towards your chest as you inhale."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You effectively placed your hands on your abdomen.  Focus on maintaining a comfortable and stable position to optimize breathing."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the inhalation technique shows improvement, ensure whole-body muscle tightening is consistent throughout the inhalation.  Visualizing fluid movement will help."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The relaxation during exhalation needs more focus.  Concentrate on fully relaxing your muscles and visualizing the fluid being pushed out.  Try a slower, more controlled exhale."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and hand placement during the exercise.  Inhalations showed improvement, but maintaining consistent whole-body muscle engagement needs further attention.  Exhalations require more focus on complete muscle relaxation and visualization of fluid expulsion.  The exercise could benefit from slower, more controlled breathing.",
+  "letter_grade": "B"
+}

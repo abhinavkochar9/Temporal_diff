@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your arm was mostly straight overhead, but the elbow and wrist had some movement. Try to keep your arm fully extended and feel that gentle resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arm was mostly overhead, but the elbow and wrist showed some deviation. Focus on maintaining a straight arm and a firm fist as you inhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your arm was mostly overhead, but the elbow and wrist had some movement. Remember to open your hand wide and relax as you exhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Your arm was mostly overhead, but the elbow and wrist showed some deviation. Keep your hand open and relaxed as you exhale."
+    }
+  ],
+  "exercise_summary": "You did a good job stretching your arm overhead and making a fist. Try to keep your arm straighter and your hand movements more controlled during the exercise.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

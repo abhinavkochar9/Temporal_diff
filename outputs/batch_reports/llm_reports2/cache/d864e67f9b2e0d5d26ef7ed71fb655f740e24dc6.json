@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulder movements are generally good, with some minor variations in the left shoulder. Try to keep your shoulders moving smoothly in a circular motion."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing a great job with the shoulder rolls! The movements are quite consistent between repetitions, especially in your right shoulder. Keep up the good form."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your right shoulder movement is excellent here. For the left shoulder, aim for a slightly more consistent backward and downward motion to match the right side."
+    }
+  ],
+  "exercise_summary": "You're doing well with your shoulder rolls! Focus on making each roll a smooth circle, squeezing your shoulder blades back and down. Remember to breathe deeply as you pull your shoulders back to help with lymphatic flow.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

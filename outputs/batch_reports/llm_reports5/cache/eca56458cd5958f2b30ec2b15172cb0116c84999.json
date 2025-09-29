@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great job starting in a comfortable position! Keep your hands on your abdomen as instructed."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent, you're maintaining the correct hand placement. Ready for the inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Good inhale with muscle tightening. Remember to visualize fluid moving to your chest as you breathe in."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done relaxing your muscles on the exhale. Visualize pushing fluid out as you release the breath."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, starting strong and comfortable. Hands are well-placed on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good. You're maintaining hand position. Prepare for the next inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice inhale and muscle engagement. Keep visualizing that fluid movement towards your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and muscle relaxation. Continue visualizing pushing fluid out with each breath."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale slowly through your nose while tightening your body, and exhale slowly through your mouth while relaxing. Keep up the good work with visualizing fluid movement.",
+  "letter_grade": "A"
+}

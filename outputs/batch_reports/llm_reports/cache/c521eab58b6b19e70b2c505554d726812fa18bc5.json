@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the right arm showed good form in the first repetition, the left arm's form needs improvement in both repetitions. Focus on maintaining a consistent, controlled movement and avoid jerky motions. Ensure both arms move simultaneously and smoothly."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions show inconsistent form.  Pay close attention to fully extending your arms horizontally to shoulder height while exhaling.  The left arm, in particular, needs more controlled extension."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition shows significant improvement in the left arm, but the right arm needs more consistent form.  Maintain a smooth, controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Both repetitions show inconsistent form, particularly in the elbows and wrists.  Focus on maintaining a controlled movement and avoid jerky motions.  Ensure both arms move simultaneously and smoothly."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The left wrist shows significant deviation in the second repetition.  Focus on maintaining a consistent, controlled movement and avoid jerky motions.  Ensure both arms move simultaneously and smoothly."
+    }
+  ],
+  "exercise_summary": "Remember to sit comfortably, make fists while inhaling and tightening muscles, then extend arms horizontally while exhaling and relaxing.  Focus on smooth, controlled movements in both arms.  Repeat the steps four times, paying attention to consistent form throughout.",
+  "letter_grade": "C"
+}

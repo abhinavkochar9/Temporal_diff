@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job sitting or standing comfortably! Your body alignment looks good."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Keep that gentle touch."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent inhale through your nose and tightening your muscles. Visualizing fluid moving to your chest is a great cue!"
+    },
+    {
+      "step_index": 4,
+      "feedback": "Fantastic exhale through your mouth and relaxing your muscles. Imagining pushing fluid out is perfect!"
+    }
+  ],
+  "exercise_summary": "You're doing a wonderful job with deep breathing! Remember to inhale through your nose, tighten your body, and visualize fluid moving up. Then, exhale through your mouth, relax, and imagine pushing fluid out. Keep up the great work!",
+  "letter_grade": "A",
+  "verdict": "good"
+}

@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You are doing a good job of sitting or standing comfortably. Keep focusing on maintaining this posture."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your hand placement on your abdomen is good. Continue to focus on this placement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You are inhaling through your nose and tightening your muscles well. Try to visualize the fluid moving to your chest more clearly."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You are exhaling through your mouth and relaxing your muscles effectively. Keep up the good work visualizing pushing fluid out."
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing! You're effectively placing your hands and inhaling/exhaling. Focus a bit more on visualizing the fluid movement during your breaths to maximize the lymphatic benefits.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

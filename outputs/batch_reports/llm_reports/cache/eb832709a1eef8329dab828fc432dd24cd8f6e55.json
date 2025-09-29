@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job finding a comfortable position. Try to engage your whole body muscles a bit more during the inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with placing your hands on your abdomen. Focus on a slow exhale and fully relaxing your muscles as you breathe out."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're starting to tighten your body muscles during the inhale. Keep visualizing the fluid moving towards your chest to enhance the lymphatic stimulation."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good effort on relaxing your muscles during the exhale. Continue to visualize pushing the fluid out to aid lymphatic drainage."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with this deep breathing exercise! Remember to inhale through your nose, tightening your whole body, and exhale through your mouth, relaxing your muscles. This helps your lymphatic system work better.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

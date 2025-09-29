@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the initial fist clenching and inhalation were mostly consistent, the wrist extension in reps 1 and 2 showed significant deviation from the ideal form.  Focus on maintaining a smoother, more controlled arm extension at shoulder height, ensuring your wrists remain relatively straight and aligned with your forearms.  Try to reduce the variability in wrist movement between repetitions."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension in this step shows some improvement from step 1, but there's still noticeable inconsistency, particularly in the right elbow and wrist. Maintain a consistent horizontal arm position throughout the movement.  Ensure a controlled exhale as you extend your arms."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The finger opening and arm extension were inconsistent in both repetitions.  Pay close attention to maintaining a smooth, controlled movement.  The left wrist shows a significant deviation from the ideal form.  Try to keep your wrists straight and aligned with your forearms."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to previous steps, there's inconsistency in the arm extension and wrist position.  Focus on maintaining a controlled, horizontal movement throughout the exercise.  The left elbow shows a significant deviation from the ideal form."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetition shows continued inconsistency in wrist and elbow positioning.  Remember to maintain a controlled, horizontal arm movement and focus on smooth transitions between the fist clenching and arm extension phases.  Pay particular attention to maintaining straight wrists and aligned forearms."
+    }
+  ],
+  "exercise_summary": "The Horizontal Pumping exercise demonstrated inconsistent form throughout all steps.  While the patient attempted the movements, significant deviations were observed in wrist and elbow positioning across multiple repetitions.  Improved focus on maintaining a controlled, horizontal arm extension at shoulder height, with straight wrists and aligned forearms, is needed.  Smooth transitions between the inhalation/fist clenching and exhalation/arm extension phases should also be emphasized.",
+  "letter_grade": "C"
+}

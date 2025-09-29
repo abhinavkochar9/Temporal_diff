@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your hands clasped comfortably in your lap, maintaining a relaxed posture."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're raising your hands well. Try to keep your elbows a bit closer together as you bring them towards your forehead."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're spreading your elbows wide behind your head. This is a great position for stretching."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done holding the position. Remember to keep your head upright and avoid pulling forward."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You're reversing the motion smoothly. Focus on bringing your hands back to your lap with control."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well. Ensure your hands are clasped gently in your lap."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good job raising your hands. Continue to focus on keeping those elbows close as you move towards your forehead."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nicely done spreading your elbows wide behind your head. This is the key stretch!"
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Holding strong! Keep your head steady and avoid any forward strain."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Great job completing the reverse motion. Bringing your hands back to the starting position with control is important."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Clasp and Spread exercise! You consistently brought your hands towards your forehead and spread your elbows wide behind your head. Remember to keep your elbows close during the upward movement and avoid pulling forward.",
+  "letter_grade": "A-"
+}

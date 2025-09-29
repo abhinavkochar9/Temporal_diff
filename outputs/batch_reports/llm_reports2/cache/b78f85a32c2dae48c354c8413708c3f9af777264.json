@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For rep 1, try to bring your right shoulder back and down a bit more. For rep 2, your left shoulder movement looks good, but let's focus on bringing the right shoulder back and down more smoothly."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For rep 1, your left shoulder movement is excellent! For rep 2, try to keep your right elbow a little closer to your body as you roll your shoulder back and down."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For rep 1, your left shoulder movement is great. For rep 2, try to squeeze your shoulder blades together more as you roll them back and down."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a circular motion. Try to inhale deeply when pulling your shoulders back to help with breathing.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

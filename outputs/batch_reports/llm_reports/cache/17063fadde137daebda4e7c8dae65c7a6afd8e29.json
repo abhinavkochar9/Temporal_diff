@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you remembered to tighten your muscles while inhaling, focus on engaging your core and abdominal muscles more fully.  Visualizing the fluid movement will help. Try to maintain a more consistent muscle tension throughout the inhalation."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Good job placing your hands on your abdomen.  Remember to relax your muscles completely as you exhale, visualizing the fluid moving out.  Try to make your exhales longer than your inhales."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The visualization technique is key here.  Concentrate on the feeling of the fluid moving towards your chest as you inhale and away as you exhale.  Try to coordinate your breathing with the muscle tightening and relaxing."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "You're almost there!  Remember to fully relax your muscles during exhalation.  Focus on slow, controlled breathing, and visualize the fluid movement with each breath.  The goal is a smooth, rhythmic pattern."
+    }
+  ],
+  "exercise_summary": "You attempted the deep breathing exercise, focusing on muscle tightening during inhalation and relaxation during exhalation.  Remember to visualize fluid movement and maintain consistent muscle engagement.  Practice slow, controlled breathing for better results.",
+  "letter_grade": "C"
+}

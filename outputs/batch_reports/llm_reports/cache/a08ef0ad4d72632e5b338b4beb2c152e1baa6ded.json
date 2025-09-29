@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You maintained a comfortable posture and placed your hands correctly on your abdomen for deep breathing. Good job focusing on inhaling deeply."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good effort visualizing fluid movement towards your chest during inhalation. Remember to fully engage your whole body muscles for optimal lymphatic stimulation."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While your inhalation was good, focus on a slower, more controlled exhale through your mouth, visualizing the fluid moving out. Try to relax your muscles more completely during exhalation."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The visualization technique seems inconsistent.  Remember to visualize the fluid movement during both inhalation and exhalation for better results.  Try to maintain a consistent rhythm throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You did a good job with the deep breathing exercise, especially with the initial steps of posture and inhalation.  Focus on fully relaxing your muscles during exhalation and consistently visualizing fluid movement throughout the exercise for improved lymphatic drainage. Remember to repeat the exercise four times.",
+  "letter_grade": "B"
+}

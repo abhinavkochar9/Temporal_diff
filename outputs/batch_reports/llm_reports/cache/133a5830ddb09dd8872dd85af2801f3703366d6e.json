@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good start! Try to keep your elbows and wrists a bit more stable as you roll your shoulders back and down."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulder movement is improving. Focus on keeping your elbows and wrists from moving too much during the roll."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great job completing the repetitions! For the next set, aim for even less movement in your elbows and wrists to isolate the shoulder action."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a circle. Try to keep your elbows and wrists steady to focus the movement on your shoulders.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

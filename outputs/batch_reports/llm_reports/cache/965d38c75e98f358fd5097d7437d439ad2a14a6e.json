@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job on the first step!  You performed the shoulder blade squeeze and circular motion.  Focus on maintaining a consistent rhythm and depth of movement in subsequent repetitions."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "In step 2, remember to inhale deeply when pulling your shoulders back. This helps expand your ribs and improves oxygen flow, enhancing the exercise's effectiveness.  Try to coordinate your breath with the movement more precisely."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you completed the repetitions, ensure that the circular motion is smooth and controlled throughout. Avoid jerky movements.  Concentrate on the gentle squeeze of the shoulder blades."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated a good understanding of the Shoulder Roll exercise.  Step 1 was executed well, showing a consistent circular motion. However, steps 2 and 3 require improvement in breath coordination and maintaining a smooth, controlled movement throughout the repetitions.  Focusing on these areas will significantly enhance the exercise's benefits.",
+  "letter_grade": "B"
+}

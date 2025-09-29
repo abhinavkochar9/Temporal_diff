@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job clasping your hands. Try to keep your elbows a little closer together in this first step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're raising your hands well. Focus on keeping your elbows close to your head as you move them up."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent job spreading your elbows wide behind your head. This is a key part of the stretch."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You held the position well. Remember to keep your head upright and avoid leaning forward."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Returning to the start smoothly. Ensure your wrists stay aligned as you bring your hands back down."
+    }
+  ],
+  "exercise_summary": "You're doing great with the Clasp and Spread exercise! Keep focusing on keeping your elbows close when raising your hands and spreading them wide behind your head. Remember to hold steady and avoid leaning forward.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

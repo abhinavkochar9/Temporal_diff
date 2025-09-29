@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists clenched and arms drawn in. Keep those muscles tight as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! Fingers opened wide and arms extended to shoulder height. Remember to exhale as you relax."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job returning to the starting position with fists clenched and arms in. Keep breathing!"
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You're doing well opening your fingers and extending your arms. Focus on keeping them at shoulder height."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Nice work completing the first repetition! You're getting the hang of the outward movement and muscle relaxation."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Remember to inhale and tighten your muscles as you bring your arms in."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good job opening your fingers and extending your arms. Exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "You're returning to the starting position well. Keep those fists tight and muscles engaged as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Arms extended to shoulder height, good. Continue to focus on smooth, controlled movements."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job finishing the second repetition! You're consistently following the instructions for opening and closing."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to keep your fists tight and muscles engaged when bringing your arms in, and fully open your fingers as you extend them. Continue to focus on smooth movements and breathing with each step.",
+  "letter_grade": "A-"
+}

@@ -1,0 +1,43 @@
+{
+  "patient_id": "TOLFB07",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists.  Inhale and tighten your muscles as instructed.",
+      "similarity_percent": 95.0,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent opening of your fingers and extending your arms horizontally. Remember to exhale and relax your muscles as you extend.",
+      "similarity_percent": 89.4,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Try to maintain smoother arm movements and better muscle control during the horizontal extension. Focus on controlled exhalation.",
+      "similarity_percent": 86.7,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The arm movements were a bit jerky; aim for smoother, more controlled horizontal pumping. Remember to coordinate your breathing with the movements.",
+      "similarity_percent": 84.9,
+      "rep": 2
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "While you completed the repetitions, focus on maintaining consistent muscle engagement and smoother transitions between arm positions.  Try to keep your movements more controlled.",
+      "similarity_percent": 83.2,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You performed the horizontal pumping exercise. Remember to coordinate your breathing with the arm movements, ensuring smooth transitions between the arm positions. Focus on controlled muscle engagement throughout each repetition.",
+  "letter_grade": "B"
+}

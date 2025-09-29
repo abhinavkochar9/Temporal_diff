@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your arm was mostly straight overhead, but there was some slight bending at the elbow. Try to extend it fully to feel the resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You made a good fist while inhaling and tightening your muscles. Keep up the strong contraction."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You opened your hand and relaxed your muscles while exhaling. This is great for promoting fluid flow."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You successfully visualized fluid being pumped out. This mental focus is a key part of the exercise."
+    }
+  ],
+  "exercise_summary": "You did a great job with the overhead pumping exercise! Remember to keep your arm fully extended overhead and make a strong fist as you breathe in. Then, open your hand wide as you breathe out to help move fluid.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

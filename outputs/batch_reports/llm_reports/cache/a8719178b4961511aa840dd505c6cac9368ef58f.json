@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to tighten your muscles during inhalation, the consistency needs improvement.  Focus on engaging all muscle groups, especially in the arms and shoulders, for a more effective pump."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The hand placement on your abdomen was good, but ensure you're maintaining a consistent, slow breath throughout the exercise.  Try visualizing the fluid movement more actively."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Inhale slowly through your nose and visualize the fluid moving to your chest.  The visualization technique is key to improving lymphatic drainage."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The exhale needs more focus.  Try a slower, more controlled release of breath while relaxing your muscles and visualizing the fluid being pushed out.  Consistency is key here."
+    }
+  ],
+  "exercise_summary": "Remember to breathe slowly and deeply, tightening your muscles as you inhale and relaxing as you exhale.  Visualize the fluid moving with each breath.  Focus on consistent muscle engagement throughout the exercise for better results.",
+  "letter_grade": "C"
+}

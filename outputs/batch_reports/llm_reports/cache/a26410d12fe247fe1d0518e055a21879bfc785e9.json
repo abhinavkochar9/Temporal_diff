@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your wrists closer to your body. Your shoulders and elbows look good."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For step 2, focus on keeping your wrists closer to your body. Your shoulders and elbows are well-positioned."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, aim to keep your wrists closer to your body. Your shoulders and elbows are in a good position."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, try to keep your wrists closer to your body. Your shoulders and elbows are generally well-positioned."
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing! Remember to keep your whole body tight as you inhale and relax as you exhale. Focus on keeping your hands on your abdomen to feel the movement.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

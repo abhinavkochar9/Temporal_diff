@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job starting in a comfortable position! Ensure your arms are fully stretched overhead and your fingers are spread wide."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with the fist-making motion. Focus on squeezing your shoulder blades together as you push down, and remember to inhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent work stretching your arms back overhead and exhaling. Keep up the good rhythm of tightening and relaxing."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're performing the movements well. Continue to focus on the coordinated action of pushing down and squeezing your shoulder blades."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You've completed the repetitions! Remember to maintain an open hand and spread fingers when stretching overhead."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! Remember to keep your arms fully stretched overhead with fingers spread wide, and squeeze your shoulder blades together as you push down. This helps build strength and promote lymph drainage.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

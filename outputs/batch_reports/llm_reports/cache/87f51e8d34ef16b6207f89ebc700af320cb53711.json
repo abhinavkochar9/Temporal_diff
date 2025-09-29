@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to squeeze your shoulder blades together, the significant movement in your elbows and wrists suggests you may be using other muscles instead of focusing on your shoulder blades. Try to keep your elbows and wrists still and concentrate on the circular motion originating from your shoulders."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The movement in your elbows and wrists is still quite noticeable. Remember to keep your arms relaxed and focus on the controlled, circular motion of your shoulder blades. Deep breaths can help coordinate the movement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The excessive movement in your elbows and wrists continues.  Concentrate on isolating the shoulder blade movement.  Try to perform the exercise more slowly and deliberately to improve control."
+    }
+  ],
+  "exercise_summary": "You attempted the shoulder rolls, but the exercise needs improvement. Focus on keeping your elbows and wrists still while moving your shoulder blades in a circular motion. Remember to breathe deeply as you pull your shoulders back.  Practice will help you isolate the correct muscles.",
+  "letter_grade": "C"
+}

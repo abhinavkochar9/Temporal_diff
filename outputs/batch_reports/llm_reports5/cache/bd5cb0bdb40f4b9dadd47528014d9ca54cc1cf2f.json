@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with your arm stretched overhead. Keep that arm straight and feel the stretch."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! You're keeping your arm straight overhead. Now, focus on opening your palm and fingers wide."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great! You're opening your hand wide. Remember to make a fist while inhaling and tightening your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done! You made a fist while inhaling. Now, open your hand while exhaling and relaxing. Visualize the fluid moving."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second rep, keeping your arm straight overhead. Remember to feel that resistance."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're maintaining a good overhead stretch. Now, open your palm and fingers wide."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice work opening your hand. Remember to make a fist while inhaling and tightening your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent! You made a fist while inhaling. Finish by opening your hand while exhaling and relaxing. Keep visualizing the fluid moving."
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! You consistently kept your arm straight and felt the stretch. Remember to focus on opening your hand wide and making a tight fist with each breath to maximize fluid movement.",
+  "letter_grade": "A"
+}

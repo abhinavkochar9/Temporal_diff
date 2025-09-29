@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your wrists closer to your body when you make fists. Focus on tightening your muscles as you inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, aim to extend your arms more horizontally and keep your wrists straighter as you open your fingers and exhale. Relax your muscles fully."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, ensure your arms are extended fully horizontally and your wrists remain straight. Continue to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "In step 4, focus on maintaining straight wrists and a full horizontal extension of your arms. Remember to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 5,
+      "feedback": "For step 5, try to keep your wrists straighter and avoid bending them too much as you extend your arms. Ensure a complete relaxation of your muscles."
+    }
+  ],
+  "exercise_summary": "You're doing great with the arm movements! Try to keep your wrists straighter and avoid bending them too much, especially when extending your arms. Remember to fully relax your muscles as you exhale.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

@@ -8,7 +8,6 @@ from PIL import Image, ImageDraw, ImageFont
 import json
 import re
 import glob
-import pathlib
 _num_re = re.compile(r'(\d+)')
 def _natural_key(s: str):
     s = os.path.basename(str(s))
@@ -37,6 +36,36 @@ def _best_match_subdir(parent: str, exercise_name: str) -> str | None:
 _step_idx_re = re.compile(r'(?:^|_)s(\d+)$', re.IGNORECASE)   # matches ..._S1 / ..._s10 at end of step folder
 _combo_split_re = re.compile(r'[+_\-]')                       # split joint names by +, _ or -
 
+# --- Generated overlays: filename matcher and loader ---
+_gen_name_re = re.compile(r'^arm_(?P<pat>.+?)_(?P<ex>.+?)_rep(?P<rep>\d+)_step(?P<step>\d+)\.(?:png|jpg|jpeg|webp|bmp)$', re.IGNORECASE)
+
+def _find_generated_images(root: str, patient: str, exercise: str):
+    """Return (rep1_paths, rep2_paths) for generated overlays under `root`.
+    Expects files named: arm_{patient}_{exercise}_rep{rep}_step{step}.png
+    """
+    if not root:
+        return [], []
+    base = root
+    if not os.path.isabs(base):
+        base = os.path.join(os.path.dirname(os.path.abspath(__file__)), base)
+    if not os.path.isdir(base):
+        return [], []
+    pattern = os.path.join(base, f"arm_{patient}_{exercise}_rep*_step*.*")
+    paths = sorted(glob.glob(pattern), key=_natural_key)
+    rep1, rep2 = [], []
+    for p in paths:
+        m = _gen_name_re.match(os.path.basename(p))
+        if not m:
+            continue
+        rep = int(m.group("rep")); step = int(m.group("step"))
+        if rep == 1:
+            rep1.append((step, p))
+        elif rep == 2:
+            rep2.append((step, p))
+    rep1 = [p for step, p in sorted(rep1)]
+    rep2 = [p for step, p in sorted(rep2)]
+    return rep1, rep2
+
 # --- Pillow text size helper (compat across many versions, draw-free) ---
 def _text_size(text: str, font: ImageFont.ImageFont):
     """
@@ -58,6 +87,161 @@ def _text_size(text: str, font: ImageFont.ImageFont):
             pass
     # Last resort heuristic
     return (max(1, int(len(text) * 6)), 12)
+
+# --- Fonts & drawing utilities -------------------------------------------------
+DEFAULT_FONT = "arial.ttf"
+
+def _load_font(size: int, fallback: bool = True) -> ImageFont.ImageFont:
+    """Best-effort TTF load with graceful fallback to Pillow's default font."""
+    try:
+        return ImageFont.truetype(DEFAULT_FONT, size)
+    except Exception:
+        return ImageFont.load_default() if fallback else None
+# --- Feedback loader & text wrapping -----------------------------------------
+import textwrap
+
+def _find_col(cols, *candidates):
+    """Return the first matching column name (case-insensitive, strip spaces/underscores)."""
+    norm = {"".join(ch for ch in c.lower() if ch.isalnum()): c for c in cols}
+    for cand in candidates:
+        key = "".join(ch for ch in cand.lower() if ch.isalnum())
+        if key in norm:
+            return norm[key]
+    return None
+
+def _load_feedback(csv_path: str, patient: str, exercise: str):
+    """Load summary/grade/similarity for (patient, exercise) from a CSV.
+    Returns dict with keys: summary, grade, similarity, patient_score, or None if not found."""
+    try:
+        df_fb = pd.read_csv(csv_path)
+    except Exception:
+        return None
+    if df_fb is None or df_fb.empty:
+        return None
+    cols = list(df_fb.columns)
+    # Prioritize exact labels first
+    col_patient   = _find_col(cols, "patient_id", "patient", "subject", "user")
+    col_exercise  = _find_col(cols, "exercise")
+    col_summary   = _find_col(cols, "exercise_summary", "exercise summary", "summary", "feedback_summary", "llm_summary")
+    col_grade     = _find_col(cols, "letter_grade", "letter grade", "grade", "final_grade")
+    col_similarity= _find_col(cols, "overall_similarity", "overall similarity", "similarity", "score", "overall_score")
+    if not col_patient or not col_exercise:
+        return None
+
+    # strict match first
+    mask = (df_fb[col_patient].astype(str).str.strip().str.lower() == str(patient).strip().lower()) & \
+           (df_fb[col_exercise].astype(str).str.strip().str.lower() == str(exercise).strip().lower())
+    rows = df_fb[mask]
+    if rows.empty:
+        # relaxed match on exercise (alnum-only)
+        ex_norm = "".join(ch for ch in str(exercise).lower() if ch.isalnum())
+        rows = df_fb[df_fb[col_patient].astype(str).str.strip().str.lower() == str(patient).strip().lower()]
+        if not rows.empty and col_exercise in rows.columns:
+            exer_series = rows[col_exercise].astype(str).str.lower().apply(lambda s: "".join(ch for ch in s if ch.isalnum()))
+            rows = rows[exer_series == ex_norm]
+    if rows.empty:
+        return None
+    r = rows.iloc[0]
+    return {
+        "summary":       (str(r[col_summary]) if col_summary in rows.columns else None),
+        "grade":         (str(r[col_grade]) if col_grade in rows.columns else None),
+        "similarity":    (float(r[col_similarity]) if col_similarity in rows.columns else None),
+        "patient_score": (float(r[col_similarity]) if col_similarity in rows.columns else None),
+    }
+
+def _wrap_text_lines(text: str, font: ImageFont.ImageFont, max_width_px: int) -> list[str]:
+    """Greedy wrap text to fit within max_width_px using font metrics."""
+    if not text:
+        return []
+    words = text.split()
+    lines = []
+    cur = ""
+    for w in words:
+        trial = (cur + " " + w).strip()
+        tw, _ = _text_size(trial, font)
+        if tw <= max_width_px or not cur:
+            cur = trial
+        else:
+            lines.append(cur)
+            cur = w
+    if cur:
+        lines.append(cur)
+    return lines
+# --- Heatmap helpers -----------------------------------------------------------
+def _normalize_for_colors(vals: list[float]) -> tuple[float, float]:
+    """Return robust (vmin, vmax) using 5th–95th percentiles when possible."""
+    if not vals:
+        return (0.0, 1.0)
+    # ensure floats and finite
+    clean = [float(v) for v in vals if v is not None and np.isfinite(v)]
+    if not clean:
+        return (0.0, 1.0)
+    if len(clean) >= 3:
+        vmin = float(np.percentile(clean, 5))
+        vmax = float(np.percentile(clean, 95))
+    else:
+        vmin, vmax = float(min(clean)), float(max(clean))
+    if not np.isfinite(vmin):
+        vmin = 0.0
+    if not np.isfinite(vmax) or vmax <= vmin:
+        vmax = vmin + (abs(vmin) if abs(vmin) > 1e-6 else 1.0)
+    return (vmin, vmax)
+
+def _color_gyr(v: float, vmin: float, vmax: float) -> tuple[int, int, int]:
+    """Green→Yellow→Red color ramp for an error value v in [vmin, vmax]."""
+    t = (v - vmin) / (vmax - vmin)
+    t = 0.0 if t < 0.0 else (1.0 if t > 1.0 else t)
+    if t < 0.5:
+        a = t / 0.5
+        r = int(0 + a * (255 - 0))
+        g = int(200 + a * (220 - 200))
+        b = 0
+    else:
+        a = (t - 0.5) / 0.5
+        r = int(255 + a * (220 - 255))
+        g = int(220 + a * (0 - 220))
+        b = 0
+    return (max(0, min(255, r)), max(0, min(255, g)), b)
+
+def _draw_smooth_heatbar(draw: ImageDraw.ImageDraw, left_pad: int, top_y: int,
+                         width: int, height: int, values: list[float],
+                         vmin_override: float | None = None,
+                         vmax_override: float | None = None) -> int:
+    """
+    Draw a smooth (per-pixel) heatbar across `width` using `values` (list of step-wise errors).
+    Returns the new y position after drawing the bar (top_y + height + 8 spacing).
+    """
+    if not values or height <= 0 or width <= 0:
+        return top_y
+    vals = [float(v) if v is not None and np.isfinite(v) else 0.0 for v in values]
+    if (vmin_override is not None and vmax_override is not None
+        and np.isfinite(vmin_override) and np.isfinite(vmax_override)
+        and float(vmax_override) > float(vmin_override)):
+        vmin, vmax = float(vmin_override), float(vmax_override)
+    else:
+        vmin, vmax = _normalize_for_colors(vals)
+
+    nseg = len(vals)
+    y_top = top_y + 4  # small top gap
+    for px in range(width):
+        u = (px / max(1, width - 1)) * (nseg - 1 if nseg > 1 else 1)
+        i0 = int(np.floor(u))
+        i1 = min(nseg - 1, i0 + 1)
+        t = u - i0
+        v = (1.0 - t) * vals[i0] + t * vals[i1] if nseg > 1 else vals[0]
+        color = _color_gyr(v, vmin, vmax)
+        x = left_pad + px
+        draw.line([(x, y_top), (x, y_top + height)], fill=color, width=1)
+
+    # Subtle separators at step boundaries for readability
+    if nseg > 1:
+        for k in range(1, nseg):
+            xk = left_pad + int(round(k * (width / nseg)))
+            draw.line([(xk, y_top), (xk, y_top + height)], fill=(225, 225, 225), width=1)
+
+    # Light outline
+    draw.rectangle([left_pad, y_top, left_pad + width - 1, y_top + height - 1], outline=(180, 180, 180))
+    return y_top + height + 4  # bottom gap
 
 # =========================
 # ====== CONFIG ===========
@@ -629,7 +813,14 @@ def _concat_horizontal(img_left: Image.Image, img_right: Image.Image, pad: int =
 def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patient_rep2_strip,
                                           fps=25.0, total_frames: int | None = None,
                                           target_h=160, pad=8, bg=(255,255,255), timeline_h=36,
-                                          expert_strip_img=None):
+                                          expert_strip_img=None,
+                                          heat_values: list | None = None,
+                                          heat_h: int = 16,
+                                          heat_vmin: float | None = None,
+                                          heat_vmax: float | None = None,
+                                          fb_summary: str | None = None,
+                                          fb_grade: str | None = None,
+                                          fb_similarity: float | None = None):
     """
     Build a composite header:
       [Expert steps rep1+rep2]  (top row)
@@ -637,7 +828,8 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
       [timeline]  (bottom)
     Returns a PIL.Image or None.
     """
-    if not step_paths:
+    # Allow building a composite if we have either expert strip or patient strips
+    if (not step_paths) and (expert_strip_img is None) and (patient_rep1_strip is None and patient_rep2_strip is None):
         return None
     # Expert strip with 2 repetitions (if not provided)
     if expert_strip_img is not None:
@@ -664,7 +856,15 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
     # wider left pad to host row labels ("Expert", "Patient (Rep1 | Rep2)")
     left_pad = 110
     right_pad = 18
-    total_h = H1 + H2 + timeline_h
+    hm_h = max(0, int(heat_h)) if heat_values else 0
+
+    # Determine a safe timeline block height based on font metrics so labels never clip
+    font_tl = _load_font(12)
+    tmp_w, tmp_h = _text_size("00s", font_tl)
+    tl_h_used = max(int(timeline_h), int(tmp_h) + 18)  # labels + ticks + spacing
+    bottom_pad = 6  # extra breathing room below timeline
+
+    total_h = H1 + H2 + hm_h + tl_h_used + bottom_pad
     canvas = Image.new("RGB", (W + left_pad + right_pad, total_h), bg)
 
     # Paste rows
@@ -675,10 +875,7 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
     # Row labels in the left margin
     draw = ImageDraw.Draw(canvas)
     # Fonts for labels and timeline
-    try:
-        font_lbl = ImageFont.truetype("arial.ttf", 14)
-    except Exception:
-        font_lbl = ImageFont.load_default()
+    font_lbl = _load_font(14)
     # Expert label (centered vertically in expert row)
     label_expert = "Expert"
     tw_e, th_e = _text_size(label_expert, font_lbl)
@@ -692,13 +889,16 @@ def _compose_expert_patient_with_timeline(step_paths, patient_rep1_strip, patien
     y_p = H1 + (H2 - th_p) // 2
     draw.text((x_p, y_p), label_patient, fill=(40, 40, 40), font=font_lbl)
 
-    # Draw timeline along the bottom width W
-    try:
-        font = ImageFont.truetype("arial.ttf", 12)
-    except Exception:
-        font = ImageFont.load_default()
+    # --- Heatmap bar (refactored helper) ---
+    if heat_values and hm_h > 0:
+        y = _draw_smooth_heatbar(draw, left_pad, y, W, hm_h, heat_values, heat_vmin, heat_vmax)
 
-    y0 = y + 10  # baseline
+
+
+    # Draw timeline along the bottom width W
+    # Use the preloaded timeline font and adjusted block height
+    font = font_tl
+    y0 = y + 8
     major_len = 8
     minor_len = 4
     y_major = y0 + major_len
@@ -898,12 +1098,54 @@ st.sidebar.subheader("🧩 Step deviation rules")
 step_thresh = st.sidebar.slider("Joint MAE threshold", 0.00, 1.00, 0.20, 0.01)
 step_top_pct = st.sidebar.slider("If none pass threshold, pick top % joints", 0.0, 100.0, 0.0, 5.0)
 
+st.sidebar.markdown("---")
+st.sidebar.subheader("🌡️ Heatmap settings")
+show_heatmap = st.sidebar.checkbox("Show heatmap bar", value=True)
+# OLD: heat_h_ctrl = st.sidebar.slider("Heatmap height (px)", 8, 48, 24, 1)
+heat_h_ctrl = st.sidebar.slider("Heatmap height (px)", 6, 36, 16, 1)
+
+# --- Global scaling controls for heatmap ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("📏 Heatmap scale")
+heat_scale_mode = st.sidebar.selectbox(
+    "Normalization", ["Per-exercise (robust)", "Global (fixed)"], index=0,
+    help=(
+        "Per-exercise uses robust percentiles (5th–95th) within the current exercise; "
+        "Global applies fixed bounds so colors are comparable across exercises/patients."
+    )
+)
+
+global_min_mae = None
+global_max_mae = None
+if heat_scale_mode == "Global (fixed)":
+    col_a, col_b = st.sidebar.columns(2)
+    with col_a:
+        global_min_mae = st.number_input("Min MAE", value=0.00, step=0.01)
+    with col_b:
+        global_max_mae = st.number_input("Max MAE", value=0.50, step=0.01)
+    if global_max_mae <= global_min_mae:
+        st.sidebar.warning("Max MAE must be greater than Min MAE for global scaling.")
+
 # normalize inputs
 if jump_abs == 0.0:
     jump_abs_val = None
 else:
     jump_abs_val = float(jump_abs)
 jump_pct_val = float(jump_pct)
+
+# --- Feedback CSV path sidebar ---
+fb_csv_path = st.sidebar.text_input(
+    "Path to feedback CSV",
+    value="outputs/batch_reports/llm_reports5/summary/final_llm_feedback.csv",
+    help="CSV containing summary, grade, and overall_similarity per patient & exercise"
+)
+
+# --- Generated overlays UI ---
+st.sidebar.markdown("---")
+st.sidebar.subheader("🖼️ Generated overlays")
+use_generated = st.sidebar.checkbox("Use generated images directory", value=True)
+generated_dir = st.sidebar.text_input("Generated images directory", value="arm_heatmaps_aligned",
+                                      help="Folder containing arm_{patient}_{exercise}_rep{rep}_step{step}.png")
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
 ex_dir, step_paths, searched_step_dirs = _resolve_step_images(base_dir, selected_exercise)
@@ -912,6 +1154,15 @@ fps_val = 25.0
 # --- New: resolve Expert and WHAM dirs explicitly ---
 expert_dir = _resolve_ex_dir_by_subfolder(base_dir, selected_exercise, "Expert")
 wham_dir   = _resolve_ex_dir_by_subfolder(base_dir, selected_exercise, "WHAM")
+
+# --- Load feedback for the selected patient/exercise (CSV from sidebar) ------
+fb_summary, fb_grade, fb_patient_score = None, None, None
+if fb_csv_path and os.path.isfile(fb_csv_path):
+    fb_row = _load_feedback(fb_csv_path, selected_patient, selected_exercise)
+    if fb_row:
+        fb_summary = fb_row.get("summary")
+        fb_grade = fb_row.get("grade")
+        fb_patient_score = fb_row.get("patient_score")
 
 st.caption(
     "Expert is **untouched** (bold). Patient is **dotted** and cleaned. "
@@ -967,6 +1218,11 @@ def _mae_step(joint, a, b):
     mae_y = float(np.mean(np.abs(p_y - e_y)))
     return 0.5 * (mae_x + mae_y)
 
+# Prefer generated overlays if available
+rep1_gen, rep2_gen = [], []
+if use_generated:
+    rep1_gen, rep2_gen = _find_generated_images(generated_dir, selected_patient, selected_exercise)
+
 if step_paths:
     N = len(step_paths)
     ref_joint = next((j for j in JOINT_ORDER if patient_dfs.get(j) is not None and expert_dfs.get(j) is not None), None)
@@ -1000,26 +1256,97 @@ if step_paths:
                     subsets_this_rep.append(subset_keys)
                 rep_subsets.append(subsets_this_rep)
 
-            # --- NEW: Build strips using explicit Expert/WHAM dirs and any-order overlay resolver ---
-            # Determine expert originals (top row): MUST come from Step_Images/Expert
-            expert_items = _list_step_folders_with_originals(expert_dir) if expert_dir else []
-            expert_strip = _build_strip_from_originals(expert_items, repeat=2, target_h=160, pad=8)
+            # Build heatmap values: mean MAE across joints per step (rep1 then rep2)
+            def _mean_mae_for(rep_key, s_idx):
+                maes = per_step_joint_mae.get((rep_key, s_idx), {})
+                arr = [v for v in maes.values() if v is not None and np.isfinite(v)]
+                return float(np.nanmean(arr)) if arr else 0.0
 
-            # Build patient overlay strips specifically from WHAM dir (as requested)
-            patient_source_dir = wham_dir if wham_dir else ex_dir  # fallback to resolved dir if WHAM missing
-            rep1_strip, rep2_strip = _build_patient_strip_by_steps(patient_source_dir, step_paths, rep_subsets,
-                                                                   repeat=1, target_h=160, pad=8)
+            heat_values = []
+            for rep_key in ['rep1', 'rep2']:
+                for s_idx in range(1, N + 1):
+                    heat_values.append(_mean_mae_for(rep_key, s_idx))
 
-            st.subheader(f"Expert & Patient Steps — {selected_exercise}")
-            composite = _compose_expert_patient_with_timeline(step_paths, rep1_strip, rep2_strip,
-                                                              fps=fps_val, total_frames=est_frames,
-                                                              target_h=160, pad=8, expert_strip_img=expert_strip)
+            # Respect sidebar toggle
+            heat_values_to_use = heat_values if show_heatmap and len(heat_values) > 0 else None
+            heat_h_to_use = int(heat_h_ctrl) if show_heatmap else 0
+            # Decide global overrides based on sidebar mode
+            heat_vmin_override = (global_min_mae if heat_scale_mode == "Global (fixed)" else None)
+            heat_vmax_override = (global_max_mae if heat_scale_mode == "Global (fixed)" else None)
+
+            # Build strips: prefer generated overlays if present; otherwise fall back to WHAM/Expert discovery
+# Build strips: always use Expert originals on the top row (as before).
+            if rep1_gen or rep2_gen:
+                # Generated patient strips
+                rep1_strip = _build_strip(rep1_gen, repeat=1, target_h=160, pad=8)
+                rep2_strip = _build_strip(rep2_gen, repeat=1, target_h=160, pad=8)
+
+                # Top row: Expert originals (preferred), else fall back gracefully
+                expert_items = _list_step_folders_with_originals(expert_dir) if expert_dir else []
+                expert_strip = _build_strip_from_originals(expert_items, repeat=2, target_h=160, pad=8)
+                if expert_strip is None:
+                    # fallback to resolved step images if available
+                    if step_paths:
+                        expert_strip = _build_strip(step_paths, repeat=2, target_h=160, pad=8)
+                    else:
+                        # last resort: shape-match to generated images
+                        top_src = rep1_gen if rep1_gen else rep2_gen
+                        expert_strip = _build_strip(top_src, repeat=2, target_h=160, pad=8)
+
+                # keep step_paths for width/timeline purposes when available
+                step_paths_for_width = step_paths
+                header_title = f"Expert & Patient Steps — {selected_exercise}"
+            else:
+                # Original Expert/WHAM resolution for patient overlays
+                expert_items = _list_step_folders_with_originals(expert_dir) if expert_dir else []
+                expert_strip = _build_strip_from_originals(expert_items, repeat=2, target_h=160, pad=8)
+                patient_source_dir = wham_dir if wham_dir else ex_dir
+                rep1_strip, rep2_strip = _build_patient_strip_by_steps(
+                    patient_source_dir, step_paths, rep_subsets, repeat=1, target_h=160, pad=8
+                )
+                step_paths_for_width = step_paths
+                header_title = f"Expert & Patient Steps — {selected_exercise}"
+
+            st.subheader(header_title)
+            composite = _compose_expert_patient_with_timeline(
+                step_paths_for_width, rep1_strip, rep2_strip,
+                fps=fps_val, total_frames=est_frames,
+                target_h=160, pad=8, expert_strip_img=expert_strip,
+                heat_values=heat_values_to_use, heat_h=heat_h_to_use,
+                heat_vmin=heat_vmin_override, heat_vmax=heat_vmax_override
+            )
             if composite is not None:
                 st.image(
                     composite,
                     use_container_width=True,
-                    caption=f"Top: Expert originals (2 reps) from Expert  •  Middle: Patient overlays from WHAM (Rep1 | Rep2)  •  Timeline: {fps_val:g} fps{f' • ~{est_frames/fps_val:.1f}s' if est_frames else ''}"
+                    caption=(
+                        "Top: Generated overlays (2× repeat) • Middle: Generated Rep1 | Rep2" if (rep1_gen or rep2_gen)
+                        else f"Top: Expert originals (2 reps) • Middle: Patient overlays (Rep1 | Rep2)"
+                    ) + (
+                        f" • Timeline: {fps_val:g} fps" + (f" • ~{est_frames/fps_val:.1f}s" if est_frames else "")
+                    )
                 )
+                # --- Blue info panel: Summary + Grade + Patient Score --------------------
+                if (fb_summary or fb_grade or fb_patient_score is not None):
+                    _summary_text = fb_summary or ""
+                    _grade_text = fb_grade or "N/A"
+                    _score_text = (str(fb_patient_score) if fb_patient_score is not None else "N/A")
+                    st.markdown(
+                        f"""
+                        <div style="border: 2px solid #1f77b4; border-radius: 8px; background: rgba(31,119,180,0.06); padding: 14px 16px; margin: 10px auto; max-width: 70%; text-align:center;">
+                          <div style="font-weight:600; color:#1f77b4; font-size:16px; margin-bottom:6px;">LLM-based Exercise Feedback</div>
+                          <div style="margin-bottom:8px; line-height:1.4; color:#222;">{_summary_text}</div>
+                          <div style="display:flex; justify-content:center; gap:18px; flex-wrap:wrap; color:#222;">
+                            <div><b>Grade:</b> {_grade_text}</div>
+                            <div><b>Patient Score:</b> {_score_text}</div>
+                          </div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
+                elif fb_csv_path:
+                    # Helpful hint if a CSV is provided but no row matched
+                    st.caption("No feedback found for this patient/exercise in the selected CSV.")
             else:
                 st.info("Could not build composite strip (missing images).")
 
@@ -1071,7 +1398,7 @@ else:
 # =========================
 # ======== TABS ===========
 # =========================
-tab_compare, tab_delta = st.tabs(["📊 Compare (Patient vs Expert)", "➖ Delta (Patient − Expert)"])
+tab_compare, tab_delta, tab_steps = st.tabs(["📊 Compare (Patient vs Expert)", "➖ Delta (Patient − Expert)", "🧾 Stepwise Feedback"])
 
 # =========================
 # === TAB 1: COMPARE ======
@@ -1166,24 +1493,35 @@ with tab_compare:
 # === TAB 2: DELTAS =======
 # =========================
 with tab_delta:
+    # Match the layout controls to the compare tab, but separate toggle so users can choose independently
+    compact_delta = st.sidebar.checkbox("Compact 3×2 grid (Δ)", value=True, help="Show all 6 joints in a 3×2 grid for Δ.")
+    fig_height_delta = 950 if compact_delta else 1800
+
     st.markdown("#### Δ (Patient − Expert) per Joint and Axis")
+
+    rows, cols = 3, 2
+    order = JOINT_ORDER
+    titles = [f"{j.replace('_', ' ')} ΔX & ΔY" for j in order]
+
     fig_d = make_subplots(
-        rows=len(JOINT_ORDER),
-        cols=1,
-        shared_xaxes=True,
-        subplot_titles=[f"{j.replace('_', ' ')} ΔX & ΔY" for j in JOINT_ORDER],
-        vertical_spacing=0.06,
+        rows=rows, cols=cols,
+        subplot_titles=titles,
+        shared_xaxes=False,
+        vertical_spacing=0.12 if compact_delta else 0.15,
+        horizontal_spacing=0.08 if compact_delta else 0.1,
     )
 
     metrics_rows = []
     all_dx_dy = []
 
-    for i, joint in enumerate(JOINT_ORDER, start=1):
+    for idx, joint in enumerate(order):
+        r = idx // cols + 1
+        c = idx % cols + 1
         p_df = patient_dfs[joint]
         e_df = expert_dfs[joint]
 
         if p_df is None or e_df is None:
-            fig_d.add_trace(go.Scatter(y=[]), row=i, col=1)
+            fig_d.add_trace(go.Scatter(y=[]), row=r, col=c)
             metrics_rows.append({"Joint": joint, "MAE X": np.nan, "RMSE X": np.nan, "Corr X": np.nan,
                                  "MAE Y": np.nan, "RMSE Y": np.nan, "Corr Y": np.nan})
             continue
@@ -1195,12 +1533,20 @@ with tab_delta:
         dx = p_df["X"] - e_df["X"]
         dy = p_df["Y"] - e_df["Y"]
 
-        fig_d.add_trace(go.Scatter(y=dx, mode="lines", name=f"{joint} ΔX",
-                                   line=dict(width=2, dash="solid"),
-                                   hovertemplate="ΔX: %{y:.4f}<extra></extra>"), row=i, col=1)
-        fig_d.add_trace(go.Scatter(y=dy, mode="lines", name=f"{joint} ΔY",
-                                   line=dict(width=2, dash="dash"),
-                                   hovertemplate="ΔY: %{y:.4f}<extra></extra>"), row=i, col=1)
+        fig_d.add_trace(
+            go.Scatter(
+                y=dx, mode="lines", name=f"{joint} ΔX",
+                line=dict(width=2, dash="solid"),
+                hovertemplate="ΔX: %{y:.4f}<extra></extra>"
+            ), row=r, col=c
+        )
+        fig_d.add_trace(
+            go.Scatter(
+                y=dy, mode="lines", name=f"{joint} ΔY",
+                line=dict(width=2, dash="dash"),
+                hovertemplate="ΔY: %{y:.4f}<extra></extra>"
+            ), row=r, col=c
+        )
 
         mae_x, rmse_x, corr_x = quick_metrics(p_df["X"], e_df["X"])
         mae_y, rmse_y, corr_y = quick_metrics(p_df["Y"], e_df["Y"])
@@ -1212,6 +1558,7 @@ with tab_delta:
 
         all_dx_dy.append(dx.values); all_dx_dy.append(dy.values)
 
+    # Uniform y-range across all Δ subplots for consistency
     if all_dx_dy:
         stacked = np.concatenate(all_dx_dy)
         dmin, dmax = stacked.min(), stacked.max()
@@ -1220,13 +1567,21 @@ with tab_delta:
     else:
         d_range = [-1, 1]
 
-    for i in range(1, len(JOINT_ORDER) + 1):
-        fig_d.update_yaxes(range=d_range, title_text="Δ", row=i, col=1)
-    fig_d.update_layout(height=2000,
-                        title_text=f"Deltas — {selected_patient} · {selected_exercise}",
-                        showlegend=show_legend,
-                        margin=dict(l=60, r=20, t=60, b=40))
-    fig_d.update_xaxes(title_text="Frame Index", row=len(JOINT_ORDER), col=1)
+    for idx, joint in enumerate(order):
+        r = idx // cols + 1
+        c = idx % cols + 1
+        fig_d.update_yaxes(range=d_range, title_text="Δ", row=r, col=c)
+
+    # Label bottom row x-axes
+    for c in range(1, cols + 1):
+        fig_d.update_xaxes(title_text="Frame Index", row=rows, col=c)
+
+    fig_d.update_layout(
+        height=fig_height_delta,
+        title_text=f"Deltas — {selected_patient} · {selected_exercise}",
+        showlegend=show_legend,
+        margin=dict(l=60, r=20, t=60, b=40)
+    )
     st.plotly_chart(fig_d, use_container_width=True)
 
     if show_metrics:
@@ -1242,4 +1597,147 @@ if 'df_steps' in locals() and isinstance(df_steps, pd.DataFrame) and not df_step
     # Optional download (if persisted earlier)
     if 'csv_path' in locals() and csv_path and os.path.exists(csv_path):
         with open(csv_path, "rb") as f:
-            st.download_button("⬇️ Download per-step CSV", f, file_name=os.path.basename(csv_path))
+            st.download_button("⬇️ Download per-step CSV", f, file_name=os.path.basename(csv_path))    
+
+# =========================
+# === TAB 3: STEPWISE =====
+# =========================
+with tab_steps:
+    st.markdown("### LLM-based Stepwise Feedback")
+    if not fb_csv_path or not os.path.isfile(fb_csv_path):
+        st.info("No feedback CSV selected or file not found.")
+    else:
+        try:
+            df_fb_all = pd.read_csv(fb_csv_path)
+        except Exception as e:
+            st.error(f"Failed to read feedback CSV: {e}")
+            df_fb_all = None
+        if df_fb_all is None or df_fb_all.empty:
+            st.info("Feedback CSV is empty.")
+        else:
+            # Resolve columns (favor exact labels you provided)
+            def _find_col(cols, *cands):
+                m = {"".join(ch for ch in c.lower() if ch.isalnum()): c for c in cols}
+                for c in cands:
+                    k = "".join(ch for ch in c.lower() if ch.isalnum())
+                    if k in m:
+                        return m[k]
+                return None
+
+            cols = list(df_fb_all.columns)
+            col_patient  = _find_col(cols, "patient_id", "patient")
+            col_exercise = _find_col(cols, "exercise")
+            col_grade    = _find_col(cols, "letter_grade", "grade")
+            col_summary  = _find_col(cols, "exercise_summary", "summary")
+            col_overall  = _find_col(cols, "overall_similarity", "similarity")
+
+            if not col_patient or not col_exercise:
+                st.warning("Could not find required columns 'patient_id' and 'exercise' in CSV.")
+            else:
+                mask = (df_fb_all[col_patient].astype(str).str.strip().str.lower() == str(selected_patient).strip().lower()) & \
+                       (df_fb_all[col_exercise].astype(str).str.strip().str.lower() == str(selected_exercise).strip().lower())
+                df_row = df_fb_all[mask]
+                if df_row.empty:
+                    # --- Relaxed fallback: alnum-only normalized match for both patient and exercise ---
+                    def _norm(s):
+                        return "".join(ch for ch in str(s).lower() if ch.isalnum())
+
+                    ex_norm_sel = _norm(selected_exercise)
+                    pat_norm_sel = _norm(selected_patient)
+                    ex_norm_col = df_fb_all[col_exercise].astype(str).str.lower().apply(lambda s: "".join(ch for ch in s if ch.isalnum()))
+                    pat_norm_col = df_fb_all[col_patient].astype(str).str.lower().apply(lambda s: "".join(ch for ch in s if ch.isalnum()))
+
+                    mask_relaxed = (pat_norm_col == pat_norm_sel) & (ex_norm_col == ex_norm_sel)
+                    df_row = df_fb_all[mask_relaxed]
+
+                    if df_row.empty:
+                        st.caption("No stepwise feedback found for this patient/exercise in the selected CSV.")
+                        # Provide helpful hints and nearest matches
+                        with st.expander("Show matching hints"):
+                            st.write({
+                                "selected_patient": selected_patient,
+                                "selected_exercise": selected_exercise,
+                                "csv_path": fb_csv_path,
+                            })
+                            preview_cols = [c for c in [col_patient, col_exercise, col_grade, col_overall] if c]
+                            near_pat = df_fb_all[pat_norm_col == pat_norm_sel]
+                            near_ex = df_fb_all[ex_norm_col == ex_norm_sel]
+                            if not near_pat.empty:
+                                st.markdown("**Rows with the same patient_id (normalized):**")
+                                st.dataframe(near_pat[preview_cols].head(10), use_container_width=True, hide_index=True)
+                            if not near_ex.empty:
+                                st.markdown("**Rows with the same exercise (normalized):**")
+                                st.dataframe(near_ex[preview_cols].head(10), use_container_width=True, hide_index=True)
+                        # Stop rendering the rest of the stepwise UI
+                        raise st.experimental_rerun if False else SystemExit
+
+                     # If we get here, df_row is non-empty (matched strictly or relaxed)
+                    r = df_row.iloc[0]
+                    # Header card (centered, consistent with the blue card style)
+                    header_summary = str(r[col_summary]) if col_summary in df_row.columns else ""
+                    header_grade   = str(r[col_grade]) if col_grade in df_row.columns else "N/A"
+                    header_score   = (str(r[col_overall]) if col_overall in df_row.columns else "N/A")
+
+                    st.markdown(
+                        f"""
+                        <div style=\"border: 2px solid #1f77b4; border-radius: 8px; background: rgba(31,119,180,0.06); padding: 14px 16px; margin: 10px auto; max-width: 70%; text-align:center;\">
+                          <div style=\"font-weight:600; color:#1f77b4; font-size:16px; margin-bottom:6px;\">LLM-based Exercise Feedback — Overview</div>
+                          <div style=\"margin-bottom:8px; line-height:1.4; color:#222;\">{header_summary}</div>
+                          <div style=\"display:flex; justify-content:center; gap:18px; flex-wrap:wrap; color:#222;\">
+                            <div><b>Grade:</b> {header_grade}</div>
+                            <div><b>Overall Similarity:</b> {header_score}</div>
+                          </div>
+                        </div>
+                        """,
+                        unsafe_allow_html=True,
+                    )
+
+                    # Extract dynamic stepwise fields: review_r{rep}_s{step}, similarity_r{rep}_s{step}
+                    import re
+                    review_pat = re.compile(r"^review_r(\d+)_s(\d+)$", re.IGNORECASE)
+                    sim_pat    = re.compile(r"^similarity_r(\d+)_s(\d+)$", re.IGNORECASE)
+
+                    # Map of rep -> { step -> {"review": str|None, "similarity": float|None} }
+                    reps = {}
+                    for c in cols:
+                        c_norm = c.strip().lower()
+                        m = review_pat.match(c_norm)
+                        if m:
+                            rep = int(m.group(1)); step = int(m.group(2))
+                            reps.setdefault(rep, {}).setdefault(step, {})["review"] = r.get(c, None)
+                            continue
+                        m = sim_pat.match(c_norm)
+                        if m:
+                            rep = int(m.group(1)); step = int(m.group(2))
+                            val = r.get(c, None)
+                            try:
+                                val = float(val) if val is not None and str(val).strip() != "" else None
+                            except Exception:
+                                val = None
+                            reps.setdefault(rep, {}).setdefault(step, {})["similarity"] = val
+
+                    if not reps:
+                        st.caption("No per-step fields (review/similarity) found in CSV header for this row.")
+                    else:
+                        # Sort reps and steps
+                        for rep in sorted(reps.keys()):
+                            st.markdown(f"#### Rep {rep}")
+                            steps = reps[rep]
+                            for step_idx in sorted(steps.keys()):
+                                data = steps[step_idx]
+                                review = data.get("review")
+                                simv   = data.get("similarity")
+                                if (review is None or str(review).strip() == "") and (simv is None):
+                                    continue  # skip empty entries
+                                sim_txt = (f"{simv}" if simv is not None else "N/A")
+                                # Pretty card per step
+                                st.markdown(
+                                    f"""
+                                    <div style=\"border:1px solid #d1e3f8; background:#f6fbff; border-radius:8px; padding:10px 12px; margin:6px 0;\">
+                                      <div style=\"font-weight:600; color:#1f77b4; margin-bottom:4px;\">Step {step_idx}</div>
+                                      <div style=\"color:#222; margin-bottom:6px; line-height:1.4;\">{review if review else ''}</div>
+                                      <div style=\"color:#222;\"><b>Similarity:</b> {sim_txt}</div>
+                                    </div>
+                                    """,
+                                    unsafe_allow_html=True,
+                                )

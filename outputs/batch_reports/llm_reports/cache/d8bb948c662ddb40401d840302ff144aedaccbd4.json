@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You did a great job sitting or standing comfortably. Keep focusing on placing your hands on your abdomen."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with placing your hands on your abdomen. Remember to inhale slowly through your nose while tightening your whole body muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're on the right track with inhaling through your nose and tightening your muscles. Try to visualize the fluid moving towards your chest as you inhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job relaxing your muscles as you exhale through your mouth. Keep visualizing pushing the fluid out with each exhale."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with this exercise! Remember to focus on tightening your whole body muscles as you inhale and relaxing them as you exhale. Keep visualizing the fluid movement to help with lymphatic drainage.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

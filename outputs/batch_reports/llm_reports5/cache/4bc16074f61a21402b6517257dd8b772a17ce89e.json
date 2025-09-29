@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed as you begin the roll."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice movement! Try to bring your shoulder blades together and down smoothly."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job completing the first set! Remember to breathe deeply as you roll back."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second set starting strong! Focus on a controlled backward and downward motion."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent! You're really getting into the rhythm of the shoulder rolls."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic finish! You completed both sets with good form and control."
+    }
+  ],
+  "exercise_summary": "Great job with your shoulder rolls! You completed both sets smoothly, focusing on bringing your shoulder blades back and down. Remember to keep breathing deeply to maximize the benefits for your lymphatic system and shoulder mobility.",
+  "letter_grade": "A"
+}

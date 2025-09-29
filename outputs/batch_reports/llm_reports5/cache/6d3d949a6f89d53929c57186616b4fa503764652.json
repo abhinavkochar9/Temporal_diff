@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great start! Keep your fists closed and arms drawn in. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Good job opening your fingers and extending your arms. Ensure you're exhaling and relaxing your muscles as you move."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're doing well with the outward arm movement. Focus on maintaining shoulder height and a relaxed posture."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "This is the final part of the movement. Try to keep your arms extended and your body stable."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Excellent completion of the first repetition! You're getting the hang of the horizontal pumping motion."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Remember to inhale and tighten your muscles as you bring your arms in."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Nicely done opening your hands and extending your arms. Continue to exhale and relax as you move outwards."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "You're maintaining good form. Focus on keeping your arms at shoulder height and breathing out."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Almost there! Keep your arms straight and steady as you complete this part of the movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job completing the second repetition! Your movements are becoming smoother and more controlled."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Remember to keep your fists closed and inhale while tightening muscles, then open your hands, extend your arms, and exhale. Focus on smooth, controlled movements.",
+  "letter_grade": "A-"
+}

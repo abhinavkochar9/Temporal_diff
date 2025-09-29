@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job closing your fingers into fists and drawing your arms in. Remember to inhale and tighten your muscles during this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your fingers and extending your arms well. Make sure to exhale and relax your muscles as you do this."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your arm extension and muscle relaxation are looking good. Keep up the steady breathing and controlled movements."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Continue to focus on opening your fingers wide and extending your arms. Ensure you are exhaling fully and relaxing your muscles."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Great job completing the repetitions! Remember to maintain relaxed muscles and a full exhale as you extend your arms."
+    }
+  ],
+  "exercise_summary": "You did a great job with the horizontal pumping exercise! Keep up the good work of closing your fists, inhaling, and tightening your muscles, then opening your hands, exhaling, and relaxing as you extend your arms.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

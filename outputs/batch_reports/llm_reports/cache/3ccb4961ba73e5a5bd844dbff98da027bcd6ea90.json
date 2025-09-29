@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to squeeze your shoulder blades together, the movement wasn't consistently circular.  Focus on smoother, controlled rotations.  Try to keep your elbows close to your body."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The circular motion needs more attention.  Remember to inhale deeply as you pull your shoulders back to help with the movement and breathing."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The repetitions were not fully controlled and lacked the smooth, circular motion.  Concentrate on the full range of motion and controlled breathing."
+    }
+  ],
+  "exercise_summary": "You attempted the shoulder rolls, but the circular motion needs improvement. Remember to squeeze your shoulder blades together and inhale deeply as you pull them back. Focus on smooth, controlled movements for better results.",
+  "letter_grade": "C"
+}

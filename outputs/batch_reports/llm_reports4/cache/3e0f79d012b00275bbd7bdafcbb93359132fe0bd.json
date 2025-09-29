@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position. Keep your shoulders relaxed."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Focus on a slow, controlled breath."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Try to inhale more deeply through your nose and gently tighten your whole body muscles. Visualize fluid moving to your chest."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Relax your muscles as you exhale through your mouth. Visualize pushing fluid out. Remember to keep the exhale slow."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Great start for the second rep! Maintain a comfortable posture and relaxed shoulders."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Hands are well-placed on your abdomen. Continue with slow, deliberate breaths."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Inhale deeply through your nose, tightening your whole body. Imagine the lymph fluid moving towards your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Exhale slowly through your mouth, relaxing your muscles. Visualize pushing the fluid out. You're doing great!"
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the deep breathing exercise. Remember to inhale deeply through your nose while tightening your body, and exhale slowly through your mouth while relaxing. This helps stimulate lymphatic drainage. Keep up the great work!",
+  "letter_grade": "B"
+}

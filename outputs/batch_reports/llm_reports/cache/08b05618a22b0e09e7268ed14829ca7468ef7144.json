@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists.  Inhale and tighten your muscles as instructed."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent form extending your arms horizontally. Remember to exhale and relax your muscles as you extend."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension is good, focus on smoother transitions between steps 2 and 3. Try to maintain a more controlled movement."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The fist-making and arm-pulling needs more attention. Ensure you're tightening your muscles effectively during inhalation."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetitions show some inconsistency.  Try to maintain the same level of effort and control throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You performed the horizontal pumping exercise.  Remember to coordinate your breathing with the arm movements, inhaling as you pull your arms in and exhaling as you extend them.  Focus on smooth transitions and consistent muscle engagement.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your arm and shoulder positioning looks good. Try to keep your wrists a bit straighter in this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good job stretching your arms overhead. Focus on keeping your elbows a little straighter as you reach up."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with the fist and squeezing your shoulder blades. Aim for a straighter wrist as you push down."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job relaxing and exhaling as you stretch your arms back. Keep those wrists a bit straighter."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're consistently engaging your shoulders and back. Try to straighten your wrists more as you perform the pumping motion."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Remember to keep your wrists straighter throughout the movement, especially when pushing down and reaching overhead. This will help maximize the benefits.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

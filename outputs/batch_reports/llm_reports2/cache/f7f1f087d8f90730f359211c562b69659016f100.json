@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders and elbows close to the target. Try to bring your wrists a little closer to your chest in this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulders and elbows are well-aligned. Focus on opening your fingers wider and extending your arms fully to shoulder height while relaxing your muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Shoulder and elbow alignment is good. For the next repetitions, try to relax your muscles more as you open your fingers and extend your arms."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Shoulders and elbows are mostly in place. Pay close attention to fully extending your arms to shoulder height and relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Your shoulders are well-aligned. For the next repetitions, focus on fully extending your arms to shoulder height and relaxing your muscles. Your elbows and wrists could be straighter."
+    }
+  ],
+  "exercise_summary": "You're doing great with the arm movements! Remember to fully open your fingers and extend your arms to shoulder height while relaxing your muscles. Keep up the good work!",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

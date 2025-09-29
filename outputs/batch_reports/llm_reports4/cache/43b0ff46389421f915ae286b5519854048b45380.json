@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with arms stretched overhead and fingers open. Keep this up!"
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Your elbow and wrist positions were a bit off. Try to keep your elbows straighter and wrists more neutral as you reach overhead."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You made a good fist and squeezed your shoulder blades. Focus on keeping your elbows closer to your body during the push down."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You stretched your arms back overhead and exhaled. Try to relax your shoulders more as you extend your arms."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You relaxed well. Ensure your elbows are not bending too much when reaching overhead."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Great start for the second rep! You maintained a comfortable position with arms overhead and fingers open."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Your elbows and wrists were a bit far from the ideal position. Focus on keeping your elbows straighter and wrists neutral."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Good fist and shoulder blade squeeze! Remember to keep your elbows closer to your body during the downward push."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "You extended your arms overhead and exhaled. Try to relax your shoulders more during this movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Good relaxation. Be mindful of keeping your elbows straighter when reaching overhead."
+    }
+  ],
+  "exercise_summary": "You're doing great with the Push Down Pumping exercise! Remember to keep your elbows straighter and wrists neutral when reaching overhead. Focus on squeezing your shoulder blades together during the downward push. Keep up the good work!",
+  "letter_grade": "B"
+}

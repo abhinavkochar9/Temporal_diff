@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job of placing your hands on your abdomen. Keep focusing on that gentle pressure as you inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good work with the hand placement. Remember to keep your hands on your abdomen as you inhale and exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent! You're tightening your muscles and visualizing fluid movement. Keep up the great work with your inhales."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Fantastic! You're relaxing your muscles and visualizing pushing fluid out. This is exactly what we want for lymphatic drainage."
+    }
+  ],
+  "exercise_summary": "You're doing great with this deep breathing exercise! Remember to keep your hands on your belly as you inhale and exhale. Focus on tightening your muscles when you breathe in and relaxing them when you breathe out to help move lymph fluid.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

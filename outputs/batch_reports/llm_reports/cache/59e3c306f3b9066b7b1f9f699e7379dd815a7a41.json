@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job on the shoulder blade squeeze!  Try to maintain a smooth, controlled circular motion throughout each repetition."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to inhale deeply as you pull your shoulders back. This helps with rib expansion and improves the exercise's effectiveness. Focus on coordinating your breath with the movement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you're completing the repetitions, ensure you're focusing on the circular motion and not just moving your shoulders up and down.  Try to keep the movement controlled and smooth."
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise.  Remember to squeeze your shoulder blades together and focus on a smooth circular motion. Deep inhalations during the backward movement will enhance the exercise's benefits.",
+  "letter_grade": "B"
+}

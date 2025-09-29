@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job sitting or standing comfortably. Focus on gently squeezing your shoulder blades back and down."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! You're effectively squeezing your shoulder blades back and down in a circular motion. Keep up the good work."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You've completed the repetitions! Remember to inhale deeply as you pull your shoulders back to maximize the benefit."
+    }
+  ],
+  "exercise_summary": "You've successfully completed your shoulder rolls! This exercise helps improve shoulder movement and supports lymphatic flow. Remember to breathe deeply as you roll your shoulders back to get the most benefit.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

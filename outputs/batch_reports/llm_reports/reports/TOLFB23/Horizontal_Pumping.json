@@ -1,0 +1,38 @@
+{
+  "patient_id": "TOLFB23",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition had excessive movement in the wrists and elbows. Focus on controlled movements and maintaining a steady posture.",
+      "similarity_percent": 71.8
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The elbows and wrists showed significant movement.  Try to keep your arms straighter and more controlled as you extend them horizontally.",
+      "similarity_percent": 76.7
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist showed excessive movement. Maintain a steady, controlled movement throughout the exercise.",
+      "similarity_percent": 71.0
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Both elbows and wrists showed significant movement. Focus on controlled movements and maintaining a steady posture.",
+      "similarity_percent": 60.9
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetition showed excessive movement in the wrists.  Concentrate on smoother, more controlled arm movements.",
+      "similarity_percent": 9.4
+    }
+  ],
+  "exercise_summary": "Remember to keep your arms relatively straight and controlled as you pump them horizontally.  Focus on the smooth, controlled movements of your arms, and try to minimize unnecessary wrist and elbow movement.  Let me know if you have any questions.",
+  "letter_grade": "C"
+}

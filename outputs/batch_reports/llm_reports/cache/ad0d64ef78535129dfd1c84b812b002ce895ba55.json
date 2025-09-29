@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to stretch your arm overhead, the wrist and elbow movements show inconsistencies. Try to keep your arm straighter and maintain a consistent hand position throughout the exercise."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and closing needs more focus.  Ensure your palm is fully open and your fist is fully closed for each repetition.  Visualize the fluid moving with each pump."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The wide palm opening and closed fist are not consistent.  Focus on the full range of motion for each repetition."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent fist clenching and hand opening.  Concentrate on coordinating your breathing with the hand movements; inhale while making a fist, exhale while opening your hand."
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but consistency in arm position and hand movements needs improvement.  Focus on fully opening your palm and making a tight fist, coordinating with your breath. Remember to visualize the fluid moving with each pump.",
+  "letter_grade": "C"
+}

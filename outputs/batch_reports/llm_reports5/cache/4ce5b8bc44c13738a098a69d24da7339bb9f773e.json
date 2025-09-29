@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists clenched and arms drawn in. Remember to inhale and tighten your muscles here."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done opening your fingers and extending your arms. Keep exhaling and relaxing as you move."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent work maintaining the horizontal arm extension. Focus on keeping your muscles relaxed during this phase."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You're doing great! Remember to bring your arms back in and clench your fists for the next step."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Good job completing the first repetition. You're following the instructions well."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Great start to your second rep! Keep those fists tight and inhale as you draw your arms in."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done opening your hands and extending. Remember to exhale and relax your muscles as you move outwards."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Good job keeping your arms extended horizontally. Focus on relaxing your muscles during this outward movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "You're doing well! Bring your arms back in and clench your fists to prepare for the next step."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job completing the second repetition! You're performing the horizontal pumping exercise with good form."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the horizontal pumping exercise! Remember to keep your fists clenched and muscles tight when drawing your arms in, then open your hands and relax as you extend them outwards. This helps promote lymph drainage effectively.",
+  "letter_grade": "A-"
+}

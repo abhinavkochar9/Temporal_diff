@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great start! Keep your fists closed and arms drawn in, tightening your muscles as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Good job opening your fingers and extending your arms. Remember to exhale and relax your muscles as you do this."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're opening your fingers and extending your arms horizontally. Keep exhaling and relaxing."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Nice work on the arm extension. Focus on maintaining shoulder height and a relaxed posture."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You've completed the first repetition! Ensure your arms are fully extended horizontally."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Remember to inhale and tighten your muscles with fists closed and arms in."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done opening your hands and extending. Keep that exhale and muscle relaxation going."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great form on the arm extension and finger opening. Continue to exhale and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Good control on the arm movement. Try to keep your shoulders relaxed and at height."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "You've finished the second repetition! Ensure your arms are fully extended and relaxed."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the horizontal pumping exercise! Remember to inhale and tighten your muscles while bringing your arms in, then exhale and relax as you open your hands and extend your arms horizontally. Keep up the good work!",
+  "letter_grade": "A-"
+}

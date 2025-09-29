@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the initial attempt showed some understanding of bringing arms in front of the chest, the second repetition showed significant deviation from the instructions. Focus on maintaining a consistent fist and controlled arm movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension needs more precision.  Ensure arms are fully extended horizontally to shoulder height.  The left wrist shows more deviation than the right."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The exercise requires a smooth transition between steps 1 and 2.  The movements appear somewhat jerky and lack coordination."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The repetition shows inconsistent muscle engagement.  Remember to inhale and tighten muscles when drawing arms in, and exhale and relax when extending."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetition shows some improvement, but consistency is still lacking.  Focus on smooth, controlled movements throughout the entire exercise."
+    }
+  ],
+  "exercise_summary": "You attempted the Horizontal Pumping exercise, aiming to improve lymph drainage.  Remember to keep your fists closed tightly when pulling your arms in and fully extend your arms horizontally.  Practice smooth transitions between these movements to improve your form.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed minimal movement, the second repetition in step 1 indicates excessive movement in the right elbow and wrist.  Focus on controlled, whole-body muscle tightening during inhalation, avoiding isolated limb movements. Visualize the fluid moving towards your chest as instructed."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 1, the second repetition shows excessive movement in the right elbow and wrist. Ensure your hands remain relatively still on your abdomen while focusing on the whole-body muscle engagement.  Maintain a steady, controlled breathing pattern."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Excessive movement is again observed in the elbows and wrists during both repetitions. Remember to visualize the fluid moving towards your chest during inhalation and focus on controlled muscle engagement throughout your body."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The excessive movement in the elbows and wrists continues in this step.  Pay close attention to the instruction to exhale slowly through your mouth while relaxing your muscles.  The visualization of pushing fluid out should be accompanied by a controlled relaxation, not uncontrolled limb movement."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent execution of the Deep Breathing exercise.  While the initial repetitions showed minimal movement, subsequent repetitions revealed significant excessive movement in the elbows and wrists, particularly on the right side. This suggests a need to focus on controlled whole-body muscle engagement during inhalation and relaxation during exhalation, as instructed.  Improved visualization of fluid movement may also enhance performance.",
+  "letter_grade": "D"
+}

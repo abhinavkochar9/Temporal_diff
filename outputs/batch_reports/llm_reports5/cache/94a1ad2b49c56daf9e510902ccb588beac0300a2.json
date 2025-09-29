@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Try to keep your elbows and wrists a bit closer to your body as you begin the roll."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're getting the motion! Focus on bringing your shoulder blades back and down smoothly. Keep those elbows and wrists more stable."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Nice completion of the first roll! Remember to keep the movement controlled, especially with your wrists."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well. Your shoulders are moving nicely. Let's aim for a little less distance in the wrists this time."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Great control in this rep! Your shoulders are moving well. Try to keep the elbows a bit closer to your sides."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent finish to the second roll! You're doing a great job maintaining control and mobility."
+    }
+  ],
+  "exercise_summary": "Great job with the shoulder rolls! You're improving shoulder mobility and lymphatic flow. Remember to keep your elbows and wrists stable and focus on the smooth backward and downward motion of your shoulder blades.",
+  "letter_grade": "B+"
+}

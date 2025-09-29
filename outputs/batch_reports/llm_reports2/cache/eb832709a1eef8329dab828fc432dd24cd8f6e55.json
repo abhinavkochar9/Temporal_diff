@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Try to keep your body muscles a bit tighter during the inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're placing your hands on your abdomen well. Focus on a slow exhale and fully relaxing your muscles as you breathe out."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're inhaling through your nose. Remember to tighten your whole body muscles and visualize fluid moving to your chest."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're exhaling through your mouth. Keep visualizing pushing fluid out as you relax your muscles completely."
+    }
+  ],
+  "exercise_summary": "You're doing great with deep breathing! Remember to tighten your whole body muscles as you inhale through your nose, and fully relax them as you exhale through your mouth. This helps your lymphatic system work efficiently.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

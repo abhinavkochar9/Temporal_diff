@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Keep your hands on your abdomen for the next step."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're placing your hands correctly. Remember to inhale through your nose and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great inhale and muscle tightening! Visualize fluid moving to your chest as you breathe in."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. Visualize pushing fluid out as you breathe out."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well, sitting or standing comfortably. Keep hands on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good hand placement. Remember to inhale through your nose and tighten your whole body."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Well done on the inhale and muscle tightening. Keep visualizing fluid moving towards your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Perfect exhale and relaxation. Continue visualizing pushing fluid out as you complete the breath."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercises! You consistently followed the instructions to inhale through your nose while tightening your muscles and exhale through your mouth while relaxing. Keep up this excellent practice to support lymphatic drainage and healing.",
+  "letter_grade": "A"
+}

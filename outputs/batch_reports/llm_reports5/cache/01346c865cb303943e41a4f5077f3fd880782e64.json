@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with your arm stretched overhead and fingers open. Keep up the great work!"
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're doing well with stretching your arms back overhead. Remember to exhale and relax as you do this."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent fist-making and pushing down motion! Ensure you're squeezing your shoulder blades together and inhaling as you tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job returning your arms overhead while exhaling and relaxing. Focus on a smooth, controlled movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You've completed the first repetition! Keep the same focus on form and breathing for the next set."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start to your second repetition. Remember to maintain a comfortable posture and stretch your arm overhead."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're doing well stretching your arms overhead. Continue to exhale and relax during this phase."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice work making a fist and pushing down! Remember to squeeze your shoulder blades together and inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Great job returning your arms overhead while exhaling and relaxing. Keep the movement fluid."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "You've successfully completed all repetitions! You did a great job following the instructions for Push Down Pumping."
+    }
+  ],
+  "exercise_summary": "You've done a fantastic job with the Push Down Pumping exercise! Remember to keep your movements smooth and controlled, focusing on squeezing your shoulder blades together during the push-down phase and relaxing as you extend overhead. Great work completing all repetitions!",
+  "letter_grade": "A"
+}

@@ -3,24 +3,24 @@
     "subset": "RWrist"
   },
   "rep1_step2": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep1_step3": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep1_step4": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep2_step1": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep2_step2": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep2_step3": {
-    "subset": "RWrist"
+    "subset": ""
   },
   "rep2_step4": {
-    "subset": "RWrist"
+    "subset": ""
   }
 }

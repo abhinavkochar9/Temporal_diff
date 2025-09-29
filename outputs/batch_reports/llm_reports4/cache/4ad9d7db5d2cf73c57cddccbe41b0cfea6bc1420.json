@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed and fingers open as you prepare to move."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice job reaching overhead. Ensure your fingers are spread wide."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're making a good fist and squeezing your shoulder blades. Remember to inhale as you tighten."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done stretching back overhead and exhaling. Relax your muscles fully."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "This step seems to be a repeat of step 4. Please ensure you are following the exercise instructions precisely."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well. Maintain relaxed shoulders and open fingers."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good reach overhead. Keep those fingers spread wide."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent fist and shoulder blade squeeze. Remember to inhale and engage your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Great job extending overhead and exhaling. Relax completely."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "This step appears to be a repeat of step 4. Please ensure you are following the exercise instructions precisely."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Focus on making a tight fist and squeezing your shoulder blades together during the downward push, remembering to inhale. Then, fully relax and stretch overhead while exhaling.",
+  "letter_grade": "C"
+}

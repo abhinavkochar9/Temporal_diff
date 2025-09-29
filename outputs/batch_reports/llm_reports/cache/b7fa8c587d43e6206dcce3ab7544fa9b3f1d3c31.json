@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists while inhaling.  Ensure consistent muscle engagement throughout the movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm extension is good, focus on a smoother exhale and muscle relaxation as you extend your arms horizontally. The left wrist shows higher error; try to maintain even extension in both arms."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist shows higher error; ensure both arms are moving with similar range and control. Remember to coordinate your breathing with the arm movements."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Significant error in right elbow and wrist. Focus on controlled movements and maintaining even extension in both arms.  Try to reduce the speed of the movement."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "High error in both wrists, particularly on the second repetition.  Pay close attention to maintaining a smooth, controlled movement and even extension in both arms throughout the exercise.  The high error suggests a lack of control and coordination."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good initial form in bringing arms in front of the chest and making fists. However, subsequent steps showed inconsistent arm extension and control, particularly in the right elbow and both wrists.  The patient needs to focus on smoother transitions between arm positions, coordinating breathing with the movements, and maintaining even extension in both arms throughout the exercise.",
+  "letter_grade": "C"
+}

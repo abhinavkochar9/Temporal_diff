@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You maintained a good posture and remembered to place your hands on your abdomen during inhalation.  Keep focusing on the deep, controlled breathing."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job visualizing the fluid movement! Try to tighten your whole body muscles a bit more during inhalation for better lymphatic stimulation."
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "Excellent inhalation technique! Remember to visualize the fluid moving towards your chest."
+    },
+    {
+      "step_index": 4,
+      "verdict": "good",
+      "feedback": "You did a great job relaxing your muscles during exhalation.  Keep visualizing the fluid being pushed out."
+    }
+  ],
+  "exercise_summary": "You performed the deep breathing exercise well! Remember to fully tighten your muscles during inhalation and relax them completely during exhalation.  Visualizing fluid movement helps improve lymphatic drainage. Keep practicing!",
+  "letter_grade": "A"
+}

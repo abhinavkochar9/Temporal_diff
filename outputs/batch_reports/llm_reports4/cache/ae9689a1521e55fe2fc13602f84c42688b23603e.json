@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position. Keep your shoulders and elbows stable as you prepare to inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're doing well with the initial setup. Focus on keeping your wrists steady as you begin to inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're maintaining good control of your shoulders and elbows. Remember to tighten your whole body muscles as you inhale deeply through your nose."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job relaxing your muscles as you exhale. Keep your shoulders and elbows relaxed, and try to keep your wrists a bit steadier."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "You're starting the second rep well. Maintain stability in your shoulders and elbows as you prepare to inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good focus on keeping your body steady. Continue to keep your wrists stable as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Well done maintaining control of your shoulders and elbows. Remember to fully tighten your body muscles during the inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation. Try to keep your wrists a little more stable during this phase."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with deep breathing! Focus on keeping your wrists steady throughout the exercise, especially during the inhale and exhale phases. Remember to tighten your whole body muscles when inhaling and relax them when exhaling to maximize lymphatic flow.",
+  "letter_grade": "B"
+}

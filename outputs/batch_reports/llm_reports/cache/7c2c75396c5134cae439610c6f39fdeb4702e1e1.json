@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job on the first step!  Your shoulder blades moved smoothly in a circular motion. Remember to focus on squeezing them together and down, and to inhale deeply as you pull them back."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "In step 2, try to maintain a more controlled circular motion. The data suggests some inconsistency in the movement.  Focus on the smooth, controlled movement of your shoulder blades, ensuring the movement originates from your shoulder blades and not your elbows or wrists."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 shows some improvement but still needs more consistency.  The range of motion seems limited in the second repetition.  Try to increase the range of motion while maintaining control and the circular motion. Remember to breathe deeply throughout the exercise."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated a good understanding of the Shoulder Roll exercise. While the initial step showed good form, subsequent steps revealed inconsistencies in the circular motion and range of motion.  Focus on maintaining a controlled, circular movement originating from the shoulder blades, and remember to breathe deeply throughout the exercise to enhance lymphatic flow.",
+  "letter_grade": "B"
+}

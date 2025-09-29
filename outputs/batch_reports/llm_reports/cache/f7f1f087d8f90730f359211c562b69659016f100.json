@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders and elbows relatively stable. Try to bring your fists closer together in front of your chest and tighten your muscles more firmly."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arm extension was good. Focus on opening your fingers wide and relaxing your muscles as you exhale. Your left wrist was a bit far from the target in rep 1."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're extending your arms well. For the next repetitions, try to make your fists tighter and your arm extension smoother. Your left elbow and wrists were quite far from the target in rep 1."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Your shoulder and elbow movements were good. For the next repetitions, focus on keeping your wrists closer to the target position. Your wrists were quite far from the target in rep 2."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Your shoulders and initial arm movements were good. However, your elbows and wrists were significantly far from the target in rep 2. Focus on maintaining form throughout the entire movement."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the arm movements. Remember to make your fists tight and extend your arms fully while relaxing your muscles. Keep your wrists closer to the target for better results.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

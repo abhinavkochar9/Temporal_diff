@@ -1,0 +1,43 @@
+{
+  "patient_id": "TOLFB05",
+  "exercise": "Horizontal_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm movements were attempted, the range of motion needs to be wider. Focus on extending your arms fully to shoulder height horizontally.  Inhale deeply as you bring your arms in, and exhale fully as you extend them.",
+      "similarity_percent": 95.0,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The fist clenching and opening needs more emphasis. Ensure you're fully clenching your fists and opening your hands wide.  Try to coordinate your breathing with the movements more effectively.",
+      "similarity_percent": 75.1,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The muscle tightening during inhalation and relaxation during exhalation needs more attention.  Concentrate on feeling the muscles engage and release with each breath.",
+      "similarity_percent": 95.0,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The repetition count was not fully completed.  Remember to repeat the exercise four times, focusing on smooth, controlled movements.",
+      "similarity_percent": 95.0,
+      "rep": 2
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The overall coordination of the steps needs improvement.  Try to perform the exercise more smoothly and deliberately, paying attention to each instruction.",
+      "similarity_percent": 91.8,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You attempted the Horizontal Pumping exercise, but several areas need improvement. Focus on fully extending your arms, clenching your fists tightly, and coordinating your breathing with the arm movements. Remember to repeat the exercise four times for best results.",
+  "letter_grade": "C"
+}

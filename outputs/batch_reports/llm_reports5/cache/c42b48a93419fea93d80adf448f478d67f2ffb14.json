@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed and arms comfortably overhead with fingers open."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice! Focus on keeping your elbows slightly bent as you begin to make a fist."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job squeezing your shoulder blades together as you push down. Remember to inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done stretching your arms back overhead and exhaling. Relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Excellent completion of the first repetition! You're doing great."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Maintain that comfortable upright posture with arms overhead and fingers spread."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good form on this rep. Keep the focus on a controlled fist-making motion."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent squeeze of the shoulder blades! Remember to breathe in deeply during this phase."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "You're doing great extending your arms overhead and exhaling. Keep the movement smooth."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job completing both repetitions! Your form was consistent and effective."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! Remember to keep your fingers open and arms stretched overhead initially, then squeeze your shoulder blades together as you push down. Exhale as you return to the starting position.",
+  "letter_grade": "A"
+}

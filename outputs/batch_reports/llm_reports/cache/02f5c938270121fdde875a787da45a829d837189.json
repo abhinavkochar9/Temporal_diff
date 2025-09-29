@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition's MAE values for wrists and elbows suggest you need to maintain more consistent muscle engagement and control throughout the arm extension."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values indicate inconsistent form. Focus on smoothly extending your arms horizontally while exhaling and relaxing your muscles.  Try to maintain a more controlled movement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The exercise shows some improvement but still lacks consistency in maintaining the horizontal arm position.  Pay attention to keeping your arms parallel to the floor."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The form is inconsistent.  Remember to fully extend your arms horizontally and maintain a controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in the second repetition indicate a significant loss of control.  Focus on maintaining a slow, controlled movement and avoid jerky motions."
+    }
+  ],
+  "exercise_summary": "You made a good attempt at the Horizontal Pumping exercise.  Remember to keep your arms parallel to the floor during the extension phase and maintain consistent muscle engagement throughout each repetition.  Focus on controlled movements to improve your form.",
+  "letter_grade": "C"
+}

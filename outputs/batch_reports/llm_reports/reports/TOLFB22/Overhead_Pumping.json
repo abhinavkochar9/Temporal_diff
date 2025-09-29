@@ -1,0 +1,32 @@
+{
+  "patient_id": "TOLFB22",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to extend your arm overhead, the significant movement detected in your elbows and wrists suggests you may not have kept them straight. Focus on maintaining a straight arm throughout the exercise.",
+      "similarity_percent": 39.2
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The wide range of motion in your elbows and wrists indicates that you may not have fully opened your palm and fingers in step 3. Try to fully extend your hand before making a fist.",
+      "similarity_percent": 73.8
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The large amount of movement in your wrists suggests that you may not have fully opened and closed your hand during the exercise.  Concentrate on the complete opening and closing of your hand with each breath.",
+      "similarity_percent": 18.8
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high level of movement detected in your elbows and wrists, especially in the second repetition, suggests that you may not have fully engaged your muscles during the fist-making and hand-opening phases. Try to visualize the fluid pumping action to improve muscle engagement.",
+      "similarity_percent": 0.0
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but there's room for improvement. Focus on keeping your arm straight and fully opening and closing your hand with each breath.  Remember to visualize the fluid pumping action to help engage your muscles more effectively.",
+  "letter_grade": "C"
+}

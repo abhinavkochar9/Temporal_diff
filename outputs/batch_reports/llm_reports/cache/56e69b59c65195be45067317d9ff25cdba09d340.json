@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job on the first step!  You performed the shoulder blade squeeze and circular motion as instructed. Remember to focus on a smooth, controlled movement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "In step 2, while the circular motion was attempted, the range of motion seems limited. Try to increase the size of the circles, ensuring your shoulders move through a larger arc.  Remember to inhale deeply as you pull your shoulders back, expanding your ribs."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 shows inconsistency in the execution.  The circular motion needs more controlled and consistent effort.  Focus on maintaining the smooth, controlled movement throughout the repetitions.  Remember to breathe deeply during the exercise."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated some understanding of the Shoulder Roll exercise. Step 1 was performed well, showing good control and form. However, steps 2 and 3 showed inconsistent execution and limited range of motion.  The patient needs to focus on increasing the size of the circular motion and maintaining a smooth, controlled movement throughout the exercise, while remembering to breathe deeply.",
+  "letter_grade": "B"
+}

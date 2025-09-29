@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your hands clasped loosely in your lap, and remember to keep your head upright throughout the exercise."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're raising your hands well. Try to keep your elbows a bit closer together as you bring your hands towards your forehead."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Nicely done spreading your elbows wide behind your head. Focus on a smooth motion and avoid pulling your head forward."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent hold! You maintained good posture and kept your elbows relatively close."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Good return. Be mindful of keeping your elbows from drifting too far forward as you bring your hands back down."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well. Continue to keep your head upright and hands clasped comfortably."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good job bringing your hands up. Focus on keeping those elbows tucked in a bit closer as you move towards your forehead."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great spread! You're keeping your elbows wide and your head in a good position. Remember to avoid pulling forward."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Solid hold! Your posture is good, and your elbows are well-positioned."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Well done returning to the start. Try to keep your elbows from moving too far forward during the descent."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Clasp and Spread exercise! Focus on keeping your elbows close when bringing your hands up and spreading them wide behind your head. Remember to maintain an upright head position and avoid pulling forward for best results.",
+  "letter_grade": "B"
+}

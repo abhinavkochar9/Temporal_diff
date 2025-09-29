@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your arm straighter overhead and feel the resistance. Your elbow and wrist are bending quite a bit."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For step 2, focus on making a tight fist and engaging your muscles as you inhale. Your elbow and wrist are still bending significantly."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, remember to open your hand wide and relax your muscles as you exhale. Your elbow and wrist are still bending more than ideal."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, ensure you are opening your hand and fingers wide while exhaling. Your elbow and wrist are much better in this repetition, but try to maintain that straighter arm."
+    }
+  ],
+  "exercise_summary": "Great effort on the overhead pumping! Focus on keeping your arm straight overhead and feeling that gentle resistance. Remember to open your hand wide when you exhale and make a tight fist when you inhale to help move fluid.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

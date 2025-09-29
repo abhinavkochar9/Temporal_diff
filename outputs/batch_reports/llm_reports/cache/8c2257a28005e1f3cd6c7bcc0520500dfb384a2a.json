@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists.  Your arm extension was smooth and controlled."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to fully extend your arms horizontally to shoulder height while exhaling. Try to maintain a consistent rhythm."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Focus on coordinating your breathing with your arm movements. Inhale as you bring your arms in, exhale as you extend them."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Try to keep your movements smoother and more controlled.  Ensure your arms are fully extended horizontally."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "Good effort!  Try to maintain a consistent rhythm and focus on the full range of motion for each repetition."
+    }
+  ],
+  "exercise_summary": "You performed the Horizontal Pumping exercise. Remember to fully extend your arms horizontally, coordinate your breathing with the movements, and maintain a consistent rhythm.  Focus on smooth, controlled movements for best results.",
+  "letter_grade": "C"
+}

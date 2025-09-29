@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with closed fists and drawing your arms in. Remember to inhale and tighten your muscles in this position."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Great extension! You opened your fingers and moved your arms out. Try to relax your muscles as you exhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent work returning to the starting position. Remember to close your fingers and tighten your muscles as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Good extension. Focus on keeping your arms at shoulder height and exhaling as you relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Well done completing the first repetition. Remember to close your fists and inhale while tightening your muscles for the next step."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start to your second repetition. Keep those fists closed and inhale while tightening your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Nice extension. Remember to exhale and relax your muscles as you open your fingers and extend your arms."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great job returning to the start. Inhale and tighten your muscles, keeping your fingers closed."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Good extension. Focus on exhaling and relaxing your muscles as you move your arms out to shoulder height."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job completing all repetitions! You consistently followed the instructions for opening and closing your fists and extending your arms."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! Remember to focus on inhaling and tightening your muscles when your fists are closed, and exhaling and relaxing as you extend your arms. Keep up the excellent work!",
+  "letter_grade": "A"
+}

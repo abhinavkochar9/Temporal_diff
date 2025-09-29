@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You are doing a good job of placing your hands on your abdomen. Keep up the good work!"
+    },
+    {
+      "step_index": 2,
+      "feedback": "You are doing a good job of inhaling slowly through your nose. Remember to also tighten your whole body muscles as you inhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You are doing a good job of exhaling slowly through your mouth. Remember to relax your muscles as you exhale and visualize pushing fluid out."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You are doing a good job of relaxing your muscles during the exhale. Keep up the great work!"
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing! Remember to tighten your whole body muscles as you inhale and relax them as you exhale. This helps your lymphatic system work effectively. Keep practicing these movements.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

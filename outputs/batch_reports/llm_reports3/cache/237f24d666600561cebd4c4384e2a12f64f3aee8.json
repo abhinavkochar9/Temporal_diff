@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job bringing your arms in and making fists. Remember to inhale and tighten your muscles here."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arms extended well, but try to relax your muscles more as you exhale. Focus on opening your fingers wide."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing great opening your fingers. Keep relaxing your muscles as you exhale and extend your arms."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good extension of your arms. Ensure you are fully relaxing your muscles and exhaling completely."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're extending your arms well. Focus on fully relaxing your muscles and opening your fingers wide as you exhale."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the arm movements. Remember to fully open your fingers and relax your muscles as you exhale. Keep up the great work on the repetitions!",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job squeezing your shoulder blades together!  Remember to keep your movements smooth and controlled."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Try to make larger, more controlled circular motions with your shoulders. Focus on inhaling deeply as you pull your shoulders back."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Your shoulder rolls are a bit jerky. Try to maintain a smoother, more controlled movement throughout the exercise. Remember to breathe deeply."
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise.  Step 1 was done well, but steps 2 and 3 need more controlled circular motions and deeper breaths.  Focus on smoother movements and breathing to improve.",
+  "letter_grade": "B"
+}

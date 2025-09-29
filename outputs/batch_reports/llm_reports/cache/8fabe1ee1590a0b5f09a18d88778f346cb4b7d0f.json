@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition had excessive movement in the right elbow and wrist. Focus on controlled movements and avoid jerky motions."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The right elbow and wrist show more movement than ideal.  Try to keep your arm straighter overhead and maintain a smoother, more controlled range of motion."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 2, the right elbow and wrist show excessive movement. Remember to keep your palm open wide and fingers spread during the exhalation phase."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent form across repetitions. The first repetition showed more movement than the second.  Maintain a consistent, controlled fist and open hand throughout."
+    }
+  ],
+  "exercise_summary": "You're learning overhead pumping! Remember to keep your arm straight overhead, open your hand wide, and make a tight fist.  Focus on controlled movements in your elbow and wrist to improve your form. Let's work on consistency across repetitions.",
+  "letter_grade": "C"
+}

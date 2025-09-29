@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job stretching your arm overhead. Try to keep your elbow straighter for better resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your elbow position is improving. Focus on keeping it straighter as you reach overhead."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your hand is opening well. Remember to keep your elbow as straight as possible while opening."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Great job making a fist and tightening your muscles. Ensure your elbow stays straight throughout the movement."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the overhead pumping exercise. Remember to keep your arm straight overhead and your elbow tight. Focus on opening your hand wide and making a strong fist with each breath.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

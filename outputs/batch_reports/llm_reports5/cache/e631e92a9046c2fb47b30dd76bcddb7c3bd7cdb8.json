@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed as you begin the roll."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice job squeezing your shoulder blades back and down. Try to make the motion a bit smoother."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're doing great! Remember to breathe deeply as you roll your shoulders back."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, looking good. Focus on a smooth, controlled movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent squeeze! Ensure your elbows stay relaxed throughout the motion."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic finish to the second rep! Keep up the great work with your breathing and shoulder movement."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the shoulder rolls! Remember to gently squeeze your shoulder blades back and down in a smooth circle. Try to inhale deeply when rolling back to help with breathing and oxygen flow. Keep up the good work!",
+  "letter_grade": "A-"
+}

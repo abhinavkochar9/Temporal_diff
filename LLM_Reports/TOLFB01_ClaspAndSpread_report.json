@@ -1,0 +1,100 @@
+{
+  "patient_id": "TOLFB01",
+  "exercise": "ClaspAndSpread",
+  "overall_similarity": 99.77,
+  "overall_letter_grade": "A+",
+  "summary": "",
+  "steps": [
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 1,
+      "step_index": 1,
+      "step_name": "ClaspandSpread_S1",
+      "step_similarity": 99.81,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 1,
+      "step_index": 2,
+      "step_name": "ClaspandSpread_S2",
+      "step_similarity": 99.61,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 1,
+      "step_index": 3,
+      "step_name": "ClaspandSpread_S3",
+      "step_similarity": 99.88,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 1,
+      "step_index": 4,
+      "step_name": "ClaspandSpread_S4",
+      "step_similarity": 99.91,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 1,
+      "step_index": 5,
+      "step_name": "ClaspandSpread_S5",
+      "step_similarity": 99.73,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 2,
+      "step_index": 1,
+      "step_name": "ClaspandSpread_S1",
+      "step_similarity": 99.68,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 2,
+      "step_index": 2,
+      "step_name": "ClaspandSpread_S2",
+      "step_similarity": 99.83,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 2,
+      "step_index": 3,
+      "step_name": "ClaspandSpread_S3",
+      "step_similarity": 99.93,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 2,
+      "step_index": 4,
+      "step_name": "ClaspandSpread_S4",
+      "step_similarity": 99.58,
+      "review": ""
+    },
+    {
+      "patient": "TOLFB01",
+      "exercise": "ClaspAndSpread",
+      "rep": 2,
+      "step_index": 5,
+      "step_name": "ClaspandSpread_S5",
+      "step_similarity": 99.71,
+      "review": ""
+    }
+  ],
+  "source": "gemini-2.5-flash"
+}

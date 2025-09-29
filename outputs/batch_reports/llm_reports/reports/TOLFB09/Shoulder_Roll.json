@@ -1,0 +1,29 @@
+{
+  "patient_id": "TOLFB09",
+  "exercise": "Shoulder_Roll",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your shoulder blades together!  Try to maintain this gentle squeeze throughout the entire circular motion.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to keep your movements smooth and controlled.  Focus on the circular motion, ensuring you complete the full rotation.",
+      "similarity_percent": 68.0,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you're completing the repetitions, remember to inhale deeply when pulling your shoulders back. This will help with the exercise and your breathing.",
+      "similarity_percent": 67.9,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You did a good job with the shoulder rolls! Remember to squeeze your shoulder blades together and move in a smooth circle.  Inhale deeply as you pull your shoulders back to improve your breathing and oxygen flow. Let's work on making the circular motion more consistent.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job sitting or standing comfortably. Try to keep your hands gently on your abdomen as you inhale."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! You're placing your hands on your abdomen. Remember to inhale slowly through your nose and tighten your whole body muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Good effort on the inhale! Focus on visualizing the fluid moving towards your chest as you tighten your muscles."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Well done on the exhale! As you relax your muscles, visualize pushing the fluid out. Keep the exhales slow and controlled."
+    }
+  ],
+  "exercise_summary": "You're doing great with this deep breathing exercise! Remember to inhale through your nose, tightening your body, and exhale through your mouth, relaxing. This helps move fluid and promotes healing.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

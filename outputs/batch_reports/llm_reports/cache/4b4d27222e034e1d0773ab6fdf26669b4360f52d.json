@@ -1,0 +1,21 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the attempt to squeeze shoulder blades together is noted, the significant MAE values for the wrists and left elbow in both repetitions suggest that the movement wasn't isolated to the shoulders. Focus on keeping your elbows close to your body and avoid excessive wrist movement. Remember to inhale deeply when pulling your shoulders back."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for the elbows and wrists remain high, indicating that the movement is not controlled and isolated to the shoulder blades.  Concentrate on the instruction to gently squeeze your shoulder blades back and down in a circular motion.  Avoid using other parts of your arms to assist the movement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to previous steps, high MAE values in the wrists and elbows suggest that the movement is not isolated to the shoulders.  Pay close attention to the instruction to keep the movement smooth and controlled, focusing on the shoulder blades.  Avoid jerky movements or using momentum."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated some understanding of the Shoulder Roll exercise, attempting to move the shoulder blades. However, consistent high MAE values in the wrists and elbows across all steps indicate a need for improved form.  The patient needs to focus on isolating the shoulder blade movement and avoiding unnecessary arm and wrist involvement.  Deep inhalation during the back movement should also be emphasized.",
+  "letter_grade": "C"
+}

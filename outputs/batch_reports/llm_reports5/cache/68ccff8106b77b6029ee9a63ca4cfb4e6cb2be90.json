@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job keeping your arm straight overhead. Try to feel that gentle resistance."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! Your arm is well-positioned overhead. Keep that stretch."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job opening your palm and fingers wide. Really spread them out!"
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Nice fist and muscle tightening as you inhaled. Keep visualizing the fluid moving."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, arm is straight overhead. Feel that stretch and resistance."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good continuation of the overhead stretch. Keep your arm extended."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "You're doing great opening your hand wide again. Focus on that stretch."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Well done making a fist and tightening your muscles on the inhale. Keep up the great work!"
+    }
+  ],
+  "exercise_summary": "You did a fantastic job with the overhead pumping exercise! You consistently kept your arm straight overhead and opened your hand wide. Remember to keep visualizing the fluid moving out with each exhale.",
+  "letter_grade": "A"
+}

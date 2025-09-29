@@ -1,0 +1,32 @@
+{
+  "rep1_step1": {
+    "subset": ""
+  },
+  "rep1_step2": {
+    "subset": "RWrist"
+  },
+  "rep1_step3": {
+    "subset": "RElbow"
+  },
+  "rep1_step4": {
+    "subset": "RElbow"
+  },
+  "rep1_step5": {
+    "subset": "RElbow+RWrist"
+  },
+  "rep2_step1": {
+    "subset": "RElbow+RWrist"
+  },
+  "rep2_step2": {
+    "subset": "RElbow"
+  },
+  "rep2_step3": {
+    "subset": ""
+  },
+  "rep2_step4": {
+    "subset": ""
+  },
+  "rep2_step5": {
+    "subset": ""
+  }
+}

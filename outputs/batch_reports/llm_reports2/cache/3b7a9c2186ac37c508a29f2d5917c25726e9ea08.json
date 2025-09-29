@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You're doing a great job sitting or standing comfortably. Try to place your hands a little lower on your abdomen to better feel the movement."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good effort placing your hands on your abdomen. For the next steps, focus on a slower inhale and exhale to maximize the muscle engagement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're effectively tightening your muscles during the inhale. Remember to visualize the fluid moving towards your chest to enhance the lymphatic stimulation."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job relaxing your muscles on the exhale. Keep visualizing pushing the fluid out to support lymphatic drainage."
+    }
+  ],
+  "exercise_summary": "You're doing well with this deep breathing exercise! Remember to place your hands on your lower abdomen and focus on slow, controlled breaths. Visualize fluid movement to help your lymphatic system.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great job starting in a comfortable position! Remember to keep your whole body muscles gently tightened as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're placing your hands well on your abdomen. Continue to focus on that deep inhale and muscle tightening."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're inhaling through your nose and tightening your muscles. Keep visualizing that fluid moving to your chest."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done exhaling through your mouth and relaxing your muscles. Visualize pushing that fluid out as you exhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep, starting strong! Remember to maintain that comfortable posture and gently tighten your whole body as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Hands are well-placed on your abdomen. Keep focusing on the deep inhale and the sensation of muscle tightening."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic! You're inhaling through your nose and tightening your muscles. Keep up the visualization of fluid moving to your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Perfect exhale through your mouth, relaxing your muscles. Continue to visualize pushing fluid out with each exhale."
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale through your nose while tightening your whole body, visualizing fluid moving to your chest. Then, exhale through your mouth while relaxing, visualizing fluid moving out. Keep up the good work!",
+  "letter_grade": "A"
+}

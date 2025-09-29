@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You are doing a good job of sitting or standing comfortably. Keep up the good posture."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your hand placement on your abdomen is accurate. Continue to focus on this placement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You are inhaling through your nose and tightening your muscles well. Try to visualize the fluid moving to your chest more clearly."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You are exhaling through your mouth and relaxing your muscles effectively. Keep visualizing pushing the fluid out."
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing! You're effectively using your breath to help move fluid. Remember to keep visualizing the fluid moving and being pushed out with each breath to maximize the benefits.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Keep your hands on your abdomen for the next step."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Excellent! You're placing your hands on your abdomen. Now, inhale slowly through your nose while tightening your whole body muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great inhale and muscle tightening! Visualize fluid moving to your chest. Now, exhale slowly through your mouth while relaxing your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Perfect exhale and relaxation! Visualize pushing fluid out. You've completed one repetition. Let's start the second one."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second repetition, sitting or standing comfortably. Place your hands on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done placing your hands on your abdomen. Inhale slowly through your nose while tightening your whole body muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic inhale and muscle tightening! Visualize fluid moving to your chest. Now, exhale slowly through your mouth while relaxing your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent exhale and relaxation! Visualize pushing fluid out. You've completed all repetitions. Great job!"
+    }
+  ],
+  "exercise_summary": "You did a great job with deep breathing! Remember to inhale through your nose, tighten your muscles, and visualize fluid moving to your chest. Then, exhale through your mouth, relax, and visualize pushing fluid out. This helps stimulate lymphatic drainage and improves oxygen flow.",
+  "letter_grade": "A"
+}

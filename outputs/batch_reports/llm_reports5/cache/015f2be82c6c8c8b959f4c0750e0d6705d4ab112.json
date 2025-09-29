@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting with fists clenched and arms drawn in. Keep those muscles tight as you inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done opening your hands and extending your arms. Remember to exhale as you relax and open."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent work opening your fingers and extending your arms to shoulder height. Keep exhaling and relaxing."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You're doing great! Continue to open your hands and extend your arms. Remember to exhale and relax."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Fantastic! You've completed the first repetition. Keep up the good form."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Great start to your second repetition! Keep those fists tight and muscles engaged as you inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done opening your hands and extending your arms. Remember to exhale and relax your muscles."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent job opening your fingers and extending your arms to shoulder height. Continue to exhale and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "You're maintaining good form. Keep opening your hands and extending your arms, exhaling as you relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Great job completing all repetitions! Your movements were consistent and controlled throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! Remember to keep your fists clenched and muscles tight while inhaling, then open your hands and relax your muscles as you exhale. Continue practicing this for optimal lymph drainage.",
+  "letter_grade": "A"
+}

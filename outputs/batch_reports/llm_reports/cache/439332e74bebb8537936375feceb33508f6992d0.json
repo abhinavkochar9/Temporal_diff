@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the first repetition showed good form, the second repetition in step 1 indicates inconsistent muscle engagement.  Focus on maintaining consistent fist clenching and arm tension throughout the entire movement. The high MAE values for right and left wrists in repetition 2 suggest a lack of control during the arm extension."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for elbows and wrists are high in both repetitions, suggesting that the arm extension isn't smooth and controlled. Ensure a slow, deliberate movement while maintaining muscle tension in the arms and shoulders."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent performance between repetitions. Repetition 2 shows significantly higher MAE values in the elbows and wrists compared to repetition 1, indicating a need for better control and consistency in the arm movements."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "High MAE values, particularly in the wrists and one elbow in both repetitions, suggest a lack of control and precision in the arm movements.  Concentrate on maintaining a smooth, controlled extension and retraction of the arms."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent performance between repetitions.  High MAE values in the wrists and elbows in repetition 1 indicate a need for more controlled movements.  Focus on maintaining consistent muscle engagement and a smooth range of motion."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Horizontal Pumping exercise.  While some repetitions showed acceptable form, many exhibited high MAE values in the wrists and elbows, indicating a lack of control and precision in the arm movements.  The patient needs to focus on maintaining consistent muscle engagement, a slow and controlled range of motion, and smooth transitions between the arm's inward and outward positions.",
+  "letter_grade": "C"
+}

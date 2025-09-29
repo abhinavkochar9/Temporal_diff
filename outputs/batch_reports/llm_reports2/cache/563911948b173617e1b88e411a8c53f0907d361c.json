@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job starting with your fists closed and arms in front of your chest. Remember to inhale and tighten your muscles here."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your fingers and extending your arms well. Focus on exhaling and relaxing your muscles as you move outwards."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Good work on the outward arm movement. Ensure you're fully relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent! You're extending your arms to shoulder height. Keep up the good work with muscle relaxation on the exhale."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're doing great with the outward movement. Remember to fully relax your muscles as you exhale and complete the movement."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the horizontal pumping exercise. Keep focusing on opening your fingers and extending your arms while exhaling and relaxing your muscles. Remember to repeat this four times.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

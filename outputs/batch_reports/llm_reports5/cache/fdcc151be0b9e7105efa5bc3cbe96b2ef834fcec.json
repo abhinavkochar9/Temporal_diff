@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with your arm stretched overhead and fingers open. Keep that posture for the next step."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done stretching your arms back overhead while exhaling and relaxing. Remember to maintain this position briefly before the next movement."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent fist clench and push down! You squeezed your shoulder blades together well and inhaled. Keep up the great form."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job returning your arms overhead while exhaling and relaxing. You're performing the movement smoothly."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "You're doing a fantastic job with the Push Down Pumping exercise! Your movements are controlled and follow the instructions well."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Great start to your second repetition! You're maintaining a comfortable position with your arm overhead and fingers open."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done stretching your arms back overhead and exhaling. You're keeping the movement fluid and controlled."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent fist clench and push down! You're effectively squeezing your shoulder blades together and inhaling. Keep that strong form."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Perfectly executed return to the overhead position while exhaling and relaxing. Your control is impressive."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic finish to your second set! You've completed the Push Down Pumping exercise with excellent form and control throughout."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! Remember to keep your arms stretched overhead with fingers open, then make a fist while pushing down and squeezing your shoulder blades. Exhale as you relax and return your arms overhead.",
+  "letter_grade": "A"
+}

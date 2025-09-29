@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Great start! Remember to sit or stand comfortably and place your hands on your abdomen."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Good job placing your hands on your abdomen. Keep them there as you continue."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent inhale! Try to tighten your whole body muscles a bit more as you breathe in through your nose."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done relaxing your muscles as you exhaled. Focus on a slow, controlled exhale through your mouth."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep is going well! Continue to sit or stand comfortably and keep hands on your abdomen."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Hands are well-placed. Keep them there as you prepare for the next inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Nice inhale and muscle tightening! You're doing a great job visualizing the fluid movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Fantastic exhale! You're effectively relaxing your muscles and pushing fluid out. Great work overall!"
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale slowly through your nose while tightening your whole body, then exhale slowly through your mouth while relaxing. This helps stimulate lymphatic drainage and improve oxygen flow.",
+  "letter_grade": "A"
+}

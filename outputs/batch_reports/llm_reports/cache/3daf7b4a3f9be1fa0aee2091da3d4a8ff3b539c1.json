@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job tightening your muscles and bringing your arms in for the first step. Keep up the controlled movement."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent work opening your fingers and extending your arms. Remember to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great execution of the outward arm movement. Focus on a smooth, controlled extension."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Well done on relaxing your muscles during the exhale. Ensure your arms extend fully to shoulder height."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're doing well with the overall motion. For the next repetitions, try to maintain consistent muscle relaxation in your wrists and elbows as you extend."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the horizontal pumping exercise! Remember to keep your movements smooth and controlled, tightening your muscles as you bring your arms in and relaxing them as you extend outwards. This helps promote lymph drainage effectively.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you extended your arm overhead, the range of motion and fist clenching could be improved for better lymph flow. Focus on fully extending your arm and making a tight fist."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and finger spreading needs more attention. Ensure your hand is fully open to maximize the pumping action."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The coordination between your breathing and hand movements needs improvement. Try inhaling deeply as you clench your fist and exhaling fully as you open your hand."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The repetitions were not consistent.  Try to maintain the same level of effort and form throughout all four repetitions."
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise.  Remember to fully extend your arm, make a tight fist while inhaling, and open your hand completely while exhaling.  Focus on coordinating your breathing with the hand movements for better results.",
+  "letter_grade": "C"
+}

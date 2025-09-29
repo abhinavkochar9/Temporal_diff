@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a comfortable posture. Remember to focus on tightening your whole body as you inhale."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Excellent! You placed your hands correctly on your abdomen.  Keep focusing on the deep breaths."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Try to inhale more slowly through your nose and visualize the fluid moving towards your chest. Focus on the whole body muscle tightening."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to exhale slowly through your mouth while relaxing your muscles. Visualize pushing the fluid out as you exhale."
+    }
+  ],
+  "exercise_summary": "You did a good job with the deep breathing exercise! Remember to focus on slow, controlled breathing and whole-body muscle engagement during inhalation and relaxation during exhalation.  Visualizing fluid movement can help improve your technique.",
+  "letter_grade": "B"
+}

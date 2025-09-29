@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the arm was overhead, the range of motion in the wrist and elbow needs improvement.  Ensure your palm is fully open and fingers spread wide in step 3, and that you are making a tight fist in step 4. The MAE values for the right wrist and elbow are high, indicating inconsistent execution."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for the right wrist and elbow remain high, suggesting the arm isn't fully extending overhead. Focus on maintaining a straight arm throughout the exercise.  Visualize lifting from your shoulder and keeping your elbow straight."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values for the right wrist and elbow persist.  Concentrate on fully opening your hand and fingers in step 3 and making a complete fist in step 4.  The movement should originate from the shoulder, not the wrist or elbow."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Inconsistent fist clenching and hand opening are observed.  The MAE values show variability between repetitions.  Pay close attention to the instructions and visualize pumping fluid with each movement.  The exercise should be performed smoothly and with controlled breathing."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent execution of the Overhead Pumping exercise.  While the arm was generally positioned overhead, the range of motion in the wrist and elbow was inconsistent, and the fist clenching and hand opening were not fully executed in many repetitions.  Focus is needed on maintaining a straight arm, fully opening the hand, making a tight fist, and coordinating the movements with breathing.  Improved consistency in the range of motion is crucial for effective lymph drainage.",
+  "letter_grade": "C"
+}

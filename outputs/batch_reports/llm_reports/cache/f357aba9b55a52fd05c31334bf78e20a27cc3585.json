@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a comfortable posture while focusing on deep breaths.  Remember to visualize the fluid movement as you inhale and exhale."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "You're doing well placing your hands on your abdomen. Keep focusing on the deep, controlled breathing and whole-body muscle engagement."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Try to inhale more slowly through your nose, engaging your whole body muscles more fully. Visualizing the fluid moving towards your chest can help."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Focus on a slower, more controlled exhale through your mouth, relaxing your muscles completely.  Visualize pushing the fluid out as you exhale."
+    }
+  ],
+  "exercise_summary": "You showed good posture and hand placement during the deep breathing exercise.  Concentrate on slower, more controlled inhalations and exhalations, fully engaging and relaxing your muscles. Remember to visualize the fluid movement for better results.",
+  "letter_grade": "B"
+}

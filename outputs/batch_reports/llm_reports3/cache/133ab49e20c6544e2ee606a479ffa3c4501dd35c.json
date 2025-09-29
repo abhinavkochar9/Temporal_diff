@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job stretching your arm overhead. Try to keep your elbow straighter for maximum resistance."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your hand well. Focus on keeping your arm extended overhead throughout this step."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Making a good fist and tightening your muscles. Remember to inhale as you do this."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're opening your hand and relaxing your muscles nicely. Keep visualizing the fluid moving out."
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! Remember to keep your arm fully extended overhead and focus on opening your hand wide. This helps pump fluid effectively.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

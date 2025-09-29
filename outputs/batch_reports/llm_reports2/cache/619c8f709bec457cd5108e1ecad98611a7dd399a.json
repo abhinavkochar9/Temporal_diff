@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulder and elbow movements were good. Try to keep your wrists closer to your body for better form."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good job keeping your shoulders still. Focus on relaxing your wrists more as you place your hands on your abdomen."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your shoulders and elbows are moving well. For the next repetitions, try to tighten your whole body muscles more firmly as you inhale."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're doing great with the breathing. Try to relax your muscles more completely as you exhale to maximize the fluid visualization."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with your deep breathing exercises! Remember to keep your whole body tight when you inhale and fully relax when you exhale. This helps your lymphatic system work efficiently.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

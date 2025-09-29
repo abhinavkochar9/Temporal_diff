@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists.  Remember to inhale deeply while tightening your muscles."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Try to extend your arms more horizontally and smoothly. Focus on exhaling fully as you extend your arms."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The arm extension could be smoother; aim for a more controlled movement. Remember to relax your muscles as you exhale."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Your form is inconsistent. Focus on maintaining a steady, controlled movement throughout the exercise."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The final repetitions show some inconsistencies.  Try to maintain a consistent rhythm and controlled movement."
+    }
+  ],
+  "exercise_summary": "You performed the Horizontal Pumping exercise.  Remember to inhale while tightening muscles and exhale while extending arms horizontally.  Focus on smooth, controlled movements for better results.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder and elbow movements show good control in most repetitions, the right wrist shows excessive movement (0.299 and 0.310 MAE) in step 1, indicating you may not be fully engaging your core and visualizing fluid movement towards your chest as instructed. Focus on maintaining a stable posture and controlled breathing."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job placing your hands on your abdomen.  The MAE values for this step are within an acceptable range, suggesting you are maintaining a stable posture."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist shows high MAE values (0.285 and 0.396) during inhalation.  Remember to visualize the fluid moving towards your chest and maintain a controlled, whole-body muscle tightening. Avoid unnecessary wrist movement."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The right wrist again shows significant movement (0.304 and 0.203 MAE) during exhalation.  Concentrate on relaxing your muscles completely during exhalation and visualize pushing the fluid out.  Try to maintain a more consistent level of relaxation across repetitions."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent execution of the Deep Breathing exercise. While the core instructions of hand placement and controlled breathing were largely followed, significant unnecessary movement was observed in the right wrist across multiple repetitions, particularly during inhalation and exhalation.  This suggests a need for improved focus on whole-body muscle engagement and visualization techniques as described in the instructions.  Improved core stability and controlled breathing will enhance the effectiveness of the exercise.",
+  "letter_grade": "C"
+}

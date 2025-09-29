@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to tighten your whole body during inhalation, the wrist movements show significant deviations from the ideal form. Focus on maintaining a more stable posture and controlled muscle engagement throughout your body."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Hand placement on the abdomen is important for visualization.  The relatively high MAE values in the elbows and wrists suggest that you may not be fully relaxing your muscles during exhalation. Try to completely release tension as you exhale."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Inhale slowly through your nose, visualizing fluid moving to your chest. The high MAE values suggest that you might not be visualizing the fluid movement effectively. Focus on the visualization technique."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to exhale slowly through your mouth while relaxing your muscles, visualizing pushing fluid out. The high MAE values in the wrists suggest that you need to relax your muscles more completely during exhalation."
+    }
+  ],
+  "exercise_summary": "You attempted the deep breathing exercise, but improvements are needed. Focus on controlled muscle tightening during inhalation and complete relaxation during exhalation.  Visualize the fluid movement to enhance the exercise's effectiveness.  Practice will help you master the technique.",
+  "letter_grade": "C"
+}

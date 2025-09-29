@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your arm straighter overhead and feel that gentle resistance. Your shoulder and wrist alignment can be improved."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For step 2, focus on opening your palm and fingers wide. Ensure your wrist is also open and extended."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, make a tight fist while inhaling, squeezing your muscles. Your wrist and elbow could be tighter."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, relax your hand and muscles as you exhale. Try to relax your elbow and wrist more fully."
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! Remember to stretch your arm straight overhead and really feel the resistance. Open your hand wide, then make a tight fist as you breathe in, and relax as you breathe out. Keep practicing this to help with fluid flow.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

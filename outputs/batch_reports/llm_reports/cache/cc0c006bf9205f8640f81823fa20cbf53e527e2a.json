@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movements in repetitions 1 and 2 show good form, the elbow and wrist movements need significant improvement.  The instructions specify bringing arms in front of the chest with closed fists (inhaling and tightening muscles), then extending horizontally to shoulder height with open fingers (exhaling and relaxing muscles). The high MAE values for elbows and wrists in repetition 2 suggest that the full range of motion was not achieved and the muscle tightening/relaxing was inconsistent."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values for elbows and wrists are high in both repetitions, indicating that the horizontal extension of arms to shoulder height was not fully executed. Focus on extending your arms fully horizontally while maintaining a relaxed posture. Ensure that you are exhaling fully during the extension phase."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Similar to step 2, the MAE values for elbows and wrists are high, suggesting incomplete horizontal arm extension.  Concentrate on smoother transitions between the arm positions and ensure complete relaxation during the exhale phase."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values for the right elbow in repetition 1 and the right wrist in both repetitions indicate that the full range of motion was not achieved.  Pay close attention to the instructions and ensure that you are fully extending your arms horizontally."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values for the right elbow and wrist in repetition 1 suggest that the full range of motion was not achieved.  Focus on maintaining a consistent and controlled movement throughout the exercise.  Ensure that you are fully extending your arms horizontally and relaxing your muscles during the exhale phase."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated inconsistent form throughout the Horizontal Pumping exercise.  While shoulder movements showed some improvement, the elbow and wrist movements consistently fell short of the full range of motion specified in the instructions.  The patient needs to focus on fully extending their arms horizontally to shoulder height while coordinating their breathing and muscle tension/relaxation.  More attention should be paid to the smooth transition between the arm positions and the complete relaxation during the exhale phase.",
+  "letter_grade": "D"
+}

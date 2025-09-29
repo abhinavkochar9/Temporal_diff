@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, ensure your arm is fully stretched overhead and you feel resistance. Your elbow and wrist movements were a bit inconsistent across repetitions."
+    },
+    {
+      "step_index": 2,
+      "feedback": "For step 2, keep your arm extended overhead. Focus on maintaining a consistent stretch. Your elbow and wrist alignment varied between repetitions."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, open your palm and fingers wide. Try to keep your elbow and wrist more stable during this movement."
+    },
+    {
+      "step_index": 4,
+      "feedback": "For step 4, make a fist while inhaling and tightening your muscles. Your wrist and elbow movements were quite large in the second repetition; aim for controlled tightening."
+    }
+  ],
+  "exercise_summary": "Great job with the overhead pumping! Remember to stretch your arm fully overhead and feel that resistance. Focus on opening your hand wide and then making a tight fist while breathing. Keep those movements controlled.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

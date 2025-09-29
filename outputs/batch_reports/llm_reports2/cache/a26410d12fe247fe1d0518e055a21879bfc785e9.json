@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job placing your hands on your abdomen. Try to keep your wrists a bit steadier as you inhale and tighten your body."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with relaxing your muscles as you exhale. Focus on keeping your wrists more stable during this phase."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Good effort on tightening your whole body muscles while inhaling. Continue to work on keeping your wrists steady."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job relaxing your muscles as you exhale. Aim for more stability in your wrists to fully engage the lymphatic pumping action."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with deep breathing to help your lymphatic system. Remember to keep your whole body muscles tight when you inhale and relaxed when you exhale. Try to keep your wrists steady throughout.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

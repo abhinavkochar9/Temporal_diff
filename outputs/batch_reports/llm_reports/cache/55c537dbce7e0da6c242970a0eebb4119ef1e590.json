@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job stretching your arm overhead! Ensure you feel that gentle resistance to help with lymph flow."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Excellent! Keep your palm and fingers wide open in this step."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Well done making a fist and tightening your muscles while inhaling. This is key for pumping."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Perfect! Open your hand and relax as you exhale. Keep visualizing that fluid moving."
+    }
+  ],
+  "exercise_summary": "You did a great job with the overhead pumping exercise! Remember to stretch your arm overhead, open your hand wide, then make a fist while breathing in. Finally, open your hand and relax as you breathe out. Keep up the good work!",
+  "letter_grade": "A",
+  "verdict": "good"
+}

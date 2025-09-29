@@ -1,0 +1,15 @@
+{
+  "fig1_boxplots": {
+    "elbow": "21.67\u00b19.42",
+    "shoulder": "15.98\u00b19.85",
+    "pos": "0.10\u00b10.09"
+  },
+  "fig2_group_vs_expert_bar": {
+    "note": "Bars show mean\u00b1SD across all patient\u00d7exercise entries; Expert is baseline (0)."
+  },
+  "summary": {
+    "n_patients": 29,
+    "n_exercises": 6,
+    "fps": 25.0
+  }
+}

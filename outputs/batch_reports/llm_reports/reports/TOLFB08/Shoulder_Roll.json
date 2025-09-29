@@ -1,0 +1,29 @@
+{
+  "patient_id": "TOLFB08",
+  "exercise": "Shoulder_Roll",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "You performed the shoulder blade squeeze well in the first step.  Keep focusing on the circular motion and deep breaths.",
+      "similarity_percent": 74.6,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "In step 2, try to maintain a smoother circular motion.  Focus on keeping your shoulders relaxed and avoid jerky movements.",
+      "similarity_percent": 72.6,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Step 3 shows some inconsistency. Remember to keep the movement controlled and circular, and breathe deeply throughout.",
+      "similarity_percent": 82.4,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You did a good job with the shoulder rolls exercise! Remember to squeeze your shoulder blades together and move them in a smooth circle.  Focus on deep breaths to help with the movement and lymphatic flow. Let's work on consistency in the next session.",
+  "letter_grade": "B"
+}

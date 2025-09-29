@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job bringing your arms in front of your chest and making fists while inhaling.  The slight inconsistencies in right wrist movement between repetitions could be improved by focusing on consistent muscle engagement."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to fully extend your arms horizontally to shoulder height while exhaling and relaxing your muscles. The significant increase in MAE for right and left elbows and wrists suggests that the full extension and relaxation were not consistently achieved. Focus on controlled movements."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While the inhalation and fist-making were mostly consistent, the second repetition shows a significant increase in MAE for the left elbow and wrist.  Ensure you are maintaining a smooth, controlled movement throughout the entire range of motion."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The high MAE values in the wrists and elbows indicate that the arm extension and relaxation phases need more attention.  Focus on maintaining a controlled, smooth movement and avoid jerky motions."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition shows a significant increase in MAE for both wrists, indicating a loss of control during the exercise.  Pay close attention to maintaining consistent muscle engagement and controlled movements throughout the exercise."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated some understanding of the Horizontal Pumping exercise, correctly performing the inhalation and fist-making phases. However, the consistent high MAE values in the elbows and wrists across multiple steps indicate a need for improvement in the arm extension and relaxation phases.  Focus on controlled movements and maintaining consistent muscle engagement throughout the entire range of motion.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "For step 1, try to bring your shoulders back and down more smoothly. Focus on the shoulder blades."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Good job on step 2! Keep the motion controlled and focus on squeezing your shoulder blades together."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You completed the first set. Remember to breathe deeply as you roll your shoulders back."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "For step 1 of the second set, focus on initiating the roll from your shoulder blades. Try to keep your elbows and wrists more relaxed."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Step 2 is looking better. Continue to focus on the backward and downward motion of the shoulders."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Great job completing the exercise! Ensure your wrists and elbows stay relaxed throughout the motion."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the shoulder rolls! Remember to focus on squeezing your shoulder blades back and down. Try to keep your elbows and wrists relaxed and breathe deeply as you roll your shoulders back.",
+  "letter_grade": "B+"
+}

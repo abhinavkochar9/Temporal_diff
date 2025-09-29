@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders and elbows relatively stable. Focus on opening your fingers wider in this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulder and elbow movements are improving. Try to extend your arms further overhead and relax your wrists more."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with the squeezing motion. Ensure you are inhaling fully and tightening your muscles as you make a fist."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good effort on the arm extension. Focus on a smooth exhale as you relax and bring your arms back."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Your shoulders are looking good. Work on a more controlled movement through your elbows and wrists as you extend."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Push Down Pumping exercise! Keep focusing on stretching your arms overhead and squeezing your shoulder blades together. Remember to inhale as you tighten and exhale as you relax.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

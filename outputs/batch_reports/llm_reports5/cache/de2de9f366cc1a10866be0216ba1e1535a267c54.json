@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your arms straight and fingers open as you prepare to move."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Focus on keeping your arms straighter overhead. Try to minimize the bend in your elbows."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job squeezing your shoulder blades together! Try to straighten your arms a bit more as you push down."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You're doing well relaxing and stretching overhead. Focus on a smooth exhale and full extension."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Nice work completing the first repetition! Remember to keep your fingers spread wide."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good job starting the second rep. Try to keep your arms more extended as you begin the downward push."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You're getting closer! Focus on maintaining straighter arms throughout this step."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent squeeze of the shoulder blades! Aim for straighter arms as you push down."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Good job on the overhead stretch and exhale. Keep your arms as straight as possible."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic job finishing the exercise! Your form improved, especially with arm extension in the final steps."
+    }
+  ],
+  "exercise_summary": "Great job completing the Push Down Pumping exercise! Remember to keep your arms straight and fingers open throughout, especially when pushing down and stretching overhead. Focus on squeezing your shoulder blades together for better results.",
+  "letter_grade": "B+"
+}

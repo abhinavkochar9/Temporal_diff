@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job maintaining a comfortable posture in step 1.  Remember to place your hands on your abdomen to monitor your breathing."
+    },
+    {
+      "step_index": 2,
+      "verdict": "good",
+      "feedback": "Good job placing your hands on your abdomen. Ensure you are breathing deeply and evenly."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "While you're inhaling, focus on tightening your whole body muscles more effectively to stimulate lymphatic ducts. Visualize the fluid moving towards your chest. Try to maintain this muscle tension throughout the inhalation."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "During exhalation, concentrate on relaxing your muscles completely and visualize pushing the fluid out.  The data suggests inconsistent muscle relaxation between repetitions. Aim for a smoother, more controlled release."
+    }
+  ],
+  "exercise_summary": "The patient demonstrated good posture and hand placement during the exercise. However, there's room for improvement in fully engaging whole-body muscle tightening during inhalation and complete muscle relaxation during exhalation.  Focusing on visualization techniques and consistent muscle control will enhance lymphatic stimulation.",
+  "letter_grade": "B"
+}

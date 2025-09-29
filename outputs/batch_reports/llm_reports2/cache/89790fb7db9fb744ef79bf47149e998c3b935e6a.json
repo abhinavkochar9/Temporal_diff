@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job placing hands on your abdomen. Try to keep your shoulders and elbows a bit more stable during this step."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your hand placement is good. Focus on keeping your wrists and elbows more still as you sit or stand comfortably."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing well with the breathing. Try to keep your wrists and elbows a little steadier while you tighten your body muscles and visualize the fluid movement."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Good effort on the exhale. Aim for more stability in your wrists and elbows as you relax your muscles and visualize pushing fluid out."
+    }
+  ],
+  "exercise_summary": "You're doing great with deep breathing to help your lymphatic system! Remember to keep your body still and focus on smooth breaths. This helps move fluid and promotes healing.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

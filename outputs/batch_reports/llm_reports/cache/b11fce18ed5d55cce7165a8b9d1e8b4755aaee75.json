@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your shoulders relatively stable. Try to keep your elbows a bit straighter in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your shoulders are well-aligned. Focus on straightening your arms more and keeping your wrists less bent."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Shoulder movement is good. Work on extending your arms fully and reducing wrist bending."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent shoulder control. Continue to focus on straightening your arms and minimizing wrist movement."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Shoulders are well-controlled. Aim for straighter arms and less wrist bending for optimal results."
+    }
+  ],
+  "exercise_summary": "You're doing great with the arm movements! Focus on stretching your arms fully overhead and keeping them straight as you push down. Also, try to keep your wrists straight throughout the exercise.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

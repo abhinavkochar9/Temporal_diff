@@ -1,0 +1,19 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your shoulder movements were mostly good, with the left shoulder showing excellent tracking. Try to bring the right shoulder back and down a bit more smoothly."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing a great job squeezing your shoulder blades back and down. Focus on keeping your elbows a little closer to your body during this part of the movement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Your repetitions are consistent. Remember to inhale deeply as you pull your shoulders back to maximize the benefit for your breathing and lymphatic flow."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with your shoulder rolls! Keep up the good work of squeezing your shoulder blades back and down. Remember to breathe deeply with each movement to help with lymphatic flow.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

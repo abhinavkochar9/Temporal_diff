@@ -1,0 +1,36 @@
+{
+  "patient_id": "TOLFB09",
+  "exercise": "Overhead_Pumping",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to stretch your arm overhead, the mean absolute error (MAE) values for your elbows and wrists suggest that your arm wasn't fully extended.  Try to straighten your arm more completely before making a fist.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values indicate that you need to focus on fully opening your palm and fingers in step 3.  Ensure your hand is completely open before making a fist.",
+      "similarity_percent": 60.0,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "The MAE values suggest inconsistent fist clenching and hand opening.  Try to make a tighter fist while inhaling and a more relaxed open hand while exhaling.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "Although the second repetition showed improvement, the first repetition still shows inconsistencies in the arm extension and hand movements.  Continue practicing to improve consistency.",
+      "similarity_percent": 60.0,
+      "rep": 2
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but there's room for improvement in fully extending your arm and consistently opening and closing your hand.  Focus on completely straightening your arm and fully opening your hand before each fist clench.  Practice will help improve your form.",
+  "letter_grade": "C"
+}

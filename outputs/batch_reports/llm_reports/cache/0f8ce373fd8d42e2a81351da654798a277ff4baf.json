@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "For step 1, try to keep your shoulders and elbows more stable. Focus on opening your fingers wide as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "In step 2, aim for greater stability in your elbows and wrists. Ensure your shoulder blades are squeezed together as you push down."
+    },
+    {
+      "step_index": 3,
+      "feedback": "For step 3, focus on maintaining consistent elbow and wrist positions. Try to keep your shoulder blades squeezed together throughout the movement."
+    },
+    {
+      "step_index": 4,
+      "feedback": "In step 4, work on keeping your elbows and wrists more stable. Ensure your shoulder blades remain squeezed together as you extend your arms."
+    },
+    {
+      "step_index": 5,
+      "feedback": "For step 5, try to keep your elbows and wrists more stable. Focus on relaxing your shoulders as you exhale."
+    }
+  ],
+  "exercise_summary": "You did a good job with the Push Down Pumping exercise! Remember to keep your arms and wrists steady and squeeze your shoulder blades together. Focus on smooth movements as you inhale and exhale.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

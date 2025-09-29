@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job keeping your arms in front of your chest and tightening your muscles. Try to keep your wrists a little straighter in this position."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're opening your fingers and extending your arms well. Focus on relaxing your muscles as you exhale and extend. Your right elbow and wrists could be a bit straighter."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great work on the outward arm movement and relaxing. Keep your wrists as straight as possible when extending your arms."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're doing well with the arm extension and relaxation. Aim for straighter wrists and elbows as you move your arms out."
+    },
+    {
+      "step_index": 5,
+      "feedback": "Excellent job with the outward arm movement and muscle relaxation. Continue to focus on keeping your wrists and elbows as straight as possible during the extension."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the horizontal pumping exercise! Remember to keep your arms in front of your chest and tighten your muscles when you inhale. As you exhale, open your fingers and extend your arms, focusing on keeping them straight.",
+  "letter_grade": "C",
+  "verdict": "needs_improvement"
+}

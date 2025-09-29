@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "You did a good job stretching your arm overhead. Try to keep your shoulder and elbow a bit more stable in future repetitions."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with the fist clench and inhale. Focus on keeping your elbow and wrist straighter as you tighten your muscles."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Opening your hand and exhaling is good. Aim for a more relaxed wrist and elbow as you open your hand."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're effectively opening your hand and relaxing. Continue to focus on keeping your elbow and wrist relaxed during this phase."
+    }
+  ],
+  "exercise_summary": "You're doing great with the overhead pumping exercise! Remember to keep your arm straight overhead and focus on opening your hand wide while exhaling. Try to relax your wrist and elbow more as you open your hand.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you extended your arm overhead, focus on keeping your shoulder and elbow straighter to reduce strain and improve the pumping action.  The wrist movement looks good."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Good job opening your palm wide.  Try to fully open your hand during exhalation to maximize the pumping effect.  Maintain a straight arm to improve the exercise."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Remember to keep your palm open and fingers spread wide.  The fist-making and opening is good, but focus on maintaining a straight arm."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "You're making a good effort with the fist and hand opening.  Concentrate on keeping your arm straight overhead throughout the exercise to enhance the pumping action."
+    }
+  ],
+  "exercise_summary": "You showed effort in overhead pumping.  Remember to keep your arm straight overhead and fully open your hand while exhaling.  Focus on the complete range of motion for each pump to improve lymph flow. Let's work on these points next time!",
+  "letter_grade": "C"
+}

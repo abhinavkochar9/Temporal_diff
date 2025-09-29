@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Your hands are clasped well. Keep your elbows close to your head as you raise them."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Good job spreading your elbows wide behind your head. Try to keep your shoulders relaxed and avoid pulling forward."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent work spreading your elbows wide behind your head. Maintain this position and keep your head upright."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're holding the position well. Ensure your elbows remain wide and your head stays upright."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're returning to the start position smoothly. Focus on keeping your elbows close as you bring your hands down."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with the Clasp and Spread exercise! Remember to keep your elbows close as you raise your hands and spread them wide behind your head. This helps improve shoulder flexibility and lymph movement.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

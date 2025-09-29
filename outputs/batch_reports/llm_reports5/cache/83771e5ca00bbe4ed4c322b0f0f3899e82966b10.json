@@ -1,0 +1,36 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your shoulders relaxed as you begin the roll."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nice job squeezing your shoulder blades back and down. Try to make the motion a smooth circle."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job completing the first repetition! Remember to breathe deeply as you roll your shoulders back."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting well. Focus on initiating the roll from your shoulder blades."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Excellent control in squeezing your shoulder blades. Ensure the movement is fluid and circular."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic! You completed both repetitions with good form. Keep up the great work on improving your shoulder mobility."
+    }
+  ],
+  "exercise_summary": "You did a great job with the shoulder rolls! Remember to keep your movements smooth and circular, squeezing your shoulder blades back and down. Breathing deeply as you roll back will help with oxygen flow. Keep practicing to improve your shoulder mobility.",
+  "letter_grade": "A"
+}

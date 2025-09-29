@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Keep your hands on your abdomen as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well placing your hands on your abdomen. Remember to keep them there throughout the exercise."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Great job inhaling through your nose and tightening your muscles. Try to visualize the fluid moving to your chest to enhance the lymphatic stimulation."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job exhaling through your mouth and relaxing your muscles. Visualize pushing fluid out to maximize the lymphatic drainage benefit."
+    }
+  ],
+  "exercise_summary": "You're doing a great job with this deep breathing exercise! Remember to keep your hands on your abdomen and focus on tightening your muscles as you inhale, then relaxing as you exhale. This helps your lymphatic system work effectively.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

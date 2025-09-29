@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job sitting or standing comfortably. Keep your hands on your abdomen as instructed."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well placing your hands on your abdomen. Continue to focus on this placement."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're inhaling through your nose and tightening your body. Try to visualize the fluid moving to your chest more clearly."
+    },
+    {
+      "step_index": 4,
+      "feedback": "You're exhaling through your mouth and relaxing your muscles. Keep visualizing pushing fluid out as you exhale."
+    }
+  ],
+  "exercise_summary": "Great job with your deep breathing! Remember to inhale through your nose while tightening your body, and exhale through your mouth while relaxing. Keep visualizing the fluid movement to help with drainage.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

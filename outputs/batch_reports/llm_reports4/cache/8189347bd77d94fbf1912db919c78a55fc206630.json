@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your hands clasped loosely in your lap, and try to keep your wrists a little straighter in the next rep."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done raising your hands. Focus on keeping your elbows closer to your head as you bring your hands up."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job spreading your elbows wide! Your shoulders and wrists look very stable here."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent hold! Your shoulders and elbows are well-positioned."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Good return. Try to keep your wrists a bit more aligned with your forearms on the next rep."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good clasp. Focus on keeping your wrists straighter and elbows a bit closer together as you begin to lift."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Well done lifting your hands. Keep those elbows close to your head as you continue moving them up."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Excellent spread! Your shoulders are very stable, and elbows are moving nicely."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Great hold! Shoulders and elbows are in a good position."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Good return. Pay close attention to keeping your wrists aligned with your forearms to improve wrist positioning."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Clasp and Spread exercise! Focus on keeping your wrists straighter and elbows closer to your head during the upward movement. Overall, your shoulder and elbow form was excellent throughout the repetitions.",
+  "letter_grade": "B"
+}

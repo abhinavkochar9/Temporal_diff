@@ -1,0 +1,26 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While you attempted to stretch your arm overhead, the significant difference in MAE between your right and left sides suggests inconsistent arm extension. Focus on keeping both arms straight and at the same height."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The palm opening and finger spreading were inconsistent. Ensure your palm is fully open and fingers are spread wide to maximize the pumping action."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Fist clenching and hand opening should be more synchronized with your breathing.  Try coordinating your inhale with the fist and exhale with the open hand to improve the pumping effect."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The second repetition showed improvement in the right arm, but the left arm still needs more attention.  Ensure both arms are performing the exercise with similar range of motion and strength."
+    }
+  ],
+  "exercise_summary": "You attempted the overhead pumping exercise, but consistency needs improvement. Focus on keeping both arms straight and at the same height, fully opening your hand, and coordinating your breathing with the hand movements.  Practice each step to improve the pumping action.",
+  "letter_grade": "C"
+}

@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position. Keep your fingers open as instructed."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You are stretching your arms overhead. Ensure your fingers remain open."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You are making a fist and pushing down. Try to squeeze your shoulder blades together more and inhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "You are stretching arms back overhead. Focus on relaxing and exhaling."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "This step seems to be a repeat of step 4. Please follow the instructions for step 4: stretch arms back overhead while exhaling and relaxing."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Good start for the second repetition. Remember to keep fingers open."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "You are stretching your arms overhead. Ensure your fingers remain open."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "You are making a fist and pushing down. Try to squeeze your shoulder blades together more and inhale."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "You are stretching arms back overhead. Focus on relaxing and exhaling."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "This step seems to be a repeat of step 4. Please follow the instructions for step 4: stretch arms back overhead while exhaling and relaxing."
+    }
+  ],
+  "exercise_summary": "You're doing great with the Push Down Pumping exercise! Remember to keep your fingers open when stretching your arms overhead. Focus on squeezing your shoulder blades together and inhaling during the push down, then relax and exhale as you stretch back up.",
+  "letter_grade": "C"
+}

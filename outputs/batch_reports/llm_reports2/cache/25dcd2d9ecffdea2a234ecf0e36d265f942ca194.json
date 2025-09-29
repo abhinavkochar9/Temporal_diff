@@ -1,0 +1,23 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Great job finding a comfortable position! Remember to place your hands on your abdomen to feel the movement."
+    },
+    {
+      "step_index": 2,
+      "feedback": "You're doing well with hand placement. Keep focusing on relaxing your muscles as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "Excellent! Continue to inhale through your nose and tighten your whole body, visualizing fluid moving to your chest."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Fantastic! Exhale slowly through your mouth, relaxing your muscles and visualizing pushing fluid out. You're promoting great lymphatic flow!"
+    }
+  ],
+  "exercise_summary": "You're doing a wonderful job with deep breathing! Remember to inhale through your nose, tightening your body, and exhale through your mouth, relaxing. This helps your lymphatic system work efficiently.",
+  "letter_grade": "A",
+  "verdict": "good"
+}

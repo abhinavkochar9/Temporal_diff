@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with your arm stretched overhead and fingers open."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Your elbow position was a bit high in this step. Try to keep it slightly lower as you make a fist and squeeze your shoulder blades."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're doing well making a fist and squeezing your shoulder blades. Remember to inhale and tighten your muscles during this phase."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Great job stretching your arms back overhead and exhaling. Keep up the good work!"
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "This step seems to be a repeat of step 4. Ensure you are following the distinct actions for each step. Relaxing is key here."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Starting the second rep well, maintaining a comfortable posture and arm stretch."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Your elbows were a little high again. Focus on keeping them lower while making a fist and squeezing your shoulder blades together."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Good effort making a fist and squeezing your shoulder blades. Remember to inhale and engage your muscles during this part."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent work stretching your arms overhead and exhaling. You're performing the movement well."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "This step is for relaxing and stretching arms overhead. Ensure you are fully exhaling and releasing tension."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the Push Down Pumping exercise! Focus on keeping your elbows slightly lower during the fist-making phase and ensure you're fully exhaling when stretching your arms overhead. This will help maximize the benefits for lymph drainage and arm strength.",
+  "letter_grade": "B"
+}

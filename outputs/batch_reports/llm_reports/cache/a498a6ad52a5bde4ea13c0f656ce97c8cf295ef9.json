@@ -1,0 +1,31 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "needs_improvement",
+      "feedback": "While the shoulder movements were good, the elbow and wrist movements in the first repetition were inconsistent and need more focus on controlled, smooth movements.  Try to maintain a consistent fist and arm extension throughout."
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "Elbow and wrist movements show some improvement from step 1, but consistency is still lacking. Ensure a full exhale during arm extension and a full inhale during arm retraction."
+    },
+    {
+      "step_index": 3,
+      "verdict": "needs_improvement",
+      "feedback": "Continue to focus on smooth, controlled movements.  The right elbow and wrist show some improvement, but the left side needs more attention to consistency."
+    },
+    {
+      "step_index": 4,
+      "verdict": "needs_improvement",
+      "feedback": "The right elbow shows inconsistency.  Focus on maintaining the same level of muscle engagement and movement throughout the exercise. Remember to breathe deeply."
+    },
+    {
+      "step_index": 5,
+      "verdict": "needs_improvement",
+      "feedback": "The right elbow and wrist show significant inconsistency.  Try to perform the movements more slowly and deliberately, focusing on controlled muscle engagement and relaxation."
+    }
+  ],
+  "exercise_summary": "You're learning the horizontal pumping exercise! Remember to make fists, pull your arms in, then extend them smoothly to shoulder height.  Focus on controlled movements and consistent breathing.  Let's work on improving the consistency of your elbow and wrist movements.",
+  "letter_grade": "C"
+}

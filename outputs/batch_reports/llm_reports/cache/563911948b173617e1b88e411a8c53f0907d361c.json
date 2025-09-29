@@ -1,0 +1,27 @@
+{
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "feedback": "Good job starting with fists clenched and arms drawn in. Remember to inhale and tighten your muscles here."
+    },
+    {
+      "step_index": 2,
+      "feedback": "Your arms extended well, but try to open your fingers wider and relax your muscles more as you exhale."
+    },
+    {
+      "step_index": 3,
+      "feedback": "You're doing great with the outward arm movement. Focus on keeping your fingers open and muscles relaxed during this exhale phase."
+    },
+    {
+      "step_index": 4,
+      "feedback": "Excellent job extending your arms to shoulder height. Ensure your fingers are fully open and muscles are relaxed."
+    },
+    {
+      "step_index": 5,
+      "feedback": "You're consistently performing the outward arm movement. Remember to fully open your fingers and relax your muscles as you exhale."
+    }
+  ],
+  "exercise_summary": "You're doing a good job with the arm movements. Focus on fully opening your fingers and relaxing your muscles when you extend your arms outwards. Remember to inhale and tighten when bringing your arms in.",
+  "letter_grade": "B",
+  "verdict": "good"
+}

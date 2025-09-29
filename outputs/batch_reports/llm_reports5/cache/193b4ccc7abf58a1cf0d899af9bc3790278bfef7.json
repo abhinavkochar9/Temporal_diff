@@ -1,0 +1,46 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your body relaxed as you find a comfortable position."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done placing your hands on your abdomen to feel the breath."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Great job inhaling through your nose and tightening your muscles. Remember to visualize fluid moving towards your chest."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent exhale and muscle relaxation. Keep visualizing pushing fluid out as you breathe."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "You're doing great on the second round! Maintain that comfortable posture."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Perfect, hands on your abdomen again to feel the movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic inhale with muscle tightening. Keep up the visualization of fluid moving to your chest."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Wonderful exhale and relaxation. You're effectively completing the deep breathing exercise!"
+    }
+  ],
+  "exercise_summary": "You did a great job with the deep breathing exercise! Remember to inhale through your nose, tightening your muscles and visualizing fluid moving to your chest. Then, exhale through your mouth, relaxing your muscles and visualizing pushing fluid out. Keep practicing this to help your lymphatic system.",
+  "letter_grade": "A"
+}

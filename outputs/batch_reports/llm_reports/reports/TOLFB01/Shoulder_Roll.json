@@ -1,0 +1,29 @@
+{
+  "patient_id": "TOLFB01",
+  "exercise": "Shoulder_Roll",
+  "step_feedback": [
+    {
+      "step_index": 1,
+      "verdict": "good",
+      "feedback": "Good job squeezing your shoulder blades together!  Your form was consistent across repetitions. Remember to breathe deeply as you pull your shoulders back.",
+      "similarity_percent": 65.2,
+      "rep": 1
+    },
+    {
+      "step_index": 2,
+      "verdict": "needs_improvement",
+      "feedback": "The circular motion in step 2 needs more focus. Try to make the movement smoother and more controlled.  Your wrist movement was excessive; keep your arms relaxed.",
+      "similarity_percent": 68.0,
+      "rep": 2
+    },
+    {
+      "step_index": 3,
+      "verdict": "good",
+      "feedback": "You completed the required four repetitions.  Good job maintaining a controlled movement.  Focus on the circular motion and deep breathing.",
+      "similarity_percent": 60.0,
+      "rep": 1
+    }
+  ],
+  "exercise_summary": "You performed the shoulder rolls exercise well, showing good form in steps 1 and 3.  Step 2 needs improvement; focus on a smoother, more controlled circular motion with relaxed arms. Remember to breathe deeply throughout the exercise.",
+  "letter_grade": "B"
+}

@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good start! Keep your fingers closed into fists and draw your arms in front of your chest. Remember to inhale and tighten your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "Nicely done opening your fingers and extending your arms. Focus on exhaling as you relax your muscles and reach shoulder height."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "You're doing great! Continue to open your fingers wide and extend your arms horizontally. Remember to exhale and relax your muscles."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Excellent! You are maintaining good form. Keep those arms extended and muscles relaxed as you exhale."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Great job completing the first repetition! You are following the instructions well."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Second rep starting strong! Ensure your fingers are tightly closed into fists and arms are drawn in. Inhale and tighten."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good extension! Remember to open your fingers fully and exhale as you relax your muscles while moving arms out."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Keep up the good work! Continue opening fingers and extending arms horizontally. Exhale and relax."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Excellent control! You are maintaining good form throughout the movement. Keep exhaling and relaxing."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Fantastic! You've completed both repetitions of the Horizontal Pumping exercise with good form. Keep up the great work!"
+    }
+  ],
+  "exercise_summary": "You did a great job with the Horizontal Pumping exercise! Remember to focus on closing your fingers into fists and tightening muscles as you inhale, then opening them wide and relaxing as you exhale. Keep up the consistent effort!",
+  "letter_grade": "A"
+}

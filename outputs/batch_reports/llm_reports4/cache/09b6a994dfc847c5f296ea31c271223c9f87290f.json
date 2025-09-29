@@ -1,0 +1,56 @@
+{
+  "step_feedback": [
+    {
+      "rep": 1,
+      "step_index": 1,
+      "feedback": "Good job starting in a comfortable position with your arm stretched overhead and fingers open. Keep your shoulders relaxed."
+    },
+    {
+      "rep": 1,
+      "step_index": 2,
+      "feedback": "You're doing great! Continue to stretch your arm overhead and keep your fingers open."
+    },
+    {
+      "rep": 1,
+      "step_index": 3,
+      "feedback": "Excellent! You're making a fist and squeezing your shoulder blades together while inhaling. Remember to keep your arms pushing down."
+    },
+    {
+      "rep": 1,
+      "step_index": 4,
+      "feedback": "Well done stretching your arms back overhead and exhaling. Focus on relaxing your shoulders as you extend."
+    },
+    {
+      "rep": 1,
+      "step_index": 5,
+      "feedback": "Great completion of the first repetition! You're maintaining good form throughout the movement."
+    },
+    {
+      "rep": 2,
+      "step_index": 1,
+      "feedback": "Starting the second repetition strong! Remember to keep your arm stretched overhead and fingers open."
+    },
+    {
+      "rep": 2,
+      "step_index": 2,
+      "feedback": "Good continuation. Keep that arm extended overhead and fingers spread wide."
+    },
+    {
+      "rep": 2,
+      "step_index": 3,
+      "feedback": "Fantastic! You're effectively making a fist, squeezing shoulder blades, and inhaling. Keep pushing down."
+    },
+    {
+      "rep": 2,
+      "step_index": 4,
+      "feedback": "Nicely done extending your arms overhead and exhaling. Focus on a smooth, relaxed return."
+    },
+    {
+      "rep": 2,
+      "step_index": 5,
+      "feedback": "Excellent work completing all repetitions! You maintained good form and control throughout the exercise."
+    }
+  ],
+  "exercise_summary": "You did a great job with the Push Down Pumping exercise! Remember to keep your arm stretched overhead with fingers open, then make a fist while squeezing your shoulder blades. Continue to focus on controlled movements and breathing.",
+  "letter_grade": "A"
+}
