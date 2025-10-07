@@ -250,8 +250,145 @@ PATIENT_DIR = "Patient_Temporal"
 EXPERT_DIR  = "Expert_Temporal"
 JOINT_ORDER = ["Right_Shoulder", "Left_Shoulder", "Right_Elbow", "Left_Elbow", "Right_Wrist", "Left_Wrist"]
 
+# EMG dataset directory (wide CSV format: EMG_Dataset_TOLF-B/{patient}/{exercise}.csv)
+EMG_DIR = "EMG_Dataset_TOLF-B"  # structure: EMG_Dataset_TOLF-B/{patient}/{exercise}.csv (wide format)
+
 st.set_page_config(layout="wide")
+
 st.title("🧠 Patient vs Expert — Keypoint Comparison (aggressive patient despike)")
+
+# ------------------------
+# Query params helper
+# ------------------------
+from urllib.parse import quote
+def _get_query_params():
+    """Return URL query params as a simple {str: str} dict via Streamlit's new API.
+    Handles both plain dicts and QueryParams objects.
+    """
+    try:
+        qp = st.query_params  # Mapping-like
+        # Prefer official conversion if available
+        if hasattr(qp, "to_dict") and callable(getattr(qp, "to_dict")):
+            return {k: (v[0] if isinstance(v, list) else v) for k, v in qp.to_dict().items()}
+        # Else handle like a mapping
+        if hasattr(qp, "items"):
+            return {k: (v[0] if isinstance(v, list) else v) for k, v in qp.items()}
+        # Last resort
+        return dict(qp)
+    except Exception:
+        return {}
+
+def _qp_get_one(qp, key):
+    if not isinstance(qp, dict):
+        return None
+    v = qp.get(key)
+    if v is None:
+        return None
+    if isinstance(v, list):
+        return v[0] if v else None
+    return v
+
+# Default feedback CSV path for homepage
+_HOMEPAGE_FB_DEFAULT = "outputs/batch_reports/llm_reports5/summary/final_llm_feedback.csv"
+
+# Lightweight color util using existing G→Y→R ramp
+def _val_to_hex(v, vmin, vmax):
+    r, g, b = _color_gyr(v, vmin, vmax)
+    return f"#{r:02x}{g:02x}{b:02x}"
+
+# ------------------------
+# HOMEPAGE (Patient × Exercise matrix)
+# If query params ?patient=...&exercise=... are missing, show homepage
+# Clicking a cell navigates back to this app with those query params.
+# ------------------------
+qp = _get_query_params()
+qp_patient = _qp_get_one(qp, "patient")
+qp_exercise = _qp_get_one(qp, "exercise")
+
+def _render_homepage():
+    st.header("🏠 Home — Patient × Exercise Matrix")
+    fb_path = _HOMEPAGE_FB_DEFAULT
+    # Try to load feedback CSV; if missing, show guidance
+    if not os.path.isfile(fb_path):
+        st.info(
+            "Feedback CSV not found at the default path. Ensure your feedback file exists at: "
+            f"**{fb_path}**. The homepage derives the *Patient Score* from this CSV."
+        )
+        return
+    try:
+        df = pd.read_csv(fb_path)
+    except Exception as e:
+        st.error(f"Failed to read feedback CSV for homepage: {e}")
+        return
+    if df is None or df.empty:
+        st.info("Feedback CSV is empty.")
+        return
+    cols = list(df.columns)
+    col_patient = _find_col(cols, "patient_id", "patient", "subject", "user")
+    col_ex      = _find_col(cols, "exercise")
+    col_score   = _find_col(cols, "overall_similarity", "overall similarity", "similarity", "score", "overall_score")
+    if not col_patient or not col_ex or not col_score:
+        st.warning("CSV must include patient, exercise, and overall similarity/score columns.")
+        return
+    # Build matrix (mean per (patient, exercise) in case of duplicates)
+    dfm = (df[[col_patient, col_ex, col_score]]
+           .groupby([col_patient, col_ex], as_index=False)[col_score].mean())
+    if dfm.empty:
+        st.info("No (patient, exercise) rows found in CSV.")
+        return
+    pivot = dfm.pivot(index=col_patient, columns=col_ex, values=col_score).sort_index()
+    # Determine color scale bounds (robust percentiles)
+    vals = pivot.values.flatten()
+    vals = np.array([float(x) for x in vals if pd.notna(x)], dtype=float)
+    if vals.size == 0:
+        st.info("No numeric scores in CSV to render.")
+        return
+    vmin = float(np.percentile(vals, 5)) if vals.size >= 5 else float(np.min(vals))
+    vmax = float(np.percentile(vals, 95)) if vals.size >= 5 else float(np.max(vals))
+    if not np.isfinite(vmax) or vmax <= vmin:
+        vmax = vmin + 1.0
+    
+    # Render as a clickable HTML table so each cell links to this page with query params
+    # Basic styles
+    st.markdown(
+        """
+        <style>
+        table.matrix { border-collapse: collapse; width: 100%; }
+        table.matrix th, table.matrix td { border: 1px solid #ddd; padding: 6px 8px; text-align: center; }
+        table.matrix th.sticky { position: sticky; top: 0; background: #fafafa; z-index: 2; }
+        table.matrix th.rowhdr { position: sticky; left: 0; background: #fafafa; z-index: 1; text-align: right; }
+        table.matrix td a { display:block; width:100%; text-decoration:none; color:#111; font-weight:600; }
+        table.matrix td.empty { background:#f5f5f5; color:#aaa; }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+    # Build header row
+    ex_names = [str(c) for c in pivot.columns]
+    html = ["<table class='matrix'>"]
+    html.append("<thead><tr><th class='sticky rowhdr'>Patient \\ Exercise</th>" + "".join([f"<th class='sticky'>{quote(en) if False else en}</th>" for en in ex_names]) + "</tr></thead>")
+    html.append("<tbody>")
+    for pat, row in pivot.iterrows():
+        pat_str = str(pat)
+        tds = [f"<th class='rowhdr'>{pat_str}</th>"]
+        for ex in pivot.columns:
+            val = row.get(ex, np.nan)
+            if pd.isna(val):
+                tds.append("<td class='empty'>—</td>")
+            else:
+                color = _val_to_hex(float(val), vmin, vmax)
+                # Link back to this same app with query params
+                href = f"?patient={quote(pat_str)}&exercise={quote(str(ex))}"
+                tds.append(f"<td style='background:{color};'><a href='{href}' title='Open {pat_str} · {ex}'>{val:.3f}</a></td>")
+        html.append("<tr>" + "".join(tds) + "</tr>")
+    html.append("</tbody></table>")
+    st.markdown("\n".join(html), unsafe_allow_html=True)
+    st.caption("Click a score to open that patient’s exercise page. Colors follow Green→Yellow→Red by score range.")
+
+# If either patient or exercise is missing, show homepage and stop.
+if not (qp_patient and qp_exercise):
+    _render_homepage()
+    st.stop()
 
 # =========================
 # ====== HELPERS ==========
@@ -277,6 +414,39 @@ def load_joint_csv(base_dir, patient_id, exercise, joint):
         return df2.reset_index(drop=True)
     except Exception:
         return None
+
+# --- EMG helpers for wide CSV format ---
+def load_emg_table(base_dir: str, patient_id: str, exercise: str):
+    """Load one EMG CSV for (patient, exercise) in wide format.
+    Expected columns: a time column (e.g., 'Time_Index') plus multiple channels like
+    'DELTOID_Affected', 'DELTOID_NonAffected', 'BICEPS_Affected', etc.
+    Returns (df, time_col, channel_cols) where channel_cols excludes the time column.
+    """
+    path = os.path.join(base_dir, patient_id, f"{exercise}.csv")
+    if not os.path.exists(path):
+        return None, None, []
+    try:
+        df = pd.read_csv(path)
+    except Exception:
+        return None, None, []
+    if df is None or df.empty:
+        return None, None, []
+    # Identify time column
+    time_candidates = [c for c in df.columns if str(c).strip().lower() in {"time", "time_index", "frame", "t"}]
+    time_col = time_candidates[0] if time_candidates else None
+    # Coerce numeric for all non-time columns and drop empty channels
+    channel_cols = [c for c in df.columns if c != time_col]
+    for c in channel_cols:
+        df[c] = pd.to_numeric(df[c], errors='coerce')
+    if time_col is not None:
+        df[time_col] = pd.to_numeric(df[time_col], errors='coerce')
+    channel_cols = [c for c in channel_cols if df[c].notna().any()]
+    return df, time_col, channel_cols
+
+def list_emg_channels(base_dir: str, patient_id: str, exercise: str):
+    """Return available EMG channel names from the wide CSV for (patient, exercise)."""
+    _, _, channel_cols = load_emg_table(base_dir, patient_id, exercise)
+    return channel_cols or []
 
 def global_min_max(dfs):
     gmin, gmax = np.inf, -np.inf
@@ -655,6 +825,36 @@ def _list_step_images_in_dir(ex_dir: str):
     files = [p for p in files if os.path.splitext(p)[1].lower() in exts]
     files.sort(key=_natural_key)
     return files
+
+# ---- Pain reports helpers ----------------------------------------------------
+def _resolve_pain_reports_dir(base_dir: str) -> str | None:
+    """Return `<root>/Pain_mapping/pain_reports` where root ∈ {script dir, CWD, parent}."""
+    roots = [base_dir, os.getcwd(), os.path.dirname(base_dir)]
+    for root in roots:
+        cand = os.path.join(root, "Pain_mapping", "pain_reports")
+        if os.path.isdir(cand):
+            return cand
+    return None
+
+
+def _list_pain_images_for_patient(pain_dir: str, patient: str) -> list[str]:
+    """List pain report images for `patient` by fuzzy filename match (alnum-only contains)."""
+    if not pain_dir or not os.path.isdir(pain_dir):
+        return []
+    exts = {".png", ".jpg", ".jpeg", ".bmp", ".tif", ".tiff", ".webp"}
+    try:
+        files = [os.path.join(pain_dir, f) for f in os.listdir(pain_dir)
+                 if os.path.splitext(f)[1].lower() in exts]
+    except Exception:
+        return []
+    p_norm = "".join(ch for ch in str(patient).lower() if ch.isalnum())
+    out = []
+    for p in sorted(files, key=_natural_key):
+        fname = os.path.basename(p).lower()
+        f_norm = "".join(ch for ch in fname if ch.isalnum())
+        if p_norm and p_norm in f_norm:
+            out.append(p)
+    return out
 # ---- Step image helpers for WHAM structure ----
 def _resolve_step_images(base_dir: str, exercise_name: str):
     """
@@ -1060,6 +1260,18 @@ def clean_patient_df(
 # =========================
 # ===== SIDEBAR UI ========
 # =========================
+
+# ------------------------
+# Navigation: Back to Home button (top of sidebar)
+# ------------------------
+st.markdown("""<style>.sidebar .block-container{padding-top:1rem !important;}</style>""", unsafe_allow_html=True)
+with st.sidebar:
+    st.markdown("### 🧭 Navigation")
+    if st.button("🏠 Go to Homepage", use_container_width=True):
+        st.query_params.clear()
+        st.rerun()
+
+
 st.sidebar.header("🔎 Select Data")
 
 # Directory checks
@@ -1069,14 +1281,25 @@ if not os.path.isdir(PATIENT_DIR):
 if not os.path.isdir(EXPERT_DIR):
     st.warning(f"Expert data directory not found: **{EXPERT_DIR}** — plots will show patient only if expert missing.")
 
+
 patients = list_dirs(PATIENT_DIR)
 if not patients:
     st.error(f"No patient folders in **{PATIENT_DIR}**.")
     st.stop()
 
-selected_patient = st.sidebar.selectbox("👤 Patient", patients)
+# Use query params if provided
+if qp_patient in patients:
+    _pat_default = qp_patient
+else:
+    _pat_default = patients[0]
+selected_patient = st.sidebar.selectbox("👤 Patient", patients, index=patients.index(_pat_default))
+
 patient_exercises = list_dirs(os.path.join(PATIENT_DIR, selected_patient))
-selected_exercise = st.sidebar.selectbox("💪 Exercise", patient_exercises)
+if qp_exercise in patient_exercises:
+    _ex_default = qp_exercise
+else:
+    _ex_default = patient_exercises[0] if patient_exercises else None
+selected_exercise = st.sidebar.selectbox("💪 Exercise", patient_exercises, index=(patient_exercises.index(_ex_default) if _ex_default in patient_exercises else 0))
 
 show_legend = st.sidebar.checkbox("Show legend", value=False)
 sync_length = st.sidebar.checkbox("Trim to common length (X/Y)", value=True)
@@ -1142,6 +1365,23 @@ fb_csv_path = st.sidebar.text_input(
 
 # --- Generated overlays UI ---
 st.sidebar.markdown("---")
+st.sidebar.subheader("⚡ EMG Signals")
+enable_emg = st.sidebar.checkbox("Enable EMG tab", value=True)
+emg_base_dir = st.sidebar.text_input(
+    "EMG directory",
+    value=EMG_DIR,
+    help="Folder: EMG_Dataset_TOLF-B/{patient}/{exercise}.csv",
+)
+emg_norm_mode = st.sidebar.selectbox(
+    "Normalization",
+    ["None", "Z-score per channel", "Min-Max per channel"],
+    index=1,
+)
+emg_smooth = st.sidebar.slider(
+    "Envelope smoothing (MA window)", 1, 201, 21, 2,
+    help="Apply moving-average to EMG (samples). Set 1 to disable.")
+
+st.sidebar.markdown("---")
 st.sidebar.subheader("🖼️ Generated overlays")
 use_generated = st.sidebar.checkbox("Use generated images directory", value=True)
 generated_dir = st.sidebar.text_input("Generated images directory", value="arm_heatmaps_aligned",
@@ -1154,6 +1394,10 @@ fps_val = 25.0
 # --- New: resolve Expert and WHAM dirs explicitly ---
 expert_dir = _resolve_ex_dir_by_subfolder(base_dir, selected_exercise, "Expert")
 wham_dir   = _resolve_ex_dir_by_subfolder(base_dir, selected_exercise, "WHAM")
+
+# Pain reports
+pain_dir = _resolve_pain_reports_dir(base_dir)
+pain_images_for_patient = _list_pain_images_for_patient(pain_dir, selected_patient)
 
 # --- Load feedback for the selected patient/exercise (CSV from sidebar) ------
 fb_summary, fb_grade, fb_patient_score = None, None, None
@@ -1398,7 +1642,16 @@ else:
 # =========================
 # ======== TABS ===========
 # =========================
-tab_compare, tab_delta, tab_steps = st.tabs(["📊 Compare (Patient vs Expert)", "➖ Delta (Patient − Expert)", "🧾 Stepwise Feedback"])
+tab_compare, tab_delta, tab_steps, tab_pain, tab_emg = st.tabs(
+    [
+        "📊 Compare (Patient vs Expert)",
+        "➖ Delta (Patient − Expert)",
+        "🧾 Stepwise Feedback",
+        "🩹 Pain Reports",
+        "⚡ EMG",
+    ]
+)
+
 
 # =========================
 # === TAB 1: COMPARE ======
@@ -1600,6 +1853,75 @@ if 'df_steps' in locals() and isinstance(df_steps, pd.DataFrame) and not df_step
             st.download_button("⬇️ Download per-step CSV", f, file_name=os.path.basename(csv_path))    
 
 # =========================
+# === TAB X: EMG ==========
+# =========================
+if enable_emg:
+    with tab_emg:
+        st.markdown("### ⚡ EMG — Wide CSV per Exercise")
+        df_emg, time_col, ch_cols = load_emg_table(emg_base_dir, selected_patient, selected_exercise)
+        if df_emg is None:
+            st.info(
+                "No EMG CSV found for this selection. Expected file: "
+                f"{os.path.join(emg_base_dir, selected_patient, selected_exercise + '.csv')}"
+            )
+        else:
+            # Default selection: prefer DELTOID/BICEPS if present
+            default_sel = [c for c in ch_cols if any(k in c.upper() for k in ("DELTOID", "BICEPS"))] or ch_cols[:6]
+            sel = st.multiselect("Channels", ch_cols, default=default_sel)
+            if not sel:
+                st.warning("Select at least one channel to plot.")
+            else:
+                def _norm_apply(s):
+                    if emg_norm_mode == "Z-score per channel":
+                        mu, sd = float(s.mean()), float(s.std(ddof=0)) or 1.0
+                        return (s - mu) / sd
+                    elif emg_norm_mode == "Min-Max per channel":
+                        mn, mx = float(s.min()), float(s.max())
+                        if not np.isfinite(mn) or not np.isfinite(mx) or mx <= mn:
+                            return s * 0.0
+                        return (s - mn) / (mx - mn)
+                    return s
+                def _smooth_apply(s, k):
+                    k = int(max(1, k))
+                    if k <= 1:
+                        return s
+                    if k % 2 == 0:
+                        k += 1
+                    pad = k // 2
+                    arr = s.to_numpy(dtype=float)
+                    padded = np.pad(arr, (pad, pad), mode='reflect')
+                    kernel = np.ones(k) / k
+                    out = np.convolve(padded, kernel, mode='valid')
+                    return pd.Series(out)
+
+                # X-axis: use time if present, else index
+                if time_col and df_emg[time_col].notna().any():
+                    x = pd.to_numeric(df_emg[time_col], errors='coerce')
+                else:
+                    x = pd.Series(np.arange(len(df_emg)), name='idx')
+                    time_col = 'idx'
+
+                fig = go.Figure()
+                for c in sel:
+                    s = pd.to_numeric(df_emg[c], errors='coerce').interpolate(limit_direction='both')
+                    s = _norm_apply(s)
+                    s = _smooth_apply(s, emg_smooth)
+                    fig.add_trace(go.Scatter(x=x, y=s, mode='lines', name=c))
+                fig.update_layout(
+                    title=f"EMG — {selected_patient} · {selected_exercise}",
+                    xaxis_title=time_col,
+                    yaxis_title="EMG (normalized)",
+                    height=500,
+                )
+                st.plotly_chart(fig, use_container_width=True)
+
+                with st.expander("Preview data"):
+                    st.dataframe(df_emg[[time_col] + sel].head(50), use_container_width=True, hide_index=True)
+else:
+    with tab_emg:
+        st.info("EMG tab is disabled in the sidebar.")
+
+# =========================
 # === TAB 3: STEPWISE =====
 # =========================
 with tab_steps:
@@ -1668,76 +1990,86 @@ with tab_steps:
                             if not near_ex.empty:
                                 st.markdown("**Rows with the same exercise (normalized):**")
                                 st.dataframe(near_ex[preview_cols].head(10), use_container_width=True, hide_index=True)
-                        # Stop rendering the rest of the stepwise UI
-                        raise st.experimental_rerun if False else SystemExit
+                        st.stop()
 
-                     # If we get here, df_row is non-empty (matched strictly or relaxed)
-                    r = df_row.iloc[0]
-                    # Header card (centered, consistent with the blue card style)
-                    header_summary = str(r[col_summary]) if col_summary in df_row.columns else ""
-                    header_grade   = str(r[col_grade]) if col_grade in df_row.columns else "N/A"
-                    header_score   = (str(r[col_overall]) if col_overall in df_row.columns else "N/A")
+                # If we get here, df_row is non-empty (matched strictly or relaxed)
+                r = df_row.iloc[0]
+                # Header card (centered, consistent with the blue card style)
+                header_summary = str(r[col_summary]) if col_summary in df_row.columns else ""
+                header_grade   = str(r[col_grade]) if col_grade in df_row.columns else "N/A"
+                header_score   = (str(r[col_overall]) if col_overall in df_row.columns else "N/A")
 
-                    st.markdown(
-                        f"""
-                        <div style=\"border: 2px solid #1f77b4; border-radius: 8px; background: rgba(31,119,180,0.06); padding: 14px 16px; margin: 10px auto; max-width: 70%; text-align:center;\">
-                          <div style=\"font-weight:600; color:#1f77b4; font-size:16px; margin-bottom:6px;\">LLM-based Exercise Feedback — Overview</div>
-                          <div style=\"margin-bottom:8px; line-height:1.4; color:#222;\">{header_summary}</div>
-                          <div style=\"display:flex; justify-content:center; gap:18px; flex-wrap:wrap; color:#222;\">
-                            <div><b>Grade:</b> {header_grade}</div>
-                            <div><b>Overall Similarity:</b> {header_score}</div>
-                          </div>
-                        </div>
-                        """,
-                        unsafe_allow_html=True,
-                    )
+                st.markdown(
+                    f"""
+                    <div style=\"border: 2px solid #1f77b4; border-radius: 8px; background: rgba(31,119,180,0.06); padding: 14px 16px; margin: 10px auto; max-width: 90%; text-align:center;\">
+                      <div style=\"font-weight:600; color:#1f77b4; font-size:16px; margin-bottom:6px;\">LLM-based Exercise Feedback — Overview</div>
+                      <div style=\"margin-bottom:8px; line-height:1.4; color:#222;\">{header_summary}</div>
+                      <div style=\"display:flex; justify-content:center; gap:18px; flex-wrap:wrap; color:#222;\">
+                        <div><b>Grade:</b> {header_grade}</div>
+                        <div><b>Overall Similarity:</b> {header_score}</div>
+                      </div>
+                    </div>
+                    """,
+                    unsafe_allow_html=True,
+                )
 
-                    # Extract dynamic stepwise fields: review_r{rep}_s{step}, similarity_r{rep}_s{step}
-                    import re
-                    review_pat = re.compile(r"^review_r(\d+)_s(\d+)$", re.IGNORECASE)
-                    sim_pat    = re.compile(r"^similarity_r(\d+)_s(\d+)$", re.IGNORECASE)
+                # Extract dynamic stepwise fields: review_r{rep}_s{step}, similarity_r{rep}_s{step}
+                import re
+                review_pat = re.compile(r"^review_r(\d+)_s(\d+)$", re.IGNORECASE)
+                sim_pat    = re.compile(r"^similarity_r(\d+)_s(\d+)$", re.IGNORECASE)
 
-                    # Map of rep -> { step -> {"review": str|None, "similarity": float|None} }
-                    reps = {}
-                    for c in cols:
-                        c_norm = c.strip().lower()
-                        m = review_pat.match(c_norm)
-                        if m:
-                            rep = int(m.group(1)); step = int(m.group(2))
-                            reps.setdefault(rep, {}).setdefault(step, {})["review"] = r.get(c, None)
-                            continue
-                        m = sim_pat.match(c_norm)
-                        if m:
-                            rep = int(m.group(1)); step = int(m.group(2))
-                            val = r.get(c, None)
-                            try:
-                                val = float(val) if val is not None and str(val).strip() != "" else None
-                            except Exception:
-                                val = None
-                            reps.setdefault(rep, {}).setdefault(step, {})["similarity"] = val
+                # Map of rep -> { step -> {"review": str|None, "similarity": float|None} }
+                reps = {}
+                for c in cols:
+                    c_norm = c.strip().lower()
+                    m = review_pat.match(c_norm)
+                    if m:
+                        rep = int(m.group(1)); step = int(m.group(2))
+                        reps.setdefault(rep, {}).setdefault(step, {})["review"] = r.get(c, None)
+                        continue
+                    m = sim_pat.match(c_norm)
+                    if m:
+                        rep = int(m.group(1)); step = int(m.group(2))
+                        val = r.get(c, None)
+                        try:
+                            val = float(val) if val is not None and str(val).strip() != "" else None
+                        except Exception:
+                            val = None
+                        reps.setdefault(rep, {}).setdefault(step, {})["similarity"] = val
 
-                    if not reps:
-                        st.caption("No per-step fields (review/similarity) found in CSV header for this row.")
-                    else:
-                        # Sort reps and steps
-                        for rep in sorted(reps.keys()):
-                            st.markdown(f"#### Rep {rep}")
-                            steps = reps[rep]
-                            for step_idx in sorted(steps.keys()):
-                                data = steps[step_idx]
-                                review = data.get("review")
-                                simv   = data.get("similarity")
-                                if (review is None or str(review).strip() == "") and (simv is None):
-                                    continue  # skip empty entries
-                                sim_txt = (f"{simv}" if simv is not None else "N/A")
-                                # Pretty card per step
-                                st.markdown(
-                                    f"""
-                                    <div style=\"border:1px solid #d1e3f8; background:#f6fbff; border-radius:8px; padding:10px 12px; margin:6px 0;\">
-                                      <div style=\"font-weight:600; color:#1f77b4; margin-bottom:4px;\">Step {step_idx}</div>
-                                      <div style=\"color:#222; margin-bottom:6px; line-height:1.4;\">{review if review else ''}</div>
-                                      <div style=\"color:#222;\"><b>Similarity:</b> {sim_txt}</div>
-                                    </div>
-                                    """,
-                                    unsafe_allow_html=True,
-                                )
+                if not reps:
+                    st.caption("No per-step fields (review/similarity) found in CSV header for this row.")
+                else:
+                    # Sort reps and steps
+                    for rep in sorted(reps.keys()):
+                        st.markdown(f"#### Rep {rep}")
+                        steps = reps[rep]
+                        for step_idx in sorted(steps.keys()):
+                            data = steps[step_idx]
+                            review = data.get("review")
+                            simv   = data.get("similarity")
+                            if (review is None or str(review).strip() == "") and (simv is None):
+                                continue  # skip empty entries
+                            sim_txt = (f"{simv}" if simv is not None else "N/A")
+                            # Pretty card per step
+                            st.markdown(
+                                f"""
+                                <div style=\"border:1px solid #d1e3f8; background:#f6fbff; border-radius:8px; padding:10px 12px; margin:6px 0;\">
+                                  <div style=\"font-weight:600; color:#1f77b4; margin-bottom:4px;\">Step {step_idx}</div>
+                                  <div style=\"color:#222; margin-bottom:6px; line-height:1.4;\">{review if review else ''}</div>
+                                  <div style=\"color:#222;\"><b>Similarity:</b> {sim_txt}</div>
+                                </div>
+                                """,
+                                unsafe_allow_html=True,
+                            )
+
+# =========================
+# === TAB 4: PAIN REPORTS =
+# =========================
+with tab_pain:
+    st.markdown("### 🩹 Pain report(s)")
+    if pain_images_for_patient:
+        for pimg in pain_images_for_patient:
+            st.image(pimg, use_container_width=True, caption=os.path.basename(pimg))
+    else:
+        st.caption("No pain report image found for this patient.")
