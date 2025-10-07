@@ -17,6 +17,28 @@ def _natural_key(s: str):
 def _norm_name(s: str) -> str:
     return "".join(ch for ch in str(s).lower() if ch.isalnum())
 
+# --- Robust list matcher for query param to sidebar selection ---
+def _best_match_from_list(options: list[str], target: str | None) -> str | None:
+    """Return best match from options for target using alnum-only, case-insensitive matching.
+    Prefers exact normalized match, then contains, then reverse-contains.
+    """
+    if not target or not options:
+        return None
+    want = _norm_name(target)
+    # exact normalized match
+    for o in options:
+        if _norm_name(o) == want:
+            return o
+    # contains: option contains target
+    for o in options:
+        if want and _norm_name(o).find(want) != -1:
+            return o
+    # reverse contains: target contains option
+    for o in options:
+        if want and want.find(_norm_name(o)) != -1:
+            return o
+    return None
+
 def _best_match_subdir(parent: str, exercise_name: str) -> str | None:
     if not parent or not os.path.isdir(parent):
         return None
@@ -296,6 +318,13 @@ def _val_to_hex(v, vmin, vmax):
     r, g, b = _color_gyr(v, vmin, vmax)
     return f"#{r:02x}{g:02x}{b:02x}"
 
+# Reversed G→Y→R mapping for homepage matrix (high values = green, low = red)
+def _val_to_hex_rev(v, vmin, vmax):
+    """Reverse the G→Y→R mapping so high values appear red→yellow→green becomes green→yellow→red flipped."""
+    inv = (vmin + vmax) - float(v)
+    r, g, b = _color_gyr(inv, vmin, vmax)
+    return f"#{r:02x}{g:02x}{b:02x}"
+
 # ------------------------
 # HOMEPAGE (Patient × Exercise matrix)
 # If query params ?patient=...&exercise=... are missing, show homepage
@@ -307,7 +336,8 @@ qp_exercise = _qp_get_one(qp, "exercise")
 
 def _render_homepage():
     st.header("🏠 Home — Patient × Exercise Matrix")
-    fb_path = _HOMEPAGE_FB_DEFAULT
+    # Prefer a path stored in session (set by the sidebar input), else fall back to default
+    fb_path = st.session_state.get('fb_csv_path', _HOMEPAGE_FB_DEFAULT)
     # Try to load feedback CSV; if missing, show guidance
     if not os.path.isfile(fb_path):
         st.info(
@@ -330,13 +360,21 @@ def _render_homepage():
     if not col_patient or not col_ex or not col_score:
         st.warning("CSV must include patient, exercise, and overall similarity/score columns.")
         return
-    # Build matrix (mean per (patient, exercise) in case of duplicates)
-    dfm = (df[[col_patient, col_ex, col_score]]
-           .groupby([col_patient, col_ex], as_index=False)[col_score].mean())
-    if dfm.empty:
-        st.info("No (patient, exercise) rows found in CSV.")
+    # Build matrix by reusing the same logic as the detailed page: call _load_feedback()
+    # This guarantees the score in the matrix == the "Patient Score" shown on the report.
+    df_pairs = df[[col_patient, col_ex]].drop_duplicates(keep="first")
+    rows = []
+    for _, r in df_pairs.iterrows():
+        pat = str(r[col_patient])
+        ex  = str(r[col_ex])
+        fb  = _load_feedback(fb_path, pat, ex)
+        if fb and (fb.get("patient_score") is not None):
+            rows.append({col_patient: pat, col_ex: ex, "__score__": float(fb["patient_score"])})
+    if not rows:
+        st.info("No (patient, exercise) scores found in CSV.")
         return
-    pivot = dfm.pivot(index=col_patient, columns=col_ex, values=col_score).sort_index()
+    df_scores = pd.DataFrame(rows)
+    pivot = df_scores.pivot(index=col_patient, columns=col_ex, values="__score__").sort_index()
     # Determine color scale bounds (robust percentiles)
     vals = pivot.values.flatten()
     vals = np.array([float(x) for x in vals if pd.notna(x)], dtype=float)
@@ -376,7 +414,7 @@ def _render_homepage():
             if pd.isna(val):
                 tds.append("<td class='empty'>—</td>")
             else:
-                color = _val_to_hex(float(val), vmin, vmax)
+                color = _val_to_hex_rev(float(val), vmin, vmax)
                 # Link back to this same app with query params
                 href = f"?patient={quote(pat_str)}&exercise={quote(str(ex))}"
                 tds.append(f"<td style='background:{color};'><a href='{href}' title='Open {pat_str} · {ex}'>{val:.3f}</a></td>")
@@ -1287,19 +1325,19 @@ if not patients:
     st.error(f"No patient folders in **{PATIENT_DIR}**.")
     st.stop()
 
-# Use query params if provided
-if qp_patient in patients:
-    _pat_default = qp_patient
-else:
-    _pat_default = patients[0]
-selected_patient = st.sidebar.selectbox("👤 Patient", patients, index=patients.index(_pat_default))
+# Use query params with robust matching against available folders
+_pat_default = _best_match_from_list(patients, qp_patient) or (patients[0] if patients else None)
+selected_patient = st.sidebar.selectbox(
+    "👤 Patient", patients,
+    index=(patients.index(_pat_default) if (_pat_default in patients) else 0)
+)
 
 patient_exercises = list_dirs(os.path.join(PATIENT_DIR, selected_patient))
-if qp_exercise in patient_exercises:
-    _ex_default = qp_exercise
-else:
-    _ex_default = patient_exercises[0] if patient_exercises else None
-selected_exercise = st.sidebar.selectbox("💪 Exercise", patient_exercises, index=(patient_exercises.index(_ex_default) if _ex_default in patient_exercises else 0))
+_ex_default = _best_match_from_list(patient_exercises, qp_exercise) or (patient_exercises[0] if patient_exercises else None)
+selected_exercise = st.sidebar.selectbox(
+    "💪 Exercise", patient_exercises,
+    index=(patient_exercises.index(_ex_default) if (_ex_default in patient_exercises) else 0)
+)
 
 show_legend = st.sidebar.checkbox("Show legend", value=False)
 sync_length = st.sidebar.checkbox("Trim to common length (X/Y)", value=True)
@@ -1362,6 +1400,8 @@ fb_csv_path = st.sidebar.text_input(
     value="outputs/batch_reports/llm_reports5/summary/final_llm_feedback.csv",
     help="CSV containing summary, grade, and overall_similarity per patient & exercise"
 )
+# Keep the feedback path in session so the homepage can access it
+st.session_state['fb_csv_path'] = fb_csv_path
 
 # --- Generated overlays UI ---
 st.sidebar.markdown("---")
